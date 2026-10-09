@@ -418,11 +418,447 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança direta.'
     },
     tags: ['greve', 'art. 9º']
+  }  ,
+
+  /* ============================================================
+     DC-05 — Nacionalidade
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-0501',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Brasileiro nato por solo',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Um casal de turistas franceses, em férias no Brasil, tem um filho em território brasileiro. Sobre a nacionalidade dessa criança, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Será brasileira nata, salvo se os pais estiverem a serviço da França.' },
+      { id: 'B', texto: 'Será apenas francesa, pois os pais são estrangeiros.' },
+      { id: 'C', texto: 'Será brasileira naturalizada após residir 15 anos no Brasil.' },
+      { id: 'D', texto: 'Será brasileira nata em qualquer hipótese, sem exceção.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 12, I, "a": nascido no Brasil, filho de estrangeiros, é brasileiro NATO, SALVO se os pais estiverem A SERVIÇO DO PAÍS DELES. Turistas franceses NÃO estão a serviço da França — logo, a criança é brasileira nata.',
+      incorretas: { B: 'A regra do solo se aplica.', C: 'Naturalização não se aplica ao caso.', D: 'Existe a exceção dos pais a serviço do país de origem.' },
+      conceitoCobrado: 'Brasileiro nato por solo e sua exceção.',
+      pegadinha: 'Achar que a exceção é "pais a serviço do Brasil" — é "a serviço do país de origem deles".',
+      comoApareceEmConcurso: 'Cobrança clássica com caso concreto.'
+    },
+    tags: ['nacionalidade', 'solo']
+  },
+  {
+    id: 'Q-DID-DC-0502',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Cargos privativos de nato',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa que contém APENAS cargos privativos de brasileiro nato (art. 12, §3º, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Presidente da República, Ministro do STF e Governador de Estado.' },
+      { id: 'B', texto: 'Presidente da República, Presidente da Câmara dos Deputados e Ministro da Defesa.' },
+      { id: 'C', texto: 'Senador, Prefeito e carreira diplomática.' },
+      { id: 'D', texto: 'Ministro de Estado, Governador e oficial das Forças Armadas.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Os 8 cargos privativos de nato são: Presidente e Vice; Presidente da Câmara e do Senado; Ministro do STF; carreira diplomática; oficial das Forças Armadas; Ministro da Defesa.',
+      incorretas: { A: 'Governador pode ser naturalizado.', C: 'Senador e Prefeito podem ser naturalizados.', D: 'Ministro de Estado (exceto Defesa) e Governador podem ser naturalizados.' },
+      conceitoCobrado: 'Cargos privativos de brasileiro nato.',
+      pegadinha: 'Misturar cargos eletivos (Governador, Senador) com os privativos.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['nato', 'cargos privativos']
+  },
+  {
+    id: 'Q-DID-DC-0503',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Extradição',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a extradição de brasileiros, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O brasileiro nato nunca pode ser extraditado; o naturalizado pode por crime comum ANTES da naturalização ou por tráfico ilícito de drogas a QUALQUER tempo.' },
+      { id: 'B', texto: 'O brasileiro naturalizado nunca pode ser extraditado.' },
+      { id: 'C', texto: 'O brasileiro nato pode ser extraditado por crime hediondo.' },
+      { id: 'D', texto: 'O brasileiro nato e o naturalizado têm o mesmo regime de extradição.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 5º, LI: nenhum brasileiro nato será extraditado. Naturalizado: crime comum antes da naturalização ou tráfico a qualquer tempo.',
+      incorretas: { B: 'Pode ser extraditado nas duas hipóteses.', C: 'Nato nunca é extraditado.', D: 'Regimes diferentes.' },
+      conceitoCobrado: 'Extradição: nato x naturalizado.',
+      pegadinha: 'Achar que o naturalizado nunca é extraditado.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['extradição', 'nato', 'naturalizado']
+  },
+  {
+    id: 'Q-DID-DC-0504',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Quase-nacionalidade',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a quase-nacionalidade (art. 12, §2º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Beneficia portugueses com residência permanente no Brasil, se houver reciprocidade em Portugal, conferindo-lhes os direitos inerentes ao brasileiro naturalizado.' },
+      { id: 'B', texto: 'Confere ao português todos os direitos de brasileiro nato, inclusive cargos privativos de nato.' },
+      { id: 'C', texto: 'É vedada pela CF/88.' },
+      { id: 'D', texto: 'Beneficia qualquer estrangeiro com residência no Brasil há mais de 15 anos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 12, §2º: portugueses com residência permanente, se houver reciprocidade, têm direitos do BRASILEIRO NATURALIZADO. Não é nacionalidade plena.',
+      incorretas: { B: 'Não dá acesso a cargos privativos de nato.', C: 'É prevista expressamente.', D: 'É só para portugueses.' },
+      conceitoCobrado: 'Quase-nacionalidade.',
+      pegadinha: 'Confundir com naturalização ordinária.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['quase-nacionalidade', 'português']
+  },
+  {
+    id: 'Q-DID-DC-0505',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Brasileiro nato por sangue',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Filho de pai brasileiro e mãe italiana, nascido na Itália, cujos pais NÃO estão a serviço do Brasil. Para ser brasileiro nato, será necessário:',
+    alternativas: [
+      { id: 'A', texto: 'Nada — será automaticamente brasileiro nato.' },
+      { id: 'B', texto: 'Ser registrado em repartição brasileira competente OU, residindo no Brasil, optar, a qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.' },
+      { id: 'C', texto: 'Aguardar 15 anos de residência no Brasil para naturalizar.' },
+      { id: 'D', texto: 'Renunciar à nacionalidade italiana antes dos 18 anos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 12, I, "c": sangue + registro em repartição competente OU sangue + residência + opção após a maioridade.',
+      incorretas: { A: 'Só é automático quando os pais estão a serviço do Brasil (art. 12, I, "b").', C: 'Naturalização é hipótese do art. 12, II.', D: 'Não é exigência.' },
+      conceitoCobrado: 'Brasileiro nato por sangue — registro ou opção.',
+      pegadinha: 'Confundir as hipóteses "b" e "c" do art. 12, I.',
+      comoApareceEmConcurso: 'Casos concretos com filhos nascidos no exterior.'
+    },
+    tags: ['nacionalidade', 'sangue']
+  },
+  {
+    id: 'Q-DID-DC-0506',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-05',
+    subtema: 'Naturalização por 15 anos',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'A naturalização do estrangeiro residente no Brasil há mais de 15 anos ininterruptos, sem condenação penal, que requeira a nacionalidade brasileira (art. 12, II, "b"), é ato:',
+    alternativas: [
+      { id: 'A', texto: 'Discricionário do Presidente da República, sem vinculação a requisitos.' },
+      { id: 'B', texto: 'Vinculado, pois cumpridos os requisitos legais, o interessado tem direito subjetivo à naturalização (STF).' },
+      { id: 'C', texto: 'Vedado pela CF/88.' },
+      { id: 'D', texto: 'Automático, independentemente de requerimento.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O STF firmou que a naturalização por 15 anos (art. 12, II, "b") é ato VINCULADO — cumpridos os requisitos, o estrangeiro tem direito subjetivo à naturalização.',
+      incorretas: { A: 'É vinculado, não discricionário.', C: 'É previsto expressamente.', D: 'Exige requerimento do interessado.' },
+      conceitoCobrado: 'Naturalização por 15 anos (art. 12, II, "b").',
+      pegadinha: 'Achar que é ato discricionário.',
+      comoApareceEmConcurso: 'Cobrança do entendimento do STF.'
+    },
+    tags: ['naturalização', 'art. 12']
+  },
+
+  /* ============================================================
+     DC-06 — Direitos Políticos e Partidos Políticos
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-0601',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Plebiscito x referendo',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Sobre os institutos de participação popular, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O plebiscito convoca o povo a ratificar decisão já tomada; o referendo autoriza previamente.' },
+      { id: 'B', texto: 'O plebiscito ocorre ANTES da decisão legislativa; o referendo, DEPOIS, para ratificar ou rejeitar.' },
+      { id: 'C', texto: 'São sinônimos.' },
+      { id: 'D', texto: 'Ambos ocorrem apenas após decisão do STF.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'PLEBISCITO: consulta prévia. REFERENDO: consulta posterior. Mnemônico: P = Precede; R = Ratifica.',
+      incorretas: { A: 'Inverte.', C: 'São distintos.', D: 'Não dependem do STF.' },
+      conceitoCobrado: 'Plebiscito x referendo.',
+      pegadinha: 'Inverter os conceitos.',
+      comoApareceEmConcurso: 'Alta frequência.'
+    },
+    tags: ['plebiscito', 'referendo']
+  },
+  {
+    id: 'Q-DID-DC-0602',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Voto obrigatório x facultativo',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre o alistamento eleitoral (art. 14, §1º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É obrigatório para maiores de 18 anos; facultativo para analfabetos, maiores de 70 anos e maiores de 16 e menores de 18.' },
+      { id: 'B', texto: 'É facultativo para todos os brasileiros.' },
+      { id: 'C', texto: 'É obrigatório apenas para quem tem ensino médio completo.' },
+      { id: 'D', texto: 'É obrigatório para maiores de 70 anos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 14, §1º: obrigatório para maiores de 18; facultativo para analfabetos, maiores de 70 e maiores de 16 e menores de 18.',
+      incorretas: { B: 'Regra é obrigatório.', C: 'Não há exigência de escolaridade.', D: 'Maiores de 70 têm voto FACULTATIVO.' },
+      conceitoCobrado: 'Alistamento eleitoral.',
+      pegadinha: 'Achar que maiores de 70 são obrigados.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['voto', 'alistamento']
+  },
+  {
+    id: 'Q-DID-DC-0603',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Idades mínimas',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A idade mínima para concorrer ao cargo de Senador da República é:',
+    alternativas: [
+      { id: 'A', texto: '21 anos.' },
+      { id: 'B', texto: '30 anos.' },
+      { id: 'C', texto: '35 anos.' },
+      { id: 'D', texto: '18 anos.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 14, §3º, VI, "a": 35 anos para Presidente, Vice-Presidente e Senador.',
+      incorretas: { A: '21 anos: Deputado, Prefeito, Juiz de Paz.', B: '30 anos: Governador.', D: '18 anos: Vereador.' },
+      conceitoCobrado: 'Idades mínimas do art. 14, §3º, VI.',
+      pegadinha: 'Trocar as idades.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['elegibilidade', 'idades']
+  },
+  {
+    id: 'Q-DID-DC-0604',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Inelegibilidade reflexa',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a inelegibilidade reflexa (art. 14, §7º, CF/88), é correto afirmar que atinge:',
+    alternativas: [
+      { id: 'A', texto: 'Cônjuge e parentes até o 2º grau, no território de jurisdição do titular.' },
+      { id: 'B', texto: 'Qualquer parente, em qualquer grau, em todo o território nacional.' },
+      { id: 'C', texto: 'Apenas o cônjuge.' },
+      { id: 'D', texto: 'Amigos íntimos do titular.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 14, §7º: cônjuge e parentes consanguíneos ou afins até o 2º grau (ou por adoção), no território de jurisdição do titular.',
+      incorretas: { B: 'Limita-se ao 2º grau e ao território.', C: 'Abrange também parentes.', D: 'Não abrange amigos.' },
+      conceitoCobrado: 'Inelegibilidade reflexa.',
+      pegadinha: 'Achar que atinge 3º grau ou todo o país.',
+      comoApareceEmConcurso: 'Situações práticas.'
+    },
+    tags: ['inelegibilidade reflexa']
+  },
+  {
+    id: 'Q-DID-DC-0605',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Partidos políticos',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre os partidos políticos (art. 17, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A partir da EC 97/2017, é vedada a celebração de coligações nas eleições proporcionais.' },
+      { id: 'B', texto: 'As coligações proporcionais continuam permitidas.' },
+      { id: 'C', texto: 'É vedada a criação de partidos políticos.' },
+      { id: 'D', texto: 'Os partidos não precisam ter caráter nacional.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'EC 97/2017 vedou coligações em eleições proporcionais (Deputados, Vereadores) — mantidas nas majoritárias.',
+      incorretas: { B: 'Vedadas a partir de 2020.', C: 'A criação é livre (art. 17, caput).', D: 'Art. 17, I: caráter nacional é obrigatório.' },
+      conceitoCobrado: 'Coligações partidárias.',
+      pegadinha: 'Achar que ainda existem coligações proporcionais.',
+      comoApareceEmConcurso: 'Tema pós-EC 97/2017.'
+    },
+    tags: ['partidos', 'coligações']
+  },
+
+  /* ============================================================
+     DC-07 — Remédios Constitucionais
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-0701',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Cabimento',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre os remédios constitucionais, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O habeas corpus é gratuito e protege a liberdade de locomoção.' },
+      { id: 'B', texto: 'O habeas data é gratuito.' },
+      { id: 'C', texto: 'O mandado de segurança cabe para proteger liberdade de locomoção.' },
+      { id: 'D', texto: 'O mandado de injunção cabe para retificar dados pessoais em banco público.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'HC: liberdade de locomoção; gratuito (art. 5º, LXXVII).',
+      incorretas: { B: 'HD NÃO é gratuito.', C: 'MS é subsidiário — se cabe HC, não cabe MS.', D: 'MI é para falta de norma regulamentadora.' },
+      conceitoCobrado: 'Cabimento e gratuidade dos remédios.',
+      pegadinha: 'Achar que o HD é gratuito.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['remédios', 'gratuidade']
+  },
+  {
+    id: 'Q-DID-DC-0702',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Ação popular',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre a ação popular (art. 5º, LXXIII, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Qualquer CIDADÃO é parte legítima; salvo comprovada má-fé, é isento de custas judiciais e do ônus da sucumbência.' },
+      { id: 'B', texto: 'Só o Ministério Público tem legitimidade.' },
+      { id: 'C', texto: 'Visa proteger apenas o patrimônio público material.' },
+      { id: 'D', texto: 'Cabe a qualquer pessoa, inclusive estrangeiro não naturalizado.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'AP: legitimado é o CIDADÃO (eleitor); isenção de custas e sucumbência, salvo má-fé.',
+      incorretas: { B: 'MP pode propor AÇÃO CIVIL PÚBLICA.', C: 'Também moralidade, meio ambiente e patrimônio histórico-cultural.', D: 'Só CIDADÃO (eleitor).' },
+      conceitoCobrado: 'Ação popular.',
+      pegadinha: 'Confundir legitimidade com ACP.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['ação popular', 'legitimidade']
+  },
+  {
+    id: 'Q-DID-DC-0703',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Mandado de segurança coletivo',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'NÃO pode impetrar mandado de segurança coletivo (art. 5º, LXX, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Partido político com representação no Congresso Nacional.' },
+      { id: 'B', texto: 'Organização sindical.' },
+      { id: 'C', texto: 'Entidade de classe.' },
+      { id: 'D', texto: 'Cidadão isoladamente.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'MS coletivo: partido com representação no Congresso, organização sindical, entidade de classe e associação (1 ano). Cidadão isolado NÃO pode.',
+      incorretas: { A: 'Está no rol.', B: 'Está no rol.', C: 'Está no rol.' },
+      conceitoCobrado: 'Legitimados do MS coletivo.',
+      pegadinha: 'Confundir com AP (que cabe a cidadão).',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['MS coletivo', 'legitimidade']
+  },
+  {
+    id: 'Q-DID-DC-0704',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Habeas data x mandado de segurança',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Servidor tem seu nome indevidamente negativado em cadastro público por ilegalidade administrativa. O remédio adequado é:',
+    alternativas: [
+      { id: 'A', texto: 'Habeas data.' },
+      { id: 'B', texto: 'Mandado de segurança, por se tratar de ilegalidade que atinge direito líquido e certo (STF).' },
+      { id: 'C', texto: 'Habeas corpus.' },
+      { id: 'D', texto: 'Ação popular.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'STF: quando o problema é a ILEGALIDADE da inscrição em cadastro, cabe MS; o HD é para ACESSAR ou RETIFICAR dados — sem impugnação de ilegalidade da inscrição.',
+      incorretas: { A: 'HD não é o adequado para impugnar a ilegalidade da negativação.', C: 'HC é para locomoção.', D: 'AP exige ato lesivo ao patrimônio público.' },
+      conceitoCobrado: 'Distinção MS x HD.',
+      pegadinha: 'Confundir os dois.',
+      comoApareceEmConcurso: 'Cobrança do entendimento do STF.'
+    },
+    tags: ['MS', 'HD']
+  },
+  {
+    id: 'Q-DID-DC-0705',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Mandado de injunção',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre o mandado de injunção (art. 5º, LXXI, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Cabe sempre que a falta de norma regulamentadora torne inviável o exercício de direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.' },
+      { id: 'B', texto: 'Cabe para proteger liberdade de locomoção.' },
+      { id: 'C', texto: 'É sinônimo de ação direta de inconstitucionalidade por omissão.' },
+      { id: 'D', texto: 'É gratuito como o habeas corpus.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Literalidade do art. 5º, LXXI.',
+      incorretas: { B: 'Isso é HC.', C: 'MI é individual/coletivo; ADO é ação do STF com efeitos mais amplos.', D: 'Gratuidade expressa é apenas do HC.' },
+      conceitoCobrado: 'MI.',
+      pegadinha: 'Confundir com ADO.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['MI', 'art. 5º, LXXI']
+  },
+  {
+    id: 'Q-DID-DC-0706',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'CPI x remédios',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre o habeas corpus, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Pode ser impetrado por qualquer pessoa, física ou jurídica, nacional ou estrangeira, em favor próprio ou de terceiro, e é gratuito.' },
+      { id: 'B', texto: 'Só pode ser impetrado pelo próprio preso.' },
+      { id: 'C', texto: 'É restrito a brasileiros natos.' },
+      { id: 'D', texto: 'É pago, com custas judiciais.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'HC é universal: qualquer pessoa, em favor próprio ou de terceiro, e é gratuito (art. 5º, LXXVII).',
+      incorretas: { B: 'Pode ser impetrado por qualquer pessoa (inclusive por terceiro).', C: 'Estende-se a qualquer pessoa.', D: 'É gratuito.' },
+      conceitoCobrado: 'HC — legitimidade e gratuidade.',
+      pegadinha: 'Restringir a legitimidade.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['HC', 'gratuidade']
   }
 
   /* ============================================================
      Próximos lotes — adicionar em edições futuras:
-     DC-05, DC-06, DC-07 (lote 2)
      DC-08, DC-09, DC-11 (lote 3)
      DC-12, DC-13, DC-RN (lote 4)
   ============================================================ */
