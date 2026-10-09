@@ -459,15 +459,383 @@ window.LESSONS_ALTA = {
         resposta: 'AÇÃO POPULAR (art. 5º, LXXIII) — cabível a qualquer CIDADÃO (eleitor) para anular ato lesivo ao patrimônio público, à moralidade, ao meio ambiente ou ao patrimônio histórico-cultural. Não cabe MS porque não se trata de direito líquido e certo individual.'
       }
     }
-  }
+  },
 
   /* ============================================================
-     Próximos lotes — adicionar em edições futuras:
-     'DC-08': { ... }
-     'DC-09': { ... }
-     'DC-11': { ... }
-     'DC-12': { ... }
-     'DC-13': { ... }
+     DC-08 — Organização Político-Administrativa
   ============================================================ */
+  'DC-08': {
+    id: 'L-DC-08',
+    moduloId: 'DC-08',
+    objetivo: 'Dominar a organização do Estado brasileiro (arts. 18 e 19 da CF/88): Federação, entes federativos, soberania x autonomia, criação de Estados e Municípios, Territórios, Distrito Federal e vedações federativas.',
+    prerequisitos: ['DC-02'],
+
+    introducao: 'A CF/88 estruturou o Brasil como uma Federação de três níveis (União, Estados/DF e Municípios), todos autônomos. Entender essa arquitetura é base para compreender competências, intervenção e repartição de receitas.',
+
+    explicacaoSimples: 'Pense no Brasil como um condomínio com três níveis de administração: a União (síndico geral), os Estados (administradores de blocos) e os Municípios (administradores de casas). Cada um tem suas tarefas, seu orçamento e seu governo — mas todos seguem o mesmo regimento (a Constituição). Nenhum manda no outro; todos convivem.',
+
+    explicacaoTecnica: 'Art. 18: a organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos AUTÔNOMOS, nos termos da CF. Brasília é a Capital Federal. §1º: criação, incorporação, fusão e desmembramento de Estados dependem de lei complementar + plebiscito + oitiva das Assembleias. §2º: criação, incorporação, fusão e desmembramento de Municípios dependem de lei estadual + plebiscito + estudo de viabilidade municipal. §3º: criação de Territórios Federais é competência da União, por lei complementar. §4º: incorporação de Municípios a Estados pode ser feita por lei complementar + plebiscito. Art. 19: vedações federativas — à União, aos Estados, ao DF e aos Municípios é vedado: (I) estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada a colaboração de interesse público; (II) recusar fé aos documentos públicos; (III) criar distinções entre brasileiros ou preferências entre si.',
+
+    exemplos: [
+      'Autonomia: cada ente tem governo próprio, orçamento próprio e competências próprias.',
+      'Soberania: só a República Federativa do Brasil (o todo) tem.',
+      'Criação de Estado: precisa de lei complementar + plebiscito + oitiva das Assembleias.',
+      'Criação de Município: precisa de lei estadual + plebiscito + estudo de viabilidade.',
+      'Território Federal: criado por lei complementar (competência da União).',
+      'Distrito Federal: ente híbrido — tem autonomia parcial (não pode ser dividido em Municípios).',
+      'Vedação: a União não pode subvencionar igreja — ressalvada colaboração de interesse público.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Soberania', termoB: 'Autonomia', diferenca: 'SOBERANIA: poder supremo na ordem interna e independência na ordem externa — só a República Federativa do Brasil possui. AUTONOMIA: capacidade de auto-organização política, administrativa e financeira — todos os entes (União, Estados, DF, Municípios) possuem. Município NÃO tem soberania.' },
+      { termoA: 'Criação de Estado', termoB: 'Criação de Município', diferenca: 'ESTADO: lei COMPLEMENTAR federal + plebiscito + oitiva das Assembleias Legislativas. MUNICÍPIO: lei ESTADUAL + plebiscito + estudo de viabilidade municipal. A lei do Estado é federal; a do Município é estadual. Cai muito.' },
+      { termoA: 'União', termoB: 'Distrito Federal', diferenca: 'UNIÃO: ente federativo com soberania (representa a República no plano externo) + autonomia. DF: ente com autonomia PARCIAL (não pode ser dividido em Municípios; tem Lei Orgânica, não Constituição; acumula competências estaduais e municipais).' },
+      { termoA: 'Território Federal', termoB: 'Estado', diferenca: 'TERRITÓRIO: não tem autonomia política plena — é criado por lei complementar federal e administrado pela União. ESTADO: ente federativo autônomo com Constituição estadual. O Território pode ser transformado em Estado.' }
+    ],
+
+    aplicacaoEmConcurso: 'Cobrança de literalidade do art. 18 (criação de Estados x criação de Municípios), art. 19 (vedações federativas) e regras sobre Territórios. As bancas gostam de inverter os procedimentos (trocar lei complementar por lei ordinária, plebiscito por referendo). A questão do DF híbrido também é recorrente.',
+
+    pegadinhas: [
+      'Trocar os requisitos para criação de ESTADO (lei complementar + plebiscito + oitiva das Assembleias) com os de MUNICÍPIO (lei estadual + plebiscito + estudo de viabilidade).',
+      'Dizer que o Distrito Federal tem soberania. NÃO — tem autonomia parcial.',
+      'Achar que o DF tem Constituição. NÃO — tem LEI ORGÂNICA.',
+      'Dizer que Território é ente federativo. NÃO — não tem autonomia política plena.',
+      'Confundir plebiscito (autoriza) com referendo (ratifica).',
+      'Achar que a União pode subvencionar igreja em qualquer caso. NÃO — só colaboração de interesse público.'
+    ],
+
+    errosComuns: [
+      'Decorar sem entender que soberania é só da República; autonomia é dos entes.',
+      'Confundir criação de Estado com criação de Município.',
+      'Achar que o DF se divide em Municípios.',
+      'Ignorar que a criação de Território é por lei complementar (não estadual).'
+    ],
+
+    resumo: [
+      'Art. 18: a República é composta por União, Estados, DF e Municípios — todos AUTÔNOMOS.',
+      'Soberania: só a República Federativa do Brasil. Autonomia: todos os entes.',
+      'Criação de Estado: LC + plebiscito + oitiva das Assembleias.',
+      'Criação de Município: lei estadual + plebiscito + estudo de viabilidade.',
+      'Criação de Território: LC federal (competência da União).',
+      'DF: autonomia parcial, Lei Orgânica, não se divide em Municípios.',
+      'Art. 19: vedações federativas (cultos, recusa de fé, distinções entre brasileiros).'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'A Federação brasileira é uma "equipe" com 3 níveis: União, Estados e Municípios. Todos jogam juntos, mas cada um tem sua posição. Ninguém é chefe de ninguém — a Constituição é o juiz.',
+      outroExemplo: 'Criar um novo Estado no Brasil: precisa de LC federal + plebiscito + oitiva das Assembleias. Criar um novo Município: lei ESTADUAL + plebiscito + estudo de viabilidade. Repare que a lei muda: federal x estadual.',
+      compararConceitos: 'Soberania (só República) x Autonomia (todos os entes). Estado (LC federal) x Município (lei estadual). DF (Lei Orgânica) x Estado (Constituição). Território (sem autonomia plena).',
+      mostrarPegadinha: 'Cuidado: "O Distrito Federal tem soberania". ERRADO. O DF tem AUTONOMIA PARCIAL. Soberania é apenas da República Federativa do Brasil.',
+      comoApareceEmConcurso: 'Cobrança dos procedimentos de criação (LC x lei estadual; plebiscito), das vedações do art. 19 e das peculiaridades do DF.',
+      fazerPergunta: {
+        pergunta: 'Para criar um novo Estado, basta lei complementar do Congresso?',
+        resposta: 'NÃO. Além da lei complementar, exige-se PLEBISCITO com a população diretamente interessada e OITIVA das Assembleias Legislativas dos Estados envolvidos (art. 18, §3º).'
+      }
+    }
+  },
+
+  /* ============================================================
+     DC-09 — Repartição de Competências
+  ============================================================ */
+  'DC-09': {
+    id: 'L-DC-09',
+    moduloId: 'DC-09',
+    objetivo: 'Dominar a repartição de competências entre União, Estados, DF e Municípios (arts. 21 a 32 da CF/88): material x legislativa, exclusiva x privativa, comum x concorrente, suplementar, interesse local e peculiaridades do DF.',
+    prerequisitos: ['DC-08'],
+
+    introducao: 'A Federação só funciona se cada ente sabe o que faz. As competências estão na CF e podem ser materiais (administrativas) ou legislativas. Bancas cobram muito a distinção entre exclusiva/privativa, comum/concorrente e material/legislativa.',
+
+    explicacaoSimples: 'Imagine uma casa com três moradores. Cada um tem tarefas: o síndico (União) cuida do geral; o zelador do bloco (Estado) cuida do regional; o morador (Município) cuida da casa. Algumas tarefas são exclusivas de cada um, outras são compartilhadas, e outras podem ser feitas em conjunto com regras gerais.',
+
+    explicacaoTecnica: 'COMPETÊNCIA MATERIAL (administrativa) — o que o ente FAZ: art. 21 (União, exclusiva), art. 23 (comum — União, Estados, DF e Municípios), art. 30, III a IX (Municípios). COMPETÊNCIA LEGISLATIVA — o que o ente LEGISLA: art. 22 (União, privativa), art. 24 (concorrente — União, Estados, DF), art. 30, I e II (Municípios), art. 25 (Estados, remanescente ou residual), art. 32 (DF — competências estaduais e municipais). Art. 22, parágrafo único: a União pode autorizar Estados a legislar sobre questões específicas da competência privativa (lei complementar). Art. 24, §1º a §4º: concorrente — União edita normas GERAIS; Estados e DF editam normas ESPECÍFICAS (suplementar). Superveniência de lei federal geral suspende a lei estadual no que lhe for contrário. Art. 30, I: interesse local. Art. 30, II: suplementar a legislação federal e estadual no que couber.',
+
+    exemplos: [
+      'Material exclusiva da União (art. 21): emitir moeda, manter relações com Estados estrangeiros, declarar guerra.',
+      'Material comum (art. 23): cuidar da saúde, proteger o meio ambiente, fomentar a educação.',
+      'Legislativa privativa da União (art. 22): direito civil, penal, eleitoral, trabalho, processual.',
+      'Legislativa concorrente (art. 24): direito tributário, financeiro, penitenciário, previdenciário, ambiental.',
+      'Município (art. 30, I): interesse local — ex.: horário de funcionamento do comércio.',
+      'Município (art. 30, II): suplementar a legislação federal e estadual no que couber.',
+      'Estado (art. 25, §1º): competência residual (o que não é da União nem dos Municípios).',
+      'DF (art. 32, §1º): acumula competências estaduais e municipais.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Competência exclusiva', termoB: 'Competência privativa', diferenca: 'EXCLUSIVA (art. 21 — União): não é delegável. PRIVATIVA (art. 22 — União): é DELEGÁVEL a Estados por lei complementar para questões específicas (art. 22, parágrafo único). Ambas são da União; o que muda é a delegabilidade. Mnemônico: EXclusiva = EXclusão de delegação.' },
+      { termoA: 'Competência comum', termoB: 'Competência concorrente', diferenca: 'COMUM (art. 23): todos os entes juntos, MATERIAL (administrativa) — ex.: saúde, meio ambiente. CONCORRENTE (art. 24): União (normas gerais) + Estados/DF (normas específicas), LEGISLATIVA — ex.: direito tributário, ambiental. Comum = faz; concorrente = legisla.' },
+      { termoA: 'Competência material', termoB: 'Competência legislativa', diferenca: 'MATERIAL: é ATUAÇÃO administrativa (fazer). Ex.: art. 21, 23 e 30, III a IX. LEGISLATIVA: é edição de LEIS (produzir normas). Ex.: art. 22, 24, 25, 30, I e II.' },
+      { termoA: 'Competência suplementar', termoB: 'Competência residual', diferenca: 'SUPLEMENTAR: complementar normas federais/estaduais (art. 30, II — Municípios; art. 24, §2º — Estados em matéria concorrente). RESIDUAL (art. 25, §1º — Estados): o que não é da União nem dos Municípios. Não se confundem.' }
+    ],
+
+    aplicacaoEmConcurso: 'Cobrança obrigatória: qual ente tem competência para legislar sobre X (privativa ou concorrente) e qual a distinção entre exclusiva/privativa/comum/concorrente. As bancas testam exemplos concretos ("é competência da União ou dos Estados legislar sobre trânsito?"). Superveniência de lei federal geral sobre lei estadual (art. 24, §4º) também cai.',
+
+    pegadinhas: [
+      'Trocar exclusiva com privativa. EXclusiva = não pode delegar; Privativa = pode delegar (LC).',
+      'Confundir competência comum (material) com concorrente (legislativa).',
+      'Dizer que a União tem competência residual. NÃO — residual é dos Estados (art. 25, §1º).',
+      'Achar que Estado pode legislar sobre direito civil. NÃO — é privativa da União (art. 22, I).',
+      'Dizer que lei federal geral sobre matéria concorrente REVOGA a lei estadual. NÃO — SUSPENDE no que for contrário (art. 24, §4º).',
+      'Achar que o Município pode legislar sobre qualquer assunto. NÃO — só interesse local + suplementar.',
+      'Confundir competência do DF (estadual + municipal) com competência exclusiva.'
+    ],
+
+    errosComuns: [
+      'Decorar listas sem entender a lógica (União = interesse nacional; Estado = residual; Município = interesse local).',
+      'Confundir as quatro categorias principais (exclusiva, privativa, comum, concorrente).',
+      'Ignorar o art. 22, parágrafo único (delegação por LC).'
+    ],
+
+    resumo: [
+      'Art. 21: União — competência material EXCLUSIVA (indelegável).',
+      'Art. 22: União — competência legislativa PRIVATIVA (delegável por LC).',
+      'Art. 23: COMPETÊNCIA COMUM — União, Estados, DF e Municípios (material).',
+      'Art. 24: COMPETÊNCIA CONCORRENTE — União (normas gerais) + Estados/DF (específicas).',
+      'Art. 25, §1º: Estado — competência RESIDUAL.',
+      'Art. 30, I: Município — interesse local (legislativa). Art. 30, II: suplementar. Art. 30, III a IX: material.',
+      'Art. 32, §1º: DF — competências estaduais + municipais.',
+      'Superveniência de lei federal geral: suspende lei estadual contrária (não revoga).'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'União cuida do que é de TODOS (defesa, moeda, relações exteriores). Estados cuidam do regional (o que não é federal nem municipal). Municípios cuidam do que é da CIDADE (interesse local). Algumas coisas são compartilhadas.',
+      outroExemplo: 'Legislar sobre trânsito é competência PRIVATIVA da União (art. 22, XI). Mas o Município pode sinalizar ruas de interesse local (competência material comum). Já a União edita normas gerais sobre proteção ao meio ambiente; os Estados editam normas específicas (concorrente).',
+      compararConceitos: 'Exclusiva = União, material, indelegável. Privativa = União, legislativa, delegável por LC. Comum = todos, material. Concorrente = União + Estados/DF, legislativa. Residual = Estados. Suplementar = complementa.',
+      mostrarPegadinha: 'Cuidado: "A competência para legislar sobre direito civil é concorrente entre União e Estados". ERRADO. É PRIVATIVA da União (art. 22, I). A concorrente inclui direito tributário, financeiro, penitenciário, previdenciário, ambiental etc.',
+      comoApareceEmConcurso: 'Questões com exemplos ("é competência de quem legislar sobre X?"). Também cobra distinção entre categorias e efeitos da superveniência federal.',
+      fazerPergunta: {
+        pergunta: 'Estados podem legislar sobre direito do trabalho?',
+        resposta: 'NÃO. Direito do trabalho é competência legislativa PRIVATIVA da União (art. 22, I). Os Estados só poderiam legislar se a União delegasse por lei complementar (art. 22, parágrafo único), o que não ocorre nessa matéria.'
+      }
+    }
+  },
+
+  /* ============================================================
+     DC-11 — Administração Pública na Constituição
+  ============================================================ */
+  'DC-11': {
+    id: 'L-DC-11',
+    moduloId: 'DC-11',
+    objetivo: 'Dominar os arts. 37 a 41 da CF/88: princípios constitucionais (LIMPE), concurso público, cargos, empregos e funções, cargos em comissão, acumulação, teto remuneratório, servidores, responsabilidade civil do Estado e improbidade. Alta conexão com Direito Administrativo.',
+    prerequisitos: ['DC-02'],
+
+    introducao: 'A Administração Pública na CF é um dos módulos mais cobrados em concursos administrativos. As bancas testam a literalidade do art. 37 (LIMPE, concurso, acumulação, teto) e combinam com Direito Administrativo.',
+
+    explicacaoSimples: 'A CF diz como o Estado deve contratar, pagar, punir e organizar seus servidores. Os cinco princípios (LIMPE) são as regras gerais; depois vêm as regras específicas: concurso público, teto de salário, proibições de acumular cargos, responsabilidade civil e combate à improbidade.',
+
+    explicacaoTecnica: 'Art. 37, caput: princípios LIMPE (legalidade, impessoalidade, moralidade, publicidade, eficiência). I: cargos, empregos e funções públicas acessíveis a brasileiros (natos ou naturalizados) e estrangeiros (na forma da lei). II: concurso público para cargos e empregos, salvo cargos em comissão (livre nomeação, sem concurso). III: prazo de validade do concurso (até 2 anos, prorrogável uma vez por igual período). IV: acumulação remunerada permitida apenas nas hipóteses do art. 37, XVI (a — dois cargos de professor; b — um de professor + outro técnico/científico; c — dois privativos de profissional de saúde; e desde que haja compatibilidade de horários e obedeça ao teto). V: funções de confiança e cargos em comissão — privativos de servidores de carreira (função) e livre nomeação (cargo em comissão) — vedações. VI e VII: direito de greve e associação sindical. VIII: reserva percentual para pessoas com deficiência. IX: lei estabelece casos de contratação por tempo determinado. X: remuneração e subsídio. XI: teto remuneratório (subsídio de Ministro do STF) — sem acumulação acima do teto. §1º: publicidade dos atos (promoção pessoal vedada). §2º: cargos em comissão e funções de confiança. §3º: responsabilidade civil objetiva (art. 37, §6º, na verdade). §4º: atos de improbidade. §5º: prescrição de ilícitos. §6º: responsabilidade civil objetiva + ação regressiva. Art. 38: servidor eleito para cargo eletivo (afastamento). Art. 39: regime único (extinto por EC 19/1998; substituído por "regime jurídico único" para cada ente). §3º: aplicação do art. 7º aos servidores. Art. 40: aposentadoria. Art. 41: estabilidade após 3 anos.',
+
+    exemplos: [
+      'Concurso público: única forma de provimento em cargo efetivo (salvo cargo em comissão).',
+      'Prazo de validade do concurso: até 2 anos, prorrogável UMA vez por igual período.',
+      'Acumulação: proibida em regra; permitida nas 3 hipóteses do art. 37, XVI (2 de professor, 1 de professor + 1 técnico, 2 de saúde).',
+      'Teto remuneratório: subsídio de Ministro do STF para o Executivo e Legislativo federal; no Estado, subsídio de Desembargador do TJ (limite); no Município, subsídio de Prefeito.',
+      'Responsabilidade civil: objetiva (art. 37, §6º). Ação regressiva contra o agente exige dolo ou culpa.',
+      'Improbidade: Lei 8.429/1992 — sanções civis e políticas.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Cargo em comissão', termoB: 'Função de confiança', diferenca: 'CARGO EM COMISSÃO: livre nomeação e exoneração, para funções de direção, chefia e assessoramento. Pode ser ocupado por pessoa de fora da carreira. FUNÇÃO DE CONFIANÇA: privativa de servidor de carreira (ocupante de cargo efetivo). Diferença marcante: cargo em comissão ≠ função de confiança.' },
+      { termoA: 'Concurso público', termoB: 'Contratação temporária', diferenca: 'CONCURSO: regra para provimento de cargo efetivo ou emprego público. CONTRATAÇÃO TEMPORÁRIA: exceção, para necessidade temporária de excepcional interesse público (art. 37, IX), sem concurso, em hipóteses legais (ex.: emergência, calamidade).' },
+      { termoA: 'Responsabilidade civil objetiva', termoB: 'Ação regressiva', diferenca: 'OBJETIVA (Estado → terceiro): independe de culpa — basta dano + nexo causal + conduta. AÇÃO REGRESSIVA (Estado → agente): exige DOLO ou CULPA do agente. Duas etapas distintas: primeiro o Estado indeniza; depois, se cabível, cobra o agente.' },
+      { termoA: 'Estabilidade', termoB: 'Efetividade', diferenca: 'ESTABILIDADE (art. 41): adquirida após 3 anos de efetivo exercício, com avaliação especial de desempenho. EFETIVIDADE: condição do ocupante de cargo efetivo (concursado). A estabilidade é a proteção contra demissão arbitrária.' },
+      { termoA: 'Legalidade', termoB: 'Eficiência', diferenca: 'LEGALIDADE: princípio expresso desde a CF/88 original. EFICIÊNCIA: inserida no art. 37 pela EC 19/1998 (Reforma Gerencial). Ambas são princípios do LIMPE, junto com impessoalidade, moralidade e publicidade.' }
+    ],
+
+    aplicacaoEmConcurso: 'É o módulo de DA aplicado à CF. Combina com Direito Administrativo constantemente. Foco: art. 37, II (concurso), IV (acumulação), XI (teto), §6º (responsabilidade civil), §1º (impessoalidade — vedação à promoção pessoal), art. 41 (estabilidade). Muito cobrado em concursos de Analista e Técnico.',
+
+    pegadinhas: [
+      'Dizer que o prazo de validade do concurso é de até 2 anos, prorrogável indefinidamente. NÃO — prorrogável UMA ÚNICA VEZ por igual período.',
+      'Achar que o cargo em comissão exige concurso. NÃO exige — livre nomeação e exoneração.',
+      'Confundir cargo em comissão (livre nomeação) com função de confiança (privativa de servidor de carreira).',
+      'Dizer que a eficiência é princípio implícito. NÃO — é expresso desde a EC 19/1998.',
+      'Achar que o Estado responde subjetivamente em atos comissivos. NÃO — objetivamente (art. 37, §6º).',
+      'Dizer que a ação regressiva dispensa dolo/culpa do agente. NÃO — exige dolo ou culpa.',
+      'Achar que qualquer servidor tem estabilidade. NÃO — só o ocupante de cargo efetivo após 3 anos + avaliação.',
+      'Confundir acumulação de cargos (regra) com acumulação de proventos de aposentadoria.'
+    ],
+
+    errosComuns: [
+      'Decorar os princípios do LIMPE sem entender a aplicação.',
+      'Confundir cargo efetivo (concurso) com cargo em comissão (livre nomeação).',
+      'Ignorar as 3 hipóteses de acumulação do art. 37, XVI.',
+      'Achar que a responsabilidade civil do Estado é subjetiva em atos comissivos.'
+    ],
+
+    resumo: [
+      'Art. 37, caput: LIMPE (legalidade, impessoalidade, moralidade, publicidade, eficiência — eficiência desde EC 19/1998).',
+      'Concurso público: regra (art. 37, II). Cargo em comissão: exceção.',
+      'Prazo do concurso: até 2 anos, prorrogável uma vez por igual período.',
+      'Acumulação: permitida apenas nas 3 hipóteses do art. 37, XVI.',
+      'Teto remuneratório: subsídio de Ministro do STF (regra geral).',
+      'Responsabilidade civil: objetiva (art. 37, §6º). Ação regressiva: dolo ou culpa.',
+      'Estabilidade: 3 anos + avaliação especial (art. 41).',
+      'Improbidade: art. 37, §4º + Lei 8.429/1992.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'A CF diz o básico: como o Estado contrata (concurso), quanto paga (teto), o que proíbe (acumulação), o que cobra (responsabilidade) e o que pune (improbidade). Isso se conecta com Direito Administrativo.',
+      outroExemplo: 'Um servidor é aprovado em dois concursos: um para professor e outro para técnico. Ele PODE acumular se houver compatibilidade de horários e respeitar o teto (art. 37, XVI, b). Se fosse para dois cargos técnicos, não poderia.',
+      compararConceitos: 'Cargo em comissão (livre nomeação) x função de confiança (privativa de servidor). Concurso (regra) x contratação temporária (exceção). Responsabilidade objetiva (Estado → terceiro) x ação regressiva (Estado → agente).',
+      mostrarPegadinha: 'Cuidado: "A eficiência é princípio implícito da Administração Pública". ERRADO. É EXPRESSO desde a EC 19/1998, formando o LIMPE.',
+      comoApareceEmConcurso: 'Cobrança de art. 37 (incisos II, IV, XI e §6º) e art. 41. Combina com Direito Administrativo.',
+      fazerPergunta: {
+        pergunta: 'Dois irmãos são aprovados em concursos para cargos públicos: um para médico e outro para enfermeiro, ambos em hospitais públicos com horários incompatíveis. Podem acumular?',
+        resposta: 'NÃO. A acumulação de cargos na área de saúde é permitida se HOUVER COMPATIBILIDADE DE HORÁRIOS (art. 37, XVI, c). Sem compatibilidade, é vedada.'
+      }
+    }
+  },
+
+  /* ============================================================
+     DC-12 — Poder Legislativo
+  ============================================================ */
+  'DC-12': {
+    id: 'L-DC-12',
+    moduloId: 'DC-12',
+    objetivo: 'Dominar a estrutura e o funcionamento do Poder Legislativo (arts. 44 a 58 da CF/88): Congresso Nacional, Câmara, Senado, deputados, senadores, legislatura, imunidades parlamentares, competências e Tribunal de Contas.',
+    prerequisitos: ['DC-08'],
+
+    introducao: 'O Legislativo é o Poder que faz as leis e fiscaliza o Executivo. A CF distribui competências entre Câmara, Senado e Congresso, e concede imunidades aos parlamentares. É tema de cobrança recorrente, sobretudo em concursos de Tribunais.',
+
+    explicacaoSimples: 'O Legislativo federal é o Congresso Nacional, formado por duas casas: Câmara dos Deputados (representa o povo) e Senado Federal (representa os Estados). Cada uma tem suas tarefas; juntas, formam o Congresso. Para proteger o parlamentar de perseguições, a CF garante imunidades — mas com limites.',
+
+    explicacaoTecnica: 'Art. 44: Congresso Nacional = Câmara dos Deputados (representantes do povo) + Senado Federal (representantes dos Estados e DF). Art. 45: Câmara — 8 deputados por Estado, mínimo e máximo por lei complementar; mandato 4 anos; sistema proporcional. Art. 46: Senado — 3 senadores por Estado e DF, mandato 8 anos, eleição majoritária, renovação 1/3 e 2/3. Art. 47: quórum de maioria absoluta para deliberações (salvo hipóteses específicas). Art. 48: competências do Congresso com sanção do Presidente. Art. 49: competências EXCLUSIVAS do Congresso (sem sanção). Art. 50: convocação de Ministros. Art. 51: competências privativas da Câmara. Art. 52: competências privativas do Senado. Art. 53: imunidades — material (inviolabilidade por opiniões, palavras e votos) e formal (prisão apenas em flagrante de crime inafiançável; processo criminal depende de licença da Casa — EC 35/2001 aboliu a necessidade de licença para processo, mantendo apenas para prisão). Art. 54: vedações (incompatibilidades). Art. 55: perda de mandato. Art. 56: afastamento. Art. 57: legislatura (4 anos), sessões legislativas (2 por ano, de 2/2 a 17/7 e 1/8 a 22/12), recesso, convocação extraordinária. Art. 58: comissões (permanentes e temporárias, CPIs). Art. 70 a 75: fiscalização contábil, financeira, orçamentária, operacional e patrimonial — TCU.',
+
+    exemplos: [
+      'Câmara: 513 deputados (mín. 8, máx. 70 por Estado).',
+      'Senado: 81 senadores (3 por Estado + DF), mandato de 8 anos.',
+      'Imunidade material: parlamentar não pode ser processado por opiniões, palavras e votos no exercício do mandato.',
+      'Imunidade formal: prisão apenas em flagrante de crime INAFIANÇÁVEL; processo criminal sem licença (EC 35/2001).',
+      'CPI: comissão parlamentar de inquérito — poderes de investigação próprios das autoridades judiciais.',
+      'TCU: órgão auxiliar do Congresso, mas sem subordinação hierárquica.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Imunidade material', termoB: 'Imunidade formal', diferenca: 'MATERIAL (art. 53, caput): inviolabilidade civil e penal por OPINIÕES, PALAVRAS E VOTOS, no exercício do mandato. Vale em qualquer lugar. FORMAL (art. 53, §§2º a 5º): relativa a PRISÃO e PROCESSO. Em regra, prisão só em flagrante de crime INAFIANÇÁVEL; processo sem necessidade de licença (EC 35/2001), com possibilidade de sustação pela Casa.' },
+      { termoA: 'Competências do art. 48', termoB: 'Competências do art. 49', diferenca: 'Art. 48: Congresso COM sanção do Presidente (matérias legislativas típicas — leis). Art. 49: competências EXCLUSIVAS do Congresso, SEM sanção (fiscalização, sustação de atos, julgamento de contas, etc.). Art. 48 = lei; art. 49 = decreto legislativo.' },
+      { termoA: 'Competências privativas da Câmara', termoB: 'Competências privativas do Senado', diferenca: 'CÂMARA (art. 51): autoriza instauração de processo contra Presidente/Vice/Ministros; toma contas do Presidente quando não apresentadas; elege membros do Conselho da República. SENADO (art. 52): processa e julga Presidente/Vice/Ministros nos crimes de responsabilidade; aprova previamente autoridades (Ministros do STF, PGR, etc.); aprova empréstimos externos.' },
+      { termoA: 'CPI', termoB: 'Comissão permanente', diferenca: 'CPI: TEMPORÁRIA, criada para investigar fato determinado por prazo certo, com poderes de investigação próprios das autoridades judiciais. COMISSÃO PERMANENTE: dura a legislatura, analisa projetos e matérias de sua área (ex.: CCJ, CAE).' }
+    ],
+
+    aplicacaoEmConcurso: 'Cobrança de art. 53 (imunidades), art. 51/52 (competências privativas), art. 57 (legislatura/sessões), art. 58 (CPI). As bancas testam: imunidade material x formal, competência da Câmara x Senado, requisitos da CPI, natureza do TCU.',
+
+    pegadinhas: [
+      'Confundir imunidade material (opiniões, palavras, votos) com formal (prisão, processo).',
+      'Achar que a imunidade material vale apenas dentro do Congresso. NÃO — vale em qualquer lugar, desde que no exercício do mandato.',
+      'Dizer que deputado federal tem 4 senadores por Estado. NÃO — 3 senadores, 8 deputados (mínimo).',
+      'Achar que a Câmara julga o Presidente por crime de responsabilidade. NÃO — quem processa e julga é o SENADO (art. 52, I). A Câmara apenas AUTORIZA (art. 51, I).',
+      'Dizer que a CPI pode decretar prisão preventiva. NÃO — pode quebrar sigilo, convocar, ouvir testemunha, requisitar, mas NÃO pode prender (salvo flagrante), nem determinar busca domiciliar, nem interceptação telefônica.',
+      'Achar que o TCU é subordinado ao Legislativo. NÃO — é órgão auxiliar, com autonomia.',
+      'Confundir quórum de maioria simples (art. 47) com maioria absoluta (regra geral) e maioria qualificada (2/3 em casos específicos).'
+    ],
+
+    errosComuns: [
+      'Decorar competências sem entender a lógica: Câmara autoriza; Senado julga.',
+      'Confundir competências do art. 48 (com sanção) com art. 49 (sem sanção).',
+      'Ignorar a EC 35/2001, que aboliu a necessidade de licença prévia para processo criminal de parlamentar.',
+      'Achar que a imunidade material é absoluta — não é; não cobre atos fora do mandato.'
+    ],
+
+    resumo: [
+      'Congresso = Câmara (povo) + Senado (Estados/DF).',
+      'Deputados: 8 por Estado (mínimo), máx. 70; mandato 4 anos; sistema proporcional.',
+      'Senadores: 3 por Estado e DF; mandato 8 anos; maioria; renovação 1/3 e 2/3.',
+      'Art. 49: competências exclusivas do Congresso (sem sanção).',
+      'Art. 51: competências privativas da Câmara (autoriza processo).',
+      'Art. 52: competências privativas do Senado (processa e julga).',
+      'Imunidade material: opiniões, palavras, votos. Formal: prisão (flagrante de crime inafiançável) e processo.',
+      'CPI: temporária, fato determinado, prazo certo.',
+      'TCU: órgão auxiliar do Legislativo (não subordinado).'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'O Legislativo é o "conselho" do país. Câmara representa o povo; Senado representa os Estados. Juntos, fazem as leis e fiscalizam o Executivo. As imunidades protegem o parlamentar de perseguições.',
+      outroExemplo: 'Para processar o Presidente por crime de responsabilidade, a Câmara AUTORIZA (2/3) e o Senado PROCESSA E JULGA (2/3). É um "duplo juízo": a Câmara acusa, o Senado julga.',
+      compararConceitos: 'Imunidade material = opiniões/palavras/votos. Imunidade formal = prisão/processo. Câmara autoriza; Senado julga. Art. 48 (com sanção); art. 49 (sem sanção).',
+      mostrarPegadinha: 'Cuidado: "A Câmara dos Deputados processa e julga o Presidente nos crimes de responsabilidade". ERRADO. Quem julga é o SENADO (art. 52, I). A Câmara AUTORIZA (art. 51, I).',
+      comoApareceEmConcurso: 'Cobrança de imunidades, competências privativas (Câmara x Senado), art. 49, CPI e TCU. Comum em Tribunais.',
+      fazerPergunta: {
+        pergunta: 'Uma CPI pode determinar a interceptação telefônica de um investigado?',
+        resposta: 'NÃO diretamente. A CPI pode quebrar sigilo bancário, fiscal e telefônico (dados), mas a interceptação telefônica (escuta) depende de ORDEM JUDICIAL. Ela também não pode decretar prisão (salvo flagrante) nem busca domiciliar.'
+      }
+    }
+  },
+
+  /* ============================================================
+     DC-13 — Processo Legislativo
+  ============================================================ */
+  'DC-13': {
+    id: 'L-DC-13',
+    moduloId: 'DC-13',
+    objetivo: 'Dominar o processo legislativo (arts. 59 a 69 da CF/88): espécies normativas, fases, iniciativa, quóruns, sanção/veto, promulgação/publicação, emenda constitucional, lei complementar, lei ordinária, medida provisória e lei delegada.',
+    prerequisitos: ['DC-12'],
+
+    introducao: 'Processo legislativo é o "como" as leis são feitas. A CF define espécies normativas e o rito de cada uma. É um dos temas mais cobrados em concursos de Tribunais e área administrativa.',
+
+    explicacaoSimples: 'Fazer uma lei é como seguir uma receita: alguém propõe (iniciativa), o texto é discutido, votado, aprovado, sancionado (ou vetado), promulgado e publicado. Cada tipo de norma (emenda, lei complementar, lei ordinária) tem seu próprio rito e quórum.',
+
+    explicacaoTecnica: 'Art. 59: espécies normativas — emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções. Art. 60: emenda constitucional — iniciativa (1/3 da Câmara ou Senado; Presidente; mais da metade das Assembleias, cada uma com maioria relativa); quórum 3/5 em dois turnos em cada Casa; cláusulas pétreas (art. 60, §4º). Art. 61: iniciativa de leis complementares e ordinárias. §1º: matérias de iniciativa privativa do Presidente. §2º: iniciativa popular (1% do eleitorado, 5 Estados, 0,3% em cada). Art. 62: medidas provisórias — relevância e urgência; força de lei; prazo de 60 dias + 60 (prorrogável uma vez); se não apreciada em 45 dias, tranca a pauta; vedações materiais (art. 62, §1º). Art. 63: aumento de despesa. Art. 64: fases — Câmara (Casa iniciadora) → Senado (Casa revisora). Art. 65: emendas. Art. 66: sanção/veto (15 dias úteis; veto total ou parcial; veto pode ser derrubado por maioria absoluta em sessão conjunta). Art. 67: rejeição — matéria só pode voltar na mesma sessão legislativa por proposta da maioria absoluta. Art. 68: leis delegadas. Art. 69: leis complementares — maioria absoluta.',
+
+    exemplos: [
+      'Emenda à CF: 3/5 em dois turnos em cada Casa.',
+      'Lei complementar: maioria absoluta.',
+      'Lei ordinária: maioria simples (relativa).',
+      'Medida provisória: relevância + urgência; 60 + 60 dias.',
+      'Lei delegada: elaborada pelo Presidente, autorizado pelo Congresso.',
+      'Decreto legislativo: ato do Congresso para matéria de sua competência exclusiva (art. 49) — não depende de sanção.',
+      'Resolução: ato do Congresso, Câmara ou Senado, para matéria de sua competência privativa.'
+    ],
+
+    comparacoes: [
+      { termoA: 'Lei complementar', termoB: 'Lei ordinária', diferenca: 'COMPLEMENTAR: matéria reservada pela CF; quórum de MAIORIA ABSOLUTA. ORDINÁRIA: matéria residual; quórum de MAIORIA SIMPLES (relativa). Não há hierarquia entre elas — a diferença é material e de quórum.' },
+      { termoA: 'Sanção', termoB: 'Promulgação', diferenca: 'SANÇÃO: ato do Presidente que aprova o projeto de lei. PROMULGAÇÃO: atesta a existência da lei e determina sua execução. Sanção é ato político; promulgação é ato formal. Ambas precedem a publicação.' },
+      { termoA: 'Veto total', termoB: 'Veto parcial', diferenca: 'VETO TOTAL: rejeita todo o projeto. VETO PARCIAL: rejeita parte do projeto, mas não pode atingir texto isolado sem relação com o conjunto (não pode retirar palavra ou artigo solto). O veto pode ser derrubado por MAIORIA ABSOLUTA em sessão conjunta.' },
+      { termoA: 'Decreto legislativo', termoB: 'Resolução', diferenca: 'DECRETO LEGISLATIVO: ato do CONGRESSO NACIONAL para matéria de competência EXCLUSIVA do Congresso (art. 49) — ex.: sustação de atos do Executivo, aprovação de tratados. RESOLUÇÃO: ato do Congresso, Câmara ou Senado para matéria de sua competência PRIVATIVA — ex.: delegação de lei, criação de CPI.' },
+      { termoA: 'Lei delegada', termoB: 'Medida provisória', diferenca: 'LEI DELEGADA: elaborada pelo Presidente, autorizado por RESOLUÇÃO do Congresso, que fixa os limites. Não pode tratar de matéria de competência exclusiva do Congresso nem de lei complementar. MEDIDA PROVISÓRIA: editada pelo Presidente, com força de lei imediata, por relevância e urgência; vigência de 60+60 dias; se não apreciada, perde eficácia desde a edição.' }
+    ],
+
+    aplicacaoEmConcurso: 'Cobrança de quóruns (maioria simples, absoluta, 3/5), fases do processo, sanção/veto, espécies normativas e matérias de iniciativa privativa do Presidente. As bancas testam: emenda x lei complementar x lei ordinária, medida provisória (prazo, trancamento de pauta, vedações materiais), decreto legislativo x resolução.',
+
+    pegadinhas: [
+      'Trocar quóruns: emenda (3/5 em 2 turnos), lei complementar (maioria absoluta), lei ordinária (maioria simples).',
+      'Dizer que lei complementar tem hierarquia sobre lei ordinária. NÃO — diferença é material e de quórum.',
+      'Achar que o veto parcial pode atingir palavra ou artigo isolado. NÃO — só parte do projeto com sentido próprio.',
+      'Confundir veto (do Presidente) com rejeição (do Congresso).',
+      'Achar que medida provisória pode tratar de qualquer matéria. NÃO — vedações do art. 62, §1º (direitos políticos, penal, processual penal, etc.).',
+      'Dizer que a medida provisória pode vigorar indefinidamente. NÃO — 60+60 dias; se não apreciada, perde eficácia desde a edição.',
+      'Achar que a lei delegada pode tratar de matéria de lei complementar. NÃO pode.',
+      'Confundir decreto legislativo (Congresso, matéria exclusiva) com resolução (Congresso/Câmara/Senado, matéria privativa).'
+    ],
+
+    errosComuns: [
+      'Decorar quóruns sem entender as espécies normativas.',
+      'Confundir as fases do processo legislativo (iniciativa, discussão, votação, sanção/veto, promulgação, publicação).',
+      'Ignorar as matérias de iniciativa privativa do Presidente (art. 61, §1º).',
+      'Achar que a medida provisória não pode ser reeditada na mesma sessão legislativa (não pode).'
+    ],
+
+    resumo: [
+      'Art. 59: emendas, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.',
+      'Emenda: 3/5 em dois turnos em cada Casa.',
+      'Lei complementar: maioria absoluta. Lei ordinária: maioria simples.',
+      'Medida provisória: relevância + urgência; 60+60; tranca pauta em 45 dias; vedações materiais.',
+      'Lei delegada: elaborada pelo Presidente, autorizado por resolução.',
+      'Decreto legislativo: matéria de competência exclusiva do Congresso.',
+      'Resolução: matéria de competência privativa.',
+      'Sanção/veto: 15 dias úteis. Veto derrubado por maioria absoluta em sessão conjunta.',
+      'Promulgação: atesta existência e determina execução.'
+    ],
+
+    modoProfessor: {
+      explicarMaisSimples: 'Fazer uma lei é como seguir uma receita: alguém propõe (iniciativa), o texto é discutido (discussão), votado (votação), aprovado, sancionado (ou vetado) pelo Presidente, promulgado e publicado. Cada tipo de norma tem seu quórum.',
+      outroExemplo: 'Uma emenda à CF precisa de 3/5 dos votos, em dois turnos, na Câmara e no Senado. Já uma lei ordinária precisa apenas de maioria simples (mais da metade dos presentes).',
+      compararConceitos: 'Emenda (3/5, 2 turnos) x LC (maioria absoluta) x LO (maioria simples). Sanção (aprova) x promulgação (atesta) x publicação (torna pública). Decreto legislativo (exclusiva) x resolução (privativa).',
+      mostrarPegadinha: 'Cuidado: "A lei complementar tem hierarquia superior à lei ordinária". ERRADO. Não há hierarquia — o que muda é a matéria (reservada pela CF) e o quórum (maioria absoluta).',
+      comoApareceEmConcurso: 'Cobrança de quóruns, fases do processo, sanção/veto e distinção entre espécies normativas.',
+      fazerPergunta: {
+        pergunta: 'Uma medida provisória não apreciada em 45 dias pelo Congresso tranca a pauta?',
+        resposta: 'SIM. Se não for apreciada em até 45 dias contados da publicação, entra em regime de URGÊNCIA e tranca a pauta de votações da Casa em que estiver (art. 62, §6º).'
+      }
+    }
+  }
 
 };
