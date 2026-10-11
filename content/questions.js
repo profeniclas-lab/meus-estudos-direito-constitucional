@@ -855,12 +855,805 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança direta.'
     },
     tags: ['HC', 'gratuidade']
-  }
+  }  ,
 
   /* ============================================================
-     Próximos lotes — adicionar em edições futuras:
-     DC-08, DC-09, DC-11 (lote 3)
-     DC-12, DC-13, DC-RN (lote 4)
+     DC-08 — Organização Político-Administrativa
   ============================================================ */
+  {
+    id: 'Q-DID-DC-0801',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-08',
+    subtema: 'Soberania x autonomia',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre os entes federativos, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A União, os Estados, o DF e os Municípios são todos soberanos.' },
+      { id: 'B', texto: 'A soberania é atributo exclusivo da República Federativa do Brasil; os entes têm autonomia política, administrativa e financeira.' },
+      { id: 'C', texto: 'Somente a União é autônoma; os demais entes são subordinados a ela.' },
+      { id: 'D', texto: 'Os Municípios são subordinados aos Estados.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Soberania = atributo exclusivo da República. Autonomia = atributo de cada ente (União, Estados, DF, Municípios).',
+      incorretas: { A: 'Só a República é soberana.', C: 'Todos os entes são autônomos.', D: 'Municípios não são subordinados aos Estados.' },
+      conceitoCobrado: 'Soberania x autonomia.',
+      pegadinha: 'Achar que os Municípios são subordinados ou que os Estados são soberanos.',
+      comoApareceEmConcurso: 'Clássica em DA e DC.'
+    },
+    tags: ['federação', 'autonomia']
+  },
+  {
+    id: 'Q-DID-DC-0802',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-08',
+    subtema: 'Criação de Estados e Municípios',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a criação de novos entes federativos, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A criação de Estados depende de lei ordinária federal; a de Municípios, de lei complementar estadual.' },
+      { id: 'B', texto: 'A criação de Estados depende de lei COMPLEMENTAR federal + plebiscito + oitiva das Assembleias; a de Municípios, de lei ESTADUAL + plebiscito + estudo de viabilidade municipal.' },
+      { id: 'C', texto: 'Ambas dependem de decreto do Presidente da República.' },
+      { id: 'D', texto: 'Só a União pode criar Municípios.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Estados: LC federal + plebiscito + oitiva das Assembleias (art. 18, §3º). Municípios: lei estadual + plebiscito + estudo de viabilidade (art. 18, §4º).',
+      incorretas: { A: 'Inverte os instrumentos.', C: 'Não é por decreto.', D: 'Municípios são criados por lei estadual.' },
+      conceitoCobrado: 'Criação de Estados x criação de Municípios.',
+      pegadinha: 'Trocar lei complementar (federal) com lei estadual.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['criação', 'art. 18']
+  },
+  {
+    id: 'Q-DID-DC-0803',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-08',
+    subtema: 'Distrito Federal',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre o Distrito Federal (art. 32, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É regido por Constituição própria e pode ser dividido em Municípios.' },
+      { id: 'B', texto: 'É regido por LEI ORGÂNICA, acumula competências estaduais e municipais, e NÃO pode ser dividido em Municípios.' },
+      { id: 'C', texto: 'É um Território Federal administrado pela União.' },
+      { id: 'D', texto: 'Tem soberania, mas não autonomia.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 32: DF rege-se por Lei Orgânica (não Constituição), acumula competências estaduais e municipais, e não pode ser dividido em Municípios.',
+      incorretas: { A: 'Não tem Constituição e não se divide.', C: 'Não é Território Federal.', D: 'Tem autonomia parcial, não soberania.' },
+      conceitoCobrado: 'Estatuto do DF.',
+      pegadinha: 'Achar que o DF tem Constituição ou se divide em Municípios.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['DF', 'art. 32']
+  },
+  {
+    id: 'Q-DID-DC-0804',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-08',
+    subtema: 'Vedações federativas',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre as vedações federativas (art. 19, CF/88), é correto afirmar que é vedado à União, aos Estados, ao DF e aos Municípios:',
+    alternativas: [
+      { id: 'A', texto: 'Estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles relação de dependência ou aliança — ressalvada a colaboração de interesse público.' },
+      { id: 'B', texto: 'Recusar fé aos documentos públicos apenas se emitidos por órgãos federais.' },
+      { id: 'C', texto: 'Criar distinções entre brasileiros apenas em ano eleitoral.' },
+      { id: 'D', texto: 'Colaborar com igrejas em situações de calamidade pública.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Literalidade do art. 19, I: veda estabelecer cultos, subvencionar, embaraçar ou manter dependência/aliança, ressalvada a colaboração de interesse público.',
+      incorretas: { B: 'É vedado recusar fé a QUALQUER documento público.', C: 'A vedação é permanente, não só em ano eleitoral.', D: 'A colaboração de interesse público é permitida.' },
+      conceitoCobrado: 'Vedações federativas.',
+      pegadinha: 'Restringir as vedações.',
+      comoApareceEmConcurso: 'Cobrança direta do art. 19.'
+    },
+    tags: ['vedações', 'art. 19']
+  },
+  {
+    id: 'Q-DID-DC-0805',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-08',
+    subtema: 'Territórios Federais',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre os Territórios Federais (art. 18, §2º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São entes federativos autônomos com Constituição própria.' },
+      { id: 'B', texto: 'Integram a União, não têm autonomia política plena, e sua criação, transformação em Estado ou reintegração ao Estado de origem dependem de lei complementar.' },
+      { id: 'C', texto: 'Têm os mesmos poderes dos Estados-membros.' },
+      { id: 'D', texto: 'Têm soberania, como a União.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Territórios: integram a União, sem autonomia política plena. Criação/transformação/reintegração por lei complementar (art. 18, §2º).',
+      incorretas: { A: 'Não são entes autônomos com Constituição.', C: 'Não têm os mesmos poderes dos Estados.', D: 'Soberania é só da República.' },
+      conceitoCobrado: 'Territórios Federais.',
+      pegadinha: 'Achar que Território é ente federativo.',
+      comoApareceEmConcurso: 'Cobrança média.'
+    },
+    tags: ['territórios', 'art. 18']
+  },
+
+  /* ============================================================
+     DC-09 — Repartição de Competências
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-0901',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-09',
+    subtema: 'Exclusiva x privativa',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre as competências da União (arts. 21 e 22, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A competência EXCLUSIVA (art. 21) pode ser delegada aos Estados por lei complementar; a PRIVATIVA (art. 22) não.' },
+      { id: 'B', texto: 'A competência EXCLUSIVA (art. 21) NÃO é delegável; a PRIVATIVA (art. 22) pode ser delegada aos Estados por lei complementar, para questões específicas.' },
+      { id: 'C', texto: 'São sinônimos.' },
+      { id: 'D', texto: 'Ambas são indelegáveis.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'EXCLUSIVA (art. 21): material, indelegável. PRIVATIVA (art. 22): legislativa, delegável por LC (art. 22, parágrafo único).',
+      incorretas: { A: 'Inverte.', C: 'São categorias distintas.', D: 'A privativa é delegável.' },
+      conceitoCobrado: 'Exclusiva x privativa.',
+      pegadinha: 'Inverter as definições. Mnemônico: EXclusiva = EXclui delegação.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['exclusiva', 'privativa']
+  },
+  {
+    id: 'Q-DID-DC-0902',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-09',
+    subtema: 'Comum x concorrente',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre competência COMUM (art. 23) e CONCORRENTE (art. 24), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Comum é legislativa; concorrente é material.' },
+      { id: 'B', texto: 'Comum é MATERIAL (todos os entes juntos, ex.: saúde, meio ambiente); concorrente é LEGISLATIVA (União edita normas gerais; Estados/DF editam específicas).' },
+      { id: 'C', texto: 'Ambas são exclusivas da União.' },
+      { id: 'D', texto: 'São sinônimos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'COMUM (art. 23): material, todos os entes. CONCORRENTE (art. 24): legislativa, União (normas gerais) + Estados/DF (específicas).',
+      incorretas: { A: 'Inverte.', C: 'Ambas envolvem múltiplos entes.', D: 'São distintas.' },
+      conceitoCobrado: 'Comum x concorrente.',
+      pegadinha: 'Trocar material com legislativa.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['comum', 'concorrente']
+  },
+  {
+    id: 'Q-DID-DC-0903',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-09',
+    subtema: 'Superveniência de lei federal',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a superveniência de lei federal geral em matéria de competência concorrente (art. 24, §4º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Revoga integralmente a lei estadual que dispuser sobre normas específicas.' },
+      { id: 'B', texto: 'SUSPENDE a eficácia da lei estadual no que lhe for CONTRÁRIO.' },
+      { id: 'C', texto: 'Não produz efeitos sobre a lei estadual.' },
+      { id: 'D', texto: 'Transforma a lei estadual em lei federal.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 24, §4º: superveniência de lei federal geral SUSPENDE a lei estadual no que lhe for CONTRÁRIO.',
+      incorretas: { A: 'Não revoga — apenas suspende no que for contrário.', C: 'Produz efeito suspensivo parcial.', D: 'Não transforma.' },
+      conceitoCobrado: 'Efeito da superveniência federal.',
+      pegadinha: 'Confundir revogação (definitiva) com suspensão (temporária/parcial).',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['concorrente', 'art. 24']
+  },
+  {
+    id: 'Q-DID-DC-0904',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-09',
+    subtema: 'Competência legislativa',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a competência legislativa de Estados e Municípios, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Estados têm competência residual (o que não é da União nem dos Municípios); Municípios têm competência para legislar sobre interesse local e suplementar a legislação federal/estadual no que couber.' },
+      { id: 'B', texto: 'Estados só podem legislar sobre matéria expressamente prevista.' },
+      { id: 'C', texto: 'Municípios têm competência residual.' },
+      { id: 'D', texto: 'Municípios podem legislar sobre direito civil.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 25, §1º (Estados): competência residual. Art. 30, I (Municípios): interesse local. Art. 30, II: suplementar.',
+      incorretas: { B: 'Estados têm competência residual (art. 25, §1º).', C: 'Residual é dos Estados.', D: 'Direito civil é privativo da União.' },
+      conceitoCobrado: 'Competências estaduais e municipais.',
+      pegadinha: 'Achar que Estados só legislam sobre matéria expressa — eles têm competência residual.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['residual', 'interesse local']
+  },
+  {
+    id: 'Q-DID-DC-0905',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-09',
+    subtema: 'Competência do DF',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre as competências do Distrito Federal (art. 32, §1º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Acumula as competências legislativas reservadas aos Estados e aos Municípios.' },
+      { id: 'B', texto: 'Tem apenas competências municipais.' },
+      { id: 'C', texto: 'Tem apenas competências estaduais.' },
+      { id: 'D', texto: 'Só legisla sobre matéria expressamente prevista na CF.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 32, §1º: ao DF são atribuídas as competências legislativas reservadas aos Estados e Municípios.',
+      incorretas: { B e C: 'Acumula as duas.', D: 'Acumula as competências estaduais e municipais.' },
+      conceitoCobrado: 'Competências do DF.',
+      pegadinha: 'Achar que o DF tem só competências estaduais.',
+      comoApareceEmConcurso: 'Cobrança média.'
+    },
+    tags: ['DF', 'competências']
+  },
+
+  /* ============================================================
+     DC-11 — Administração Pública na Constituição
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1101',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Princípios (LIMPE)',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'São princípios expressos da Administração Pública no caput do art. 37 da CF/88:',
+    alternativas: [
+      { id: 'A', texto: 'Legalidade, impessoalidade, moralidade, publicidade e eficiência.' },
+      { id: 'B', texto: 'Legalidade, imparcialidade, moralidade, transparência e eficiência.' },
+      { id: 'C', texto: 'Razoabilidade, proporcionalidade, moralidade, publicidade e eficiência.' },
+      { id: 'D', texto: 'Legalidade, impessoalidade, motivação, publicidade e economicidade.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'LIMPE: Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência.',
+      incorretas: { B: 'Imparcialidade e transparência não estão no caput.', C: 'Razoabilidade e proporcionalidade são implícitos.', D: 'Motivação é implícita.' },
+      conceitoCobrado: 'LIMPE.',
+      pegadinha: 'Trocar por termos próximos.',
+      comoApareceEmConcurso: 'Toda prova cobra LIMPE.'
+    },
+    tags: ['LIMPE', 'art. 37']
+  },
+  {
+    id: 'Q-DID-DC-1102',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Concurso público',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre o concurso público (art. 37, II, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É dispensável para cargos efetivos, sendo obrigatório apenas para cargos em comissão.' },
+      { id: 'B', texto: 'É obrigatório para provimento de cargos efetivos e empregos públicos, salvo cargos em comissão (livre nomeação e exoneração).' },
+      { id: 'C', texto: 'Só se aplica a cargos federais.' },
+      { id: 'D', texto: 'O prazo de validade é de 4 anos, prorrogável uma vez por igual período.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Concurso é regra para cargos efetivos e empregos públicos. Cargos em comissão são de livre nomeação (não exigem concurso).',
+      incorretas: { A: 'Inverte.', C: 'Aplica-se a União, Estados, DF e Municípios.', D: 'Prazo é de até 2 anos, prorrogável uma única vez por igual período.' },
+      conceitoCobrado: 'Concurso público.',
+      pegadinha: 'Confundir prazo (2 anos, uma prorrogação) com cargos em comissão.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['concurso', 'art. 37']
+  },
+  {
+    id: 'Q-DID-DC-1103',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Acumulação de cargos',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a acumulação remunerada de cargos públicos (art. 37, XVI, CF/88), é correto afirmar que é permitida quando:',
+    alternativas: [
+      { id: 'A', texto: 'Houve qualquer tipo de vínculo, desde que o servidor tenha disponibilidade.' },
+      { id: 'B', texto: 'Houver compatibilidade de horários e se tratar de: dois cargos de professor; um de professor com outro técnico ou científico; ou dois privativos de profissionais de saúde.' },
+      { id: 'C', texto: 'O servidor for estável e tiver mais de 10 anos de serviço.' },
+      { id: 'D', texto: 'For autorizada pelo chefe imediato.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 37, XVI: 3 hipóteses (2 de professor; 1 professor + 1 técnico/científico; 2 privativos de saúde), com compatibilidade de horários e respeito ao teto.',
+      incorretas: { A: 'Não é por disponibilidade.', C: 'Não depende de estabilidade ou tempo de serviço.', D: 'Não depende de autorização do chefe.' },
+      conceitoCobrado: 'Acumulação de cargos.',
+      pegadinha: 'Mnemônico: "PROF-PROF", "PROF-TEC", "SAÚDE-SAÚDE".',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['acumulação', 'art. 37']
+  },
+  {
+    id: 'Q-DID-DC-1104',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Teto remuneratório',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre o teto remuneratório (art. 37, XI, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O teto geral é o subsídio de Ministro do STF; nos Estados e DF, o subsídio de Desembargador do TJ; nos Municípios, o subsídio de Prefeito.' },
+      { id: 'B', texto: 'Não há teto para servidores públicos.' },
+      { id: 'C', texto: 'O teto é o salário do Presidente da República em todos os entes.' },
+      { id: 'D', texto: 'O teto é fixado por decreto do Executivo a cada ano.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 37, XI: teto geral = subsídio de Ministro do STF; estadual = Desembargador do TJ; municipal = Prefeito.',
+      incorretas: { B: 'Há teto constitucional.', C: 'Não é o salário do Presidente.', D: 'O teto é constitucional, não por decreto.' },
+      conceitoCobrado: 'Teto remuneratório.',
+      pegadinha: 'Confundir os 3 níveis.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['teto', 'art. 37']
+  },
+  {
+    id: 'Q-DID-DC-1105',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Responsabilidade civil do Estado',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a responsabilidade civil do Estado (art. 37, §6º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É objetiva perante terceiros (basta dano + nexo causal + conduta), e a ação regressiva contra o agente exige DOLO ou CULPA.' },
+      { id: 'B', texto: 'É subjetiva em todos os casos.' },
+      { id: 'C', texto: 'A ação regressiva independe de dolo ou culpa do agente.' },
+      { id: 'D', texto: 'O Estado não responde pelos atos de seus agentes.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 37, §6º: responsabilidade OBJETIVA do Estado perante terceiros (atos comissivos) + ação regressiva com dolo/culpa do agente.',
+      incorretas: { B: 'Objetiva em atos comissivos.', C: 'Exige dolo ou culpa.', D: 'Responde objetivamente.' },
+      conceitoCobrado: 'Responsabilidade civil objetiva + ação regressiva.',
+      pegadinha: 'Achar que a ação regressiva dispensa dolo/culpa.',
+      comoApareceEmConcurso: 'Clássica em DA e DC.'
+    },
+    tags: ['responsabilidade', 'art. 37']
+  },
+  {
+    id: 'Q-DID-DC-1106',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-11',
+    subtema: 'Cargo em comissão x função de confiança',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre cargo em comissão e função de confiança (art. 37, V, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'As funções de confiança são exercidas exclusivamente por servidores de carreira; os cargos em comissão são de livre nomeação e exoneração, destinados a direção, chefia e assessoramento.' },
+      { id: 'B', texto: 'Ambos podem ser ocupados por pessoas de fora da Administração.' },
+      { id: 'C', texto: 'Ambos exigem concurso público.' },
+      { id: 'D', texto: 'Cargos em comissão são privativos de servidores de carreira.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 37, V: funções de confiança — privativas de servidor de carreira; cargos em comissão — livre nomeação e exoneração, para direção, chefia e assessoramento.',
+      incorretas: { B: 'Funções de confiança são privativas de servidores de carreira.', C: 'Cargo em comissão não exige concurso.', D: 'Inverte.' },
+      conceitoCobrado: 'Função de confiança x cargo em comissão.',
+      pegadinha: 'Inverter os conceitos.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['cargo em comissão', 'função de confiança']
+  }  ,
+
+  /* ============================================================
+     DC-12 — Poder Legislativo
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1201',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-12',
+    subtema: 'Composição do Congresso',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre a composição do Congresso Nacional (arts. 44 a 46, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É bicameral, formado pela Câmara dos Deputados (representantes do povo) e pelo Senado Federal (representantes dos Estados e do DF).' },
+      { id: 'B', texto: 'É unicameral, formado apenas pela Câmara dos Deputados.' },
+      { id: 'C', texto: 'Cada Estado elege 8 senadores e 3 deputados federais.' },
+      { id: 'D', texto: 'Deputados federais têm mandato de 8 anos; senadores, de 4 anos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Congresso é BICAMERAL: Câmara (povo) + Senado (Estados e DF).',
+      incorretas: { B: 'É bicameral.', C: 'Inverte: cada Estado elege 3 senadores e mínimo de 8 deputados federais.', D: 'Inverte: deputados = 4 anos; senadores = 8 anos.' },
+      conceitoCobrado: 'Composição do Congresso.',
+      pegadinha: 'Trocar número de deputados e senadores por Estado e mandatos.',
+      comoApareceEmConcurso: 'Clássica em DC e em concursos de Tribunais.'
+    },
+    tags: ['congresso', 'art. 44']
+  },
+  {
+    id: 'Q-DID-DC-1202',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-12',
+    subtema: 'Competências privativas da Câmara e do Senado',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre as competências privativas da Câmara e do Senado, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A Câmara autoriza a instauração de processo contra o Presidente (art. 51, I); o Senado processa e julga nos crimes de responsabilidade (art. 52, I).' },
+      { id: 'B', texto: 'A Câmara processa e julga o Presidente; o Senado apenas autoriza.' },
+      { id: 'C', texto: 'Ambas as Casas julgam conjuntamente o Presidente em sessão unicameral.' },
+      { id: 'D', texto: 'O Senado autoriza; a Câmara julga.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 51, I: Câmara AUTORIZA (2/3). Art. 52, I: Senado PROCESSA E JULGA.',
+      incorretas: { B: 'Inverte.', C: 'Não há julgamento conjunto em sessão unicameral — é o Senado, sob a presidência do Presidente do STF.', D: 'Inverte.' },
+      conceitoCobrado: 'Competências privativas do art. 51 e do art. 52.',
+      pegadinha: 'Confundir "autorizar" (Câmara) com "processar e julgar" (Senado).',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['Câmara', 'Senado', 'crime de responsabilidade']
+  },
+  {
+    id: 'Q-DID-DC-1203',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-12',
+    subtema: 'Imunidades parlamentares',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre as imunidades parlamentares (art. 53, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A imunidade MATERIAL abrange opiniões, palavras e votos, no exercício do mandato, valendo em qualquer lugar; a FORMAL protege contra prisão (salvo flagrante de crime inafiançável) e processo criminal.' },
+      { id: 'B', texto: 'A imunidade material só vale dentro do Congresso.' },
+      { id: 'C', texto: 'A imunidade formal impede qualquer processo criminal contra o parlamentar.' },
+      { id: 'D', texto: 'A imunidade material e a formal são sinônimos.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'MATERIAL (caput): opiniões, palavras e votos, no exercício do mandato, em qualquer lugar. FORMAL: prisão apenas em flagrante de crime inafiançável; processo criminal sem licença prévia (EC 35/2001), com possibilidade de sustação pela Casa.',
+      incorretas: { B: 'Vale em qualquer lugar.', C: 'Não impede — a EC 35/2001 aboliu a licença prévia para processo.', D: 'São distintas.' },
+      conceitoCobrado: 'Imunidades parlamentares.',
+      pegadinha: 'Achar que a imunidade material só vale no Congresso ou que a formal exige licença.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['imunidade', 'art. 53']
+  },
+  {
+    id: 'Q-DID-DC-1204',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-12',
+    subtema: 'CPI — poderes e limites',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre os poderes e limites da CPI (art. 58, §3º, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A CPI pode decretar prisão preventiva e determinar interceptação telefônica diretamente.' },
+      { id: 'B', texto: 'A CPI pode quebrar sigilo bancário, fiscal e de dados telefônicos, convocar, ouvir e requisitar, mas NÃO pode decretar prisão (salvo flagrante), determinar busca domiciliar ou interceptação telefônica.' },
+      { id: 'C', texto: 'A CPI não tem qualquer poder de investigação.' },
+      { id: 'D', texto: 'A CPI julga e condena os investigados.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'CPI tem poderes de investigação próprios das autoridades judiciais, mas com LIMITES: não prende (salvo flagrante), não faz busca domiciliar, não determina interceptação telefônica. Pode quebrar sigilos bancário/fiscal/de dados telefônicos.',
+      incorretas: { A: 'Excede os limites da CPI.', C: 'Tem poderes de investigação.', D: 'Não julga — apenas investiga e encaminha.' },
+      conceitoCobrado: 'Poderes e limites da CPI.',
+      pegadinha: 'Achar que a CPI pode tudo que um juiz pode.',
+      comoApareceEmConcurso: 'Alta frequência em concursos de Tribunais.'
+    },
+    tags: ['CPI', 'art. 58']
+  },
+  {
+    id: 'Q-DID-DC-1205',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-12',
+    subtema: 'Tribunal de Contas',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre o Tribunal de Contas da União (art. 70 a 75, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É órgão do Poder Judiciário, com competência para julgar contas.' },
+      { id: 'B', texto: 'É órgão auxiliar do Poder Legislativo, com autonomia e funções próprias, exercendo controle externo contábil, financeiro, orçamentário, operacional e patrimonial.' },
+      { id: 'C', texto: 'É subordinado ao Poder Executivo.' },
+      { id: 'D', texto: 'É uma autarquia federal.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'TCU é órgão AUXILIAR do Legislativo, com autonomia, sem subordinação hierárquica. Exerce controle externo.',
+      incorretas: { A: 'Não é do Judiciário.', C: 'Não é subordinado ao Executivo.', D: 'Não é autarquia.' },
+      conceitoCobrado: 'Natureza do Tribunal de Contas.',
+      pegadinha: 'Achar que integra o Judiciário.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['TCU', 'art. 70']
+  },
+
+  /* ============================================================
+     DC-13 — Processo Legislativo
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1301',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-13',
+    subtema: 'Quóruns',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre os quóruns no processo legislativo, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Emenda constitucional exige 3/5 em dois turnos em cada Casa; lei complementar exige maioria ABSOLUTA; lei ordinária exige maioria SIMPLES.' },
+      { id: 'B', texto: 'Emenda exige maioria absoluta; lei complementar exige 3/5; lei ordinária exige maioria simples.' },
+      { id: 'C', texto: 'Lei complementar e lei ordinária têm o mesmo quórum.' },
+      { id: 'D', texto: 'Emenda constitucional exige unanimidade.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Emenda (art. 60, §2º): 3/5 em dois turnos em cada Casa. LC (art. 69): maioria absoluta. LO (art. 47): maioria simples.',
+      incorretas: { B: 'Inverte.', C: 'LC (absoluta) ≠ LO (simples).', D: 'Não exige unanimidade.' },
+      conceitoCobrado: 'Quóruns.',
+      pegadinha: 'Trocar 3/5, absoluta e simples.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['quórum', 'processo legislativo']
+  },
+  {
+    id: 'Q-DID-DC-1302',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-13',
+    subtema: 'Medida provisória',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a medida provisória (art. 62, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Tem vigência de 60 dias, prorrogável uma única vez por igual período; se não apreciada em 45 dias, entra em regime de urgência e tranca a pauta da Casa onde estiver.' },
+      { id: 'B', texto: 'Tem vigência de 90 dias prorrogáveis indefinidamente.' },
+      { id: 'C', texto: 'Pode tratar de qualquer matéria.' },
+      { id: 'D', texto: 'Não precisa de relevância e urgência.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 62: 60 + 60 dias; trancamento da pauta após 45 dias; perde eficácia desde a edição se não apreciada em 120 dias.',
+      incorretas: { B: 'Prazo é 60+60.', C: 'Há vedações materiais (art. 62, §1º).', D: 'Relevância e urgência são pressupostos.' },
+      conceitoCobrado: 'Medida provisória.',
+      pegadinha: 'Confundir prazos ou esquecer o trancamento em 45 dias.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['MP', 'art. 62']
+  },
+  {
+    id: 'Q-DID-DC-1303',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-13',
+    subtema: 'Sanção e veto',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre a sanção e o veto (art. 66, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O Presidente tem 15 dias úteis para sancionar ou vetar; o veto pode ser total ou parcial, e é apreciado pelo Congresso em sessão conjunta, com derrubada por maioria absoluta.' },
+      { id: 'B', texto: 'O veto parcial pode atingir palavra ou artigo isolado sem relação com o conjunto.' },
+      { id: 'C', texto: 'O veto é irrecusável pelo Congresso.' },
+      { id: 'D', texto: 'A sanção tem prazo de 30 dias.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Prazo de 15 dias úteis; veto total ou parcial; derrubada por MAIORIA ABSOLUTA em sessão conjunta.',
+      incorretas: { B: 'Veto parcial só atinge parte com sentido próprio.', C: 'O veto pode ser derrubado.', D: 'Prazo é 15 dias úteis.' },
+      conceitoCobrado: 'Sanção e veto.',
+      pegadinha: 'Confundir prazo ou modalidade de veto.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['sanção', 'veto']
+  },
+  {
+    id: 'Q-DID-DC-1304',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-13',
+    subtema: 'Espécies normativas',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre as espécies normativas do art. 59, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São: emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.' },
+      { id: 'B', texto: 'São apenas: lei ordinária e lei complementar.' },
+      { id: 'C', texto: 'Decretos legislativos e resoluções não são espécies normativas.' },
+      { id: 'D', texto: 'Medidas provisórias não têm força de lei.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 59: 7 espécies normativas.',
+      incorretas: { B: 'Há 7.', C: 'São espécies previstas.', D: 'MP tem força de lei.' },
+      conceitoCobrado: 'Espécies normativas.',
+      pegadinha: 'Reduzir o rol.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['espécies normativas', 'art. 59']
+  },
+  {
+    id: 'Q-DID-DC-1305',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-13',
+    subtema: 'Decreto legislativo x resolução',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre decretos legislativos e resoluções, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Decretos legislativos tratam de matéria de competência EXCLUSIVA do Congresso (art. 49); resoluções tratam de matéria de competência PRIVATIVA do Congresso, da Câmara ou do Senado.' },
+      { id: 'B', texto: 'Ambos dependem de sanção do Presidente.' },
+      { id: 'C', texto: 'Decretos legislativos são sinônimos de resoluções.' },
+      { id: 'D', texto: 'Resoluções dependem de sanção e veto.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Decreto legislativo: matéria exclusiva (art. 49). Resolução: matéria privativa (Congresso, Câmara ou Senado).',
+      incorretas: { B: 'Nenhum dos dois depende de sanção.', C: 'São espécies distintas.', D: 'Não dependem de sanção.' },
+      conceitoCobrado: 'Decreto legislativo x resolução.',
+      pegadinha: 'Achar que dependem de sanção presidencial.',
+      comoApareceEmConcurso: 'Cobrança média.'
+    },
+    tags: ['decreto legislativo', 'resolução']
+  },
+
+  /* ============================================================
+     DC-RN — Constituição do Estado do Rio Grande do Norte
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-RN01',
+    tipo: 'DIDATICA',
+    area: 'CE',
+    moduloId: 'DC-RN',
+    subtema: 'Estrutura do Estado',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre a organização do Estado do Rio Grande do Norte, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O Poder Legislativo estadual é exercido pela Assembleia Legislativa do RN, UNICAMERAL, com deputados estaduais eleitos para mandato de 4 anos.' },
+      { id: 'B', texto: 'O Poder Legislativo estadual é bicameral, com deputados e senadores estaduais.' },
+      { id: 'C', texto: 'O Estado do RN é regido por Lei Orgânica.' },
+      { id: 'D', texto: 'A Capital do Estado é Mossoró.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Assembleia Legislativa do RN é UNICAMERAL, com deputados estaduais de mandato de 4 anos.',
+      incorretas: { B: 'Não há senadores estaduais.', C: 'Estados têm Constituição (não Lei Orgânica).', D: 'A Capital é Natal.' },
+      conceitoCobrado: 'Estrutura do Legislativo estadual.',
+      pegadinha: 'Confundir com bicameralismo ou com Lei Orgânica.',
+      comoApareceEmConcurso: 'Cobrado em concursos estaduais do RN.'
+    },
+    tags: ['RN', 'Assembleia']
+  },
+  {
+    id: 'Q-DID-DC-RN02',
+    tipo: 'DIDATICA',
+    area: 'CE',
+    moduloId: 'DC-RN',
+    subtema: 'Tribunal de Contas',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'No Rio Grande do Norte, o Tribunal de Contas do Estado (TCE/RN):',
+    alternativas: [
+      { id: 'A', texto: 'Fiscaliza apenas o Estado, sendo a fiscalização dos Municípios atribuída a um Tribunal de Contas dos Municípios separado.' },
+      { id: 'B', texto: 'É órgão auxiliar da Assembleia Legislativa e fiscaliza o Estado E os Municípios do RN, uma vez que não há Tribunal de Contas dos Municípios separado.' },
+      { id: 'C', texto: 'É órgão do Poder Judiciário.' },
+      { id: 'D', texto: 'É subordinado ao Governador do Estado.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'No RN, o TCE acumula as funções de fiscalização estadual e municipal — é órgão auxiliar do Legislativo, com autonomia.',
+      incorretas: { A: 'Não há TCM separado no RN.', C: 'Não é do Judiciário.', D: 'Não é subordinado ao Governador.' },
+      conceitoCobrado: 'Atuação do TCE/RN.',
+      pegadinha: 'Achar que existe TCM no RN.',
+      comoApareceEmConcurso: 'Cobrado em concursos do RN.'
+    },
+    tags: ['RN', 'TCE']
+  },
+  {
+    id: 'Q-DID-DC-RN03',
+    tipo: 'DIDATICA',
+    area: 'CE',
+    moduloId: 'DC-RN',
+    subtema: 'Subordinação à CF',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Sobre a relação entre a Constituição do Estado do RN (CE/RN/1989) e a Constituição Federal (CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A CE/RN é soberana e pode contrariar a CF.' },
+      { id: 'B', texto: 'A CE/RN está SUBORDINADA à CF/88 e não pode contrariar normas federais nem criar hipóteses não previstas na CF.' },
+      { id: 'C', texto: 'A CE/RN e a CF têm o mesmo status hierárquico.' },
+      { id: 'D', texto: 'A CE/RN revoga dispositivos da CF aplicáveis ao Estado.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A CE/RN é norma estadual, subordinada à CF — prevalece o princípio da supremacia constitucional federal.',
+      incorretas: { A: 'Não é soberana e não pode contrariar a CF.', C: 'Hierarquia é distinta.', D: 'Não revoga dispositivos da CF.' },
+      conceitoCobrado: 'Supremacia da CF sobre a CE.',
+      pegadinha: 'Achar que a CE pode contrariar a CF.',
+      comoApareceEmConcurso: 'Cobrança clássica em concursos estaduais.'
+    },
+    tags: ['RN', 'supremacia']
+  },
+  {
+    id: 'Q-DID-DC-RN04',
+    tipo: 'DIDATICA',
+    area: 'CE',
+    moduloId: 'DC-RN',
+    subtema: 'Servidores estaduais',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre o regime jurídico dos servidores públicos do Estado do RN, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É celetista (CLT).' },
+      { id: 'B', texto: 'É estatutário (regime jurídico único), estabelecido em Lei Complementar estadual.' },
+      { id: 'C', texto: 'É livre, sem lei específica.' },
+      { id: 'D', texto: 'Aplica-se somente aos servidores federais.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Servidores estaduais do RN são regidos por regime jurídico único (estatutário), em LC estadual.',
+      incorretas: { A: 'Não é celetista.', C: 'Exige lei.', D: 'Aplica-se aos servidores estaduais.' },
+      conceitoCobrado: 'Regime dos servidores estaduais.',
+      pegadinha: 'Confundir com celetista.',
+      comoApareceEmConcurso: 'Cobrado em concursos estaduais.'
+    },
+    tags: ['RN', 'servidores']
+  },
+  {
+    id: 'Q-DID-DC-RN05',
+    tipo: 'DIDATICA',
+    area: 'CE',
+    moduloId: 'DC-RN',
+    subtema: 'Eleição do Governador',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Sobre a eleição do Governador do Estado do RN, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É feita por maioria simples, sem 2º turno.' },
+      { id: 'B', texto: 'É feita por maioria ABSOLUTA, com 2º turno se necessário, mandato de 4 anos, admitida uma reeleição.' },
+      { id: 'C', texto: 'É feita por voto indireto (assembleia).' },
+      { id: 'D', texto: 'O Governador é nomeado pelo Presidente da República.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Eleição majoritária em 2 turnos se necessário; mandato de 4 anos; reeleição permitida uma única vez.',
+      incorretas: { A: 'Maioria absoluta com 2º turno.', C: 'Eleição direta.', D: 'Eleito pelo povo.' },
+      conceitoCobrado: 'Eleição do Governador.',
+      pegadinha: 'Confundir com eleição indireta.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['RN', 'Governador']
+  }
 
 ];
