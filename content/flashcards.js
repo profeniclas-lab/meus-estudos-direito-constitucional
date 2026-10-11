@@ -465,6 +465,192 @@ window.FLASHCARDS = [
     verso: 'Regime JURÍDICO ÚNICO (estatutário), estabelecido por LEI COMPLEMENTAR estadual. Não é regime celetista (CLT). O provimento em cargos efetivos depende de concurso público.',
     dificuldade: 2,
     tags: ['RN', 'servidores']
+  },
+
+  /* ============================================================
+     DC-10 — Intervenção
+  ============================================================ */
+  {
+    id: 'F-DC-10-0001',
+    moduloId: 'DC-10',
+    topicoId: 'DC-10',
+    frente: 'Quais são as hipóteses de intervenção FEDERAL nos Estados (art. 34)?',
+    verso: 'I) manter a integridade nacional; II) repelir invasão estrangeira ou de uma unidade da Federação em outra; III) pôr termo a grave comprometimento da ordem pública; IV) garantir o livre exercício de qualquer dos Poderes; V) reorganizar as finanças (dívida fundada não paga por mais de 2 anos); VI) prover execução de lei federal, ordem ou decisão judicial; VII) assegurar a observância dos princípios constitucionais sensíveis.',
+    dificuldade: 3,
+    tags: ['intervenção', 'art. 34']
+  },
+  {
+    id: 'F-DC-10-0002',
+    moduloId: 'DC-10',
+    topicoId: 'DC-10',
+    frente: 'Quais são as hipóteses de intervenção ESTADUAL nos Municípios (art. 35)?',
+    verso: 'I) deixar de ser paga, sem motivo, por 2 anos, a dívida fundada; II) não forem prestadas contas devidas; III) não tiver sido aplicado o mínimo exigido na educação e na saúde; IV) o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios da Constituição Estadual ou prover a execução de lei, ordem ou decisão judicial.',
+    dificuldade: 3,
+    tags: ['intervenção', 'art. 35']
+  },
+  {
+    id: 'F-DC-10-0003',
+    moduloId: 'DC-10',
+    topicoId: 'DC-10',
+    frente: 'Como funciona o procedimento da intervenção federal?',
+    verso: 'DECRETO: Presidente da República. OUVIDORIA: Conselho da República e Conselho de Defesa Nacional. CONTROLE: Congresso Nacional aprova o decreto em 24h (convocação extraordinária em 5 dias se em recesso). O decreto especifica amplitude, prazo e condições. Cessada a causa, retornam as autoridades afastadas (salvo impedimento legal).',
+    dificuldade: 3,
+    tags: ['intervenção', 'procedimento']
+  },
+
+  /* ============================================================
+     DC-14 — Poder Executivo
+  ============================================================ */
+  {
+    id: 'F-DC-14-0001',
+    moduloId: 'DC-14',
+    topicoId: 'DC-14',
+    frente: 'Qual é a linha sucessória do Presidente da República (art. 80)?',
+    verso: 'Em caso de impedimento do Presidente e do Vice, ou vacância dos cargos, assumem sucessivamente: 1) Presidente da Câmara dos Deputados; 2) Presidente do Senado Federal; 3) Presidente do STF.',
+    dificuldade: 2,
+    tags: ['sucessão', 'art. 80']
+  },
+  {
+    id: 'F-DC-14-0002',
+    moduloId: 'DC-14',
+    topicoId: 'DC-14',
+    frente: 'Como é a eleição em caso de vacância do cargo de Presidente (art. 81)?',
+    verso: 'VACÂNCIA NOS 2 PRIMEIROS ANOS: eleição DIRETA em 90 dias. VACÂNCIA NOS 2 ÚLTIMOS ANOS: eleição INDIRETA pelo Congresso em 30 dias. Em ambos os casos, os eleitos completam o período restante.',
+    dificuldade: 3,
+    tags: ['vacância', 'art. 81']
+  },
+  {
+    id: 'F-DC-14-0003',
+    moduloId: 'DC-14',
+    topicoId: 'DC-14',
+    frente: 'Quem processa e julga o Presidente em crime COMUM e em crime DE RESPONSABILIDADE?',
+    verso: 'CRIME COMUM: Câmara autoriza (2/3) → STF processa e julga. CRIME DE RESPONSABILIDADE: Câmara autoriza (2/3) → SENADO FEDERAL processa e julga. A Câmara apenas AUTORIZA; o órgão julgador varia conforme a natureza do crime.',
+    dificuldade: 3,
+    tags: ['crime de responsabilidade', 'impeachment']
+  },
+
+  /* ============================================================
+     DC-15 — Poder Judiciário
+  ============================================================ */
+  {
+    id: 'F-DC-15-0001',
+    moduloId: 'DC-15',
+    topicoId: 'DC-15',
+    frente: 'Quais são as garantias constitucionais dos magistrados (art. 95)?',
+    verso: 'VITALICIEDADE: o juiz não perde o cargo (após 2 anos no 1º grau; imediata nos tribunais superiores), salvo por sentença judicial transitada em julgado. INAMOVIBILIDADE: o juiz não pode ser removido de sua comarca sem sua vontade, salvo por interesse público (voto de 2/3 do tribunal). IRREDUTIBILIDADE DE SUBSÍDIO: não pode ser reduzido.',
+    dificuldade: 2,
+    tags: ['garantias', 'magistratura']
+  },
+  {
+    id: 'F-DC-15-0002',
+    moduloId: 'DC-15',
+    topicoId: 'DC-15',
+    frente: 'Qual a diferença entre STF e STJ (composição e função)?',
+    verso: 'STF: guarda da CONSTITUIÇÃO; 11 ministros; julga ADI, ADC, ADPF, ADO, extradição, HC de autoridades específicas. STJ: guarda da LEI FEDERAL; 33 ministros; julga recurso especial, MS contra Ministro de Estado, HC quando a autoridade é desembargador.',
+    dificuldade: 2,
+    tags: ['STF', 'STJ']
+  },
+  {
+    id: 'F-DC-15-0003',
+    moduloId: 'DC-15',
+    topicoId: 'DC-15',
+    frente: 'Qual é a função do CNJ?',
+    verso: 'Conselho Nacional de Justiça: órgão de CONTROLE administrativo, financeiro e disciplinar do Judiciário, criado pela EC 45/2004. Composição: 15 membros, presidido pelo Presidente do STF. NÃO julga causas.',
+    dificuldade: 2,
+    tags: ['CNJ', 'EC 45/2004']
+  },
+
+  /* ============================================================
+     DC-16 — Funções Essenciais à Justiça
+  ============================================================ */
+  {
+    id: 'F-DC-16-0001',
+    moduloId: 'DC-16',
+    topicoId: 'DC-16',
+    frente: 'Quais são os princípios institucionais do Ministério Público?',
+    verso: 'UNIDADE: o MP é uno (cada membro atua em nome da instituição). INDIVISIBILIDADE: os membros podem se substituir. INDEPENDÊNCIA FUNCIONAL: cada membro atua conforme sua consciência e a lei, sem subordinação a outro membro (art. 127, §1º).',
+    dificuldade: 3,
+    tags: ['MP', 'princípios']
+  },
+  {
+    id: 'F-DC-16-0002',
+    moduloId: 'DC-16',
+    topicoId: 'DC-16',
+    frente: 'Qual é a função da Defensoria Pública (art. 134)?',
+    verso: 'Instituição permanente e essencial à função jurisdicional do Estado, incumbindo-lhe a orientação jurídica, a promoção dos direitos humanos e a defesa, em todos os graus, judicial e extrajudicial, dos direitos individuais e coletivos, de forma INTEGRAL e GRATUITA, aos NECESSITADOS. Tem autonomia funcional e administrativa (EC 80/2014).',
+    dificuldade: 2,
+    tags: ['Defensoria Pública']
+  },
+  {
+    id: 'F-DC-16-0003',
+    moduloId: 'DC-16',
+    topicoId: 'DC-16',
+    frente: 'Qual é a função da AGU, das PGEs e das PGMs?',
+    verso: 'AGU (art. 131): representa a UNIÃO, judicial e extrajudicialmente, e presta consultoria ao Executivo federal. PGEs (art. 132): representam os ESTADOS e o DF. PGMs: representam os MUNICÍPIOS. Todas são formas de ADVOCACIA PÚBLICA — defendem o ESTADO, não o cidadão.',
+    dificuldade: 3,
+    tags: ['AGU', 'advocacia pública']
+  },
+
+  /* ============================================================
+     DC-17 — Defesa do Estado e Instituições Democráticas
+  ============================================================ */
+  {
+    id: 'F-DC-17-0001',
+    moduloId: 'DC-17',
+    topicoId: 'DC-17',
+    frente: 'Qual a diferença entre Estado de Defesa e Estado de Sítio?',
+    verso: 'DEFESA (art. 136): instabilidade institucional grave e iminente OU calamidades naturais de grandes proporções em LOCAIS RESTRITOS; prazo de 30 dias, prorrogável UMA VEZ. SÍTIO (art. 137): comoção nacional, ineficácia do Estado de Defesa ou guerra/agressão estrangeira; prazo de 30 dias, prorrogável por iguais períodos.',
+    dificuldade: 3,
+    tags: ['Estado de Defesa', 'Estado de Sítio']
+  },
+  {
+    id: 'F-DC-17-0002',
+    moduloId: 'DC-17',
+    topicoId: 'DC-17',
+    frente: 'Quais são as três Forças Armadas e sua missão (art. 142)?',
+    verso: 'Marinha, Exército e Aeronáutica. Missão: defesa da Pátria, garantia dos Poderes constituídos e da lei e da ordem. São instituições NACIONAIS permanentes e regulares, organizadas com base na hierarquia e disciplina, sob autoridade suprema do Presidente da República.',
+    dificuldade: 2,
+    tags: ['Forças Armadas']
+  },
+  {
+    id: 'F-DC-17-0003',
+    moduloId: 'DC-17',
+    topicoId: 'DC-17',
+    frente: 'Quais são os órgãos de segurança pública (art. 144)?',
+    verso: 'I) Polícia Federal; II) Polícia Rodoviária Federal; III) Polícia Ferroviária Federal; IV) Polícias Civis; V) Polícias Militares e Corpos de Bombeiros Militares. Os Municípios PODEM constituir guardas municipais para proteção de bens, serviços e instalações.',
+    dificuldade: 2,
+    tags: ['segurança pública', 'art. 144']
+  },
+
+  /* ============================================================
+     DC-18 — Controle de Constitucionalidade
+  ============================================================ */
+  {
+    id: 'F-DC-18-0001',
+    moduloId: 'DC-18',
+    topicoId: 'DC-18',
+    frente: 'Qual a diferença entre controle difuso e concentrado?',
+    verso: 'DIFUSO (incidental): qualquer juiz ou tribunal, ao julgar caso concreto; efeitos INTER PARTES. CONCENTRADO (abstrato): STF, em ação própria (ADI, ADC, ADPF, ADO); efeitos ERGA OMNES e VINCULANTE.',
+    dificuldade: 3,
+    tags: ['difuso', 'concentrado']
+  },
+  {
+    id: 'F-DC-18-0002',
+    moduloId: 'DC-18',
+    topicoId: 'DC-18',
+    frente: 'Qual o cabimento de cada ação do controle concentrado (ADI, ADC, ADPF, ADO)?',
+    verso: 'ADI: lei ou ato normativo FEDERAL ou ESTADUAL (inconstitucionalidade). ADC: lei ou ato normativo FEDERAL (constitucionalidade). ADPF: preceito fundamental — residual, quando não houver outro meio eficaz. ADO: omissão legislativa (falta de lei que regulamente norma constitucional).',
+    dificuldade: 3,
+    tags: ['ADI', 'ADC', 'ADPF', 'ADO']
+  },
+  {
+    id: 'F-DC-18-0003',
+    moduloId: 'DC-18',
+    topicoId: 'DC-18',
+    frente: 'Quem são os legitimados para propor ADI e ADC (art. 103)?',
+    verso: 'Presidente da República; Mesa do Senado Federal; Mesa da Câmara dos Deputados; Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF; Governador de Estado ou do DF; Procurador-Geral da República; Conselho Federal da OAB; partido político com representação no Congresso Nacional; confederação sindical ou entidade de classe de âmbito nacional.',
+    dificuldade: 3,
+    tags: ['ADI', 'legitimados']
   }
 
 ];
