@@ -1107,7 +1107,7 @@ window.QUESTIONS = [
     gabarito: 'A',
     explicacao: {
       correta: 'Art. 32, §1º: ao DF são atribuídas as competências legislativas reservadas aos Estados e Municípios.',
-      incorretas: { B e C: 'Acumula as duas.', D: 'Acumula as competências estaduais e municipais.' },
+      incorretas: { B: 'Acumula as duas (municipais + estaduais).', C: 'Acumula as duas (municipais + estaduais).', D: 'Acumula as competências estaduais e municipais.' },
       conceitoCobrado: 'Competências do DF.',
       pegadinha: 'Achar que o DF tem só competências estaduais.',
       comoApareceEmConcurso: 'Cobrança média.'
