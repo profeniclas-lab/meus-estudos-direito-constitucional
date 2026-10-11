@@ -1654,6 +1654,781 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança direta.'
     },
     tags: ['RN', 'Governador']
+  },
+
+  /* ============================================================
+     DC-10 — Intervenção
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1001',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-10',
+    subtema: 'Hipóteses de intervenção federal',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'NÃO é hipótese de intervenção FEDERAL nos Estados (art. 34, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Manter a integridade nacional.' },
+      { id: 'B', texto: 'Repelir invasão estrangeira ou de uma unidade da Federação em outra.' },
+      { id: 'C', texto: 'Deixar de aplicar o mínimo exigido da receita municipal na saúde e na educação.' },
+      { id: 'D', texto: 'Reorganizar as finanças da unidade da Federação que suspender o pagamento da dívida fundada por mais de 2 anos.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A não aplicação do mínimo em saúde e educação é hipótese de intervenção ESTADUAL em MUNICÍPIO (art. 35, III).',
+      incorretas: { A: 'É hipótese do art. 34, I.', B: 'É hipótese do art. 34, II.', D: 'É hipótese do art. 34, V.' },
+      conceitoCobrado: 'Hipóteses de intervenção federal x estadual.',
+      pegadinha: 'Misturar hipóteses dos arts. 34 e 35.',
+      comoApareceEmConcurso: 'Cobrança clássica.'
+    },
+    tags: ['intervenção', 'art. 34']
+  },
+  {
+    id: 'Q-DID-DC-1002',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-10',
+    subtema: 'Hipóteses de intervenção estadual',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'São hipóteses de intervenção ESTADUAL nos Municípios (art. 35, CF/88), EXCETO:',
+    alternativas: [
+      { id: 'A', texto: 'Deixar de ser paga, sem motivo, por 2 anos, a dívida fundada.' },
+      { id: 'B', texto: 'Não forem prestadas contas devidas, na forma da lei.' },
+      { id: 'C', texto: 'Não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde.' },
+      { id: 'D', texto: 'Descumprimento de decisão do Tribunal de Contas da União.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A hipótese do inciso IV do art. 35 é o Tribunal de JUSTIÇA dar provimento a representação para assegurar a observância de princípios da Constituição ESTADUAL, ou prover execução de lei, ordem ou decisão judicial — não do TCU.',
+      incorretas: { A: 'É o inciso I.', B: 'É o inciso II.', C: 'É o inciso III.' },
+      conceitoCobrado: 'Intervenção estadual em Municípios.',
+      pegadinha: 'Confundir TJ com TCU.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['intervenção', 'art. 35']
+  },
+  {
+    id: 'Q-DID-DC-1003',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-10',
+    subtema: 'Procedimento',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre o procedimento da intervenção federal, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O decreto é expedido pelo Congresso Nacional e sancionado pelo Presidente.' },
+      { id: 'B', texto: 'O decreto é expedido pelo Presidente, ouvidos o Conselho da República e o Conselho de Defesa Nacional, e submetido ao Congresso em 24 horas.' },
+      { id: 'C', texto: 'O decreto é expedido pelo STF.' },
+      { id: 'D', texto: 'O decreto dispensa controle do Congresso.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 36: decreto do Presidente + ouvidoria prévia dos Conselhos + controle do Congresso em 24h (convocação extraordinária em 5 dias se em recesso).',
+      incorretas: { A: 'Não é do Congresso.', C: 'Não é do STF.', D: 'Há controle político pelo Congresso.' },
+      conceitoCobrado: 'Procedimento da intervenção.',
+      pegadinha: 'Achar que é o Congresso que decreta.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['intervenção', 'procedimento']
+  },
+  {
+    id: 'Q-DID-DC-1004',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-10',
+    subtema: 'Intervenção x Estado de Defesa',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a diferença entre intervenção e Estado de Defesa, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Intervenção atinge o ente federativo (quebra temporária de autonomia); Estado de Defesa restringe direitos em locais determinados, sem quebra da autonomia.' },
+      { id: 'B', texto: 'São sinônimos.' },
+      { id: 'C', texto: 'O Estado de Defesa quebra a autonomia do Estado.' },
+      { id: 'D', texto: 'A intervenção só pode ocorrer em Municípios.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Intervenção: atinge ente federativo (Estado ou Município). Estado de Defesa: restrição de direitos em locais determinados, sem quebra da autonomia.',
+      incorretas: { B: 'São institutos distintos.', C: 'Não quebra autonomia.', D: 'A intervenção federal atinge Estados e DF; a estadual, Municípios.' },
+      conceitoCobrado: 'Distinção entre intervenção e Estado de Defesa.',
+      pegadinha: 'Confundir os institutos.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['intervenção', 'defesa']
+  },
+  {
+    id: 'Q-DID-DC-1005',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-10',
+    subtema: 'Efeitos',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre o término da intervenção, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É permanente — uma vez decretada, não pode cessar.' },
+      { id: 'B', texto: 'Cessada a causa, as autoridades afastadas retornam aos seus cargos, salvo impedimento legal.' },
+      { id: 'C', texto: 'As autoridades afastadas nunca retornam.' },
+      { id: 'D', texto: 'A intervenção só pode cessar por decisão do STF.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 36, §3º: cessados os motivos da intervenção, as autoridades afastadas retornam aos seus cargos, salvo impedimento legal.',
+      incorretas: { A: 'É temporária.', C: 'Retornam.', D: 'Cessa quando cessa a causa.' },
+      conceitoCobrado: 'Efeitos da cessação da intervenção.',
+      pegadinha: 'Achar que a intervenção é permanente.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['intervenção', 'cessação']
+  },
+
+  /* ============================================================
+     DC-14 — Poder Executivo
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1401',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-14',
+    subtema: 'Requisitos',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'São requisitos para ser Presidente da República, EXCETO:',
+    alternativas: [
+      { id: 'A', texto: 'Ser brasileiro nato.' },
+      { id: 'B', texto: 'Ter no mínimo 35 anos de idade.' },
+      { id: 'C', texto: 'Estar no pleno exercício dos direitos políticos e ter domicílio eleitoral.' },
+      { id: 'D', texto: 'Ter no mínimo 30 anos de idade.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Idade mínima é 35 anos (art. 14, §3º, VI, "a"), não 30 (que é para Governador).',
+      incorretas: { A: 'É requisito.', B: 'É requisito.', C: 'É requisito.' },
+      conceitoCobrado: 'Requisitos para Presidente.',
+      pegadinha: 'Trocar 35 com 30.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['Presidente', 'requisitos']
+  },
+  {
+    id: 'Q-DID-DC-1402',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-14',
+    subtema: 'Sucessão',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Em caso de vacância simultânea dos cargos de Presidente e Vice nos 2 últimos anos do mandato, o que ocorre?',
+    alternativas: [
+      { id: 'A', texto: 'Eleição DIRETA em 90 dias.' },
+      { id: 'B', texto: 'Eleição INDIRETA pelo Congresso Nacional em 30 dias.' },
+      { id: 'C', texto: 'Assume definitivamente o Presidente do STF.' },
+      { id: 'D', texto: 'Não há nova eleição — o mandato é concluído pelo Presidente da Câmara.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 81, §1º: vacância nos 2 últimos anos → eleição INDIRETA pelo Congresso em 30 dias.',
+      incorretas: { A: 'Eleição direta é nos 2 primeiros anos.', C: 'A linha sucessória assume apenas temporariamente, não definitivamente.', D: 'Há nova eleição.' },
+      conceitoCobrado: 'Vacância nos 2 últimos anos.',
+      pegadinha: 'Inverter os prazos e modalidades.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['sucessão', 'vacância']
+  },
+  {
+    id: 'Q-DID-DC-1403',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-14',
+    subtema: 'Crimes de responsabilidade',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre os crimes de responsabilidade do Presidente da República, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'A Câmara autoriza por 2/3 e o STF julga.' },
+      { id: 'B', texto: 'A Câmara autoriza por 2/3 e o Senado Federal processa e julga.' },
+      { id: 'C', texto: 'O Senado julga sem necessidade de autorização.' },
+      { id: 'D', texto: 'O STF julga diretamente.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Crime de responsabilidade: Câmara AUTORIZA (2/3) e Senado PROCESSA E JULGA (art. 86 + art. 52, I).',
+      incorretas: { A: 'STF julga crime COMUM.', C: 'Há necessidade de autorização.', D: 'STF julga crime comum.' },
+      conceitoCobrado: 'Crime de responsabilidade.',
+      pegadinha: 'Confundir crime comum com crime de responsabilidade.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['crime de responsabilidade', 'impeachment']
+  },
+  {
+    id: 'Q-DID-DC-1404',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-14',
+    subtema: 'Competências',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'NÃO é competência privativa do Presidente da República (art. 84, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução.' },
+      { id: 'B', texto: 'Editar medidas provisórias com força de lei.' },
+      { id: 'C', texto: 'Nomear, após aprovação pelo Senado, os Ministros do STF.' },
+      { id: 'D', texto: 'Julgar as causas em que a União seja parte.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Julgar causas em que a União é parte é competência do PODER JUDICIÁRIO (Justiça Federal), não do Presidente.',
+      incorretas: { A: 'É o inciso IV.', B: 'É o inciso XXVI.', C: 'É o inciso XIV (com aprovação do Senado).' },
+      conceitoCobrado: 'Competências do Presidente.',
+      pegadinha: 'Confundir função administrativa com jurisdicional.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['Presidente', 'competências']
+  },
+  {
+    id: 'Q-DID-DC-1405',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-14',
+    subtema: 'Mandato',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre o mandato do Presidente da República, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É de 4 anos, permitida uma única reeleição.' },
+      { id: 'B', texto: 'É de 5 anos, sem possibilidade de reeleição.' },
+      { id: 'C', texto: 'É de 4 anos, sem possibilidade de reeleição.' },
+      { id: 'D', texto: 'É de 6 anos, com reeleição ilimitada.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 82 + EC 16/1997: mandato de 4 anos, admitida UMA única reeleição.',
+      incorretas: { B: 'É 4 anos, com uma reeleição.', C: 'Admite uma reeleição.', D: 'Não é 6 anos.' },
+      conceitoCobrado: 'Mandato presidencial e reeleição.',
+      pegadinha: 'Trocar duração ou negar reeleição.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['mandato', 'reeleição']
+  },
+
+  /* ============================================================
+     DC-15 — Poder Judiciário
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1501',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-15',
+    subtema: 'STF x STJ',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre o STF e o STJ, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O STF é guarda da lei federal; o STJ é guarda da Constituição.' },
+      { id: 'B', texto: 'O STF é guarda da Constituição; o STJ é guarda da lei federal.' },
+      { id: 'C', texto: 'Ambos têm 11 ministros.' },
+      { id: 'D', texto: 'O STJ julga ADI e ADPF.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'STF = guarda da CF (11 ministros); STJ = guarda da lei federal (33 ministros).',
+      incorretas: { A: 'Inverte.', C: 'STF = 11; STJ = 33.', D: 'ADI/ADPF são do STF.' },
+      conceitoCobrado: 'Funções do STF e do STJ.',
+      pegadinha: 'Inverter guarda e composição.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['STF', 'STJ']
+  },
+  {
+    id: 'Q-DID-DC-1502',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-15',
+    subtema: 'Garantias dos magistrados',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'São garantias constitucionais dos magistrados (art. 95, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Vitaliciedade, inamovibilidade e irredutibilidade de subsídio.' },
+      { id: 'B', texto: 'Estabilidade, inamovibilidade e irredutibilidade de vencimentos.' },
+      { id: 'C', texto: 'Vitaliciedade, estabilidade e irredutibilidade.' },
+      { id: 'D', texto: 'Apenas vitaliciedade.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 95: vitaliciedade, inamovibilidade e irredutibilidade de subsídio.',
+      incorretas: { B: 'Magistrado tem vitaliciedade, não estabilidade.', C: 'Estabilidade é do servidor público.', D: 'São três garantias.' },
+      conceitoCobrado: 'Garantias do magistrado.',
+      pegadinha: 'Trocar vitaliciedade por estabilidade.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['garantias', 'magistratura']
+  },
+  {
+    id: 'Q-DID-DC-1503',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-15',
+    subtema: 'Justiça Federal',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Compete à Justiça Federal processar e julgar:',
+    alternativas: [
+      { id: 'A', texto: 'Causas em que a União, autarquia federal ou empresa pública federal forem partes.' },
+      { id: 'B', texto: 'Causas entre particulares sobre contratos.' },
+      { id: 'C', texto: 'Divórcios.' },
+      { id: 'D', texto: 'Crimes militares.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 109, I: causas em que a União, autarquia ou empresa pública federal forem partes (como autoras, rés, assistentes ou oponentes).',
+      incorretas: { B: 'Competência da Justiça Estadual.', C: 'Justiça Estadual (varas de família).', D: 'Justiça Militar.' },
+      conceitoCobrado: 'Competência da Justiça Federal.',
+      pegadinha: 'Achar que qualquer causa com ente público é federal.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['Justiça Federal', 'art. 109']
+  },
+  {
+    id: 'Q-DID-DC-1504',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-15',
+    subtema: 'CNJ',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre o Conselho Nacional de Justiça (CNJ), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É órgão de controle administrativo, financeiro e disciplinar do Judiciário, criado pela EC 45/2004.' },
+      { id: 'B', texto: 'Julga causas originárias em matéria constitucional.' },
+      { id: 'C', texto: 'Substitui o STF no julgamento de ADI.' },
+      { id: 'D', texto: 'É subordinado ao Poder Executivo.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'CNJ: órgão de controle administrativo, financeiro e disciplinar do Judiciário (EC 45/2004).',
+      incorretas: { B: 'Não julga causas.', C: 'ADI continua sendo do STF.', D: 'Tem autonomia.' },
+      conceitoCobrado: 'Função do CNJ.',
+      pegadinha: 'Achar que o CNJ julga causas.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['CNJ', 'EC 45/2004']
+  },
+  {
+    id: 'Q-DID-DC-1505',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-15',
+    subtema: 'Justiça Estadual',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a Justiça Estadual, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Tem competência residual — tudo o que não for das Justiças Federal, do Trabalho, Eleitoral e Militar.' },
+      { id: 'B', texto: 'Julga apenas causas penais.' },
+      { id: 'C', texto: 'Só existe na capital.' },
+      { id: 'D', texto: 'Substitui a Justiça Federal quando esta estiver sobrecarregada.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Justiça Estadual tem competência RESIDUAL — o que não for das outras Justiças.',
+      incorretas: { B: 'Julga causas cíveis, penais, comerciais, etc.', C: 'Existe em todo o Estado.', D: 'Não substitui.' },
+      conceitoCobrado: 'Competência residual da Justiça Estadual.',
+      pegadinha: 'Achar que tem competência limitada.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['Justiça Estadual']
+  },
+
+  /* ============================================================
+     DC-16 — Funções Essenciais à Justiça
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1601',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-16',
+    subtema: 'Ministério Público',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'São princípios institucionais do Ministério Público (art. 127, §1º, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Unidade, indivisibilidade e independência funcional.' },
+      { id: 'B', texto: 'Legalidade, impessoalidade e moralidade.' },
+      { id: 'C', texto: 'Hierarquia, disciplina e subordinação.' },
+      { id: 'D', texto: 'Publicidade, eficiência e transparência.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 127, §1º: unidade, indivisibilidade e independência funcional.',
+      incorretas: { B: 'São princípios da Administração (LIMPE parcial).', C: 'Hierarquia é do Judiciário/Militar.', D: 'São princípios da Administração.' },
+      conceitoCobrado: 'Princípios do MP.',
+      pegadinha: 'Confundir com LIMPE.',
+      comoApareceEmConcurso: 'Altíssima frequência em concursos de MP.'
+    },
+    tags: ['MP', 'princípios']
+  },
+  {
+    id: 'Q-DID-DC-1602',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-16',
+    subtema: 'Defensoria Pública',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre a Defensoria Pública (art. 134, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É instituição permanente, essencial à função jurisdicional do Estado, à qual incumbe a orientação jurídica, a promoção dos direitos humanos e a defesa dos direitos individuais e coletivos aos necessitados, integral e gratuitamente.' },
+      { id: 'B', texto: 'É subordinada ao Poder Executivo.' },
+      { id: 'C', texto: 'Atende apenas quem paga.' },
+      { id: 'D', texto: 'Só existe na esfera federal.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 134 (redação da EC 80/2014): Defensoria é instituição permanente, essencial à função jurisdicional, que atende os necessitados de forma integral e gratuita.',
+      incorretas: { B: 'Tem autonomia funcional e administrativa.', C: 'Atende gratuitamente.', D: 'Existe em todas as esferas.' },
+      conceitoCobrado: 'Defensoria Pública.',
+      pegadinha: 'Achar que é subordinada.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['Defensoria Pública']
+  },
+  {
+    id: 'Q-DID-DC-1603',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-16',
+    subtema: 'Advocacia-Geral da União',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre a Advocacia-Geral da União (AGU), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Representa a União, judicial e extrajudicialmente, e presta consultoria e assessoramento ao Poder Executivo federal.' },
+      { id: 'B', texto: 'É órgão do Poder Judiciário.' },
+      { id: 'C', texto: 'Defende os necessitados.' },
+      { id: 'D', texto: 'É subordinada ao STF.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 131: AGU representa a União (judicial e extrajudicialmente) e presta consultoria/assessoramento ao Executivo federal.',
+      incorretas: { B: 'É órgão do Executivo federal (função essencial à Justiça).', C: 'Defensoria defende necessitados.', D: 'Não é subordinada ao STF.' },
+      conceitoCobrado: 'AGU.',
+      pegadinha: 'Confundir AGU com Defensoria ou MP.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['AGU', 'advocacia pública']
+  },
+  {
+    id: 'Q-DID-DC-1604',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-16',
+    subtema: 'Advocacia',
+    dificuldade: 1,
+    prioridade: 'media',
+    enunciado: 'Sobre a advocacia (art. 133, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.' },
+      { id: 'B', texto: 'O advogado é subordinado ao Judiciário.' },
+      { id: 'C', texto: 'Só pode atuar em causas criminais.' },
+      { id: 'D', texto: 'Sua atuação depende de autorização judicial prévia.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 133: literalidade.',
+      incorretas: { B: 'É autônomo.', C: 'Atua em qualquer causa.', D: 'Não depende de autorização judicial.' },
+      conceitoCobrado: 'Advocacia.',
+      pegadinha: 'Restringir a atuação.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['advocacia', 'art. 133']
+  },
+  {
+    id: 'Q-DID-DC-1605',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-16',
+    subtema: 'CNMP',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre o Conselho Nacional do Ministério Público (CNMP), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É órgão de controle administrativo, financeiro e disciplinar do MP, criado pela EC 45/2004.' },
+      { id: 'B', texto: 'Julga causas penais contra membros do MP.' },
+      { id: 'C', texto: 'Substitui o MP na propositura de ações.' },
+      { id: 'D', texto: 'É subordinado ao Poder Executivo.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'CNMP: controle administrativo, financeiro e disciplinar do MP (EC 45/2004).',
+      incorretas: { B: 'Não julga causas.', C: 'Não substitui o MP.', D: 'Tem autonomia.' },
+      conceitoCobrado: 'CNMP.',
+      pegadinha: 'Achar que julga causas.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['CNMP', 'EC 45/2004']
+  },
+
+  /* ============================================================
+     DC-17 — Defesa do Estado e Instituições Democráticas
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1701',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-17',
+    subtema: 'Estado de Defesa',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre o Estado de Defesa (art. 136, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Prazo de 30 dias, prorrogável uma única vez por igual período; decreto do Presidente, ouvidos os Conselhos da República e de Defesa Nacional.' },
+      { id: 'B', texto: 'Prazo de 60 dias, prorrogável indefinidamente.' },
+      { id: 'C', texto: 'Não depende de controle pelo Congresso.' },
+      { id: 'D', texto: 'Pode ser decretado apenas em caso de guerra.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 136: 30 dias, prorrogável UMA vez; decreto do Presidente; ouvidoria dos Conselhos; controle pelo Congresso.',
+      incorretas: { B: 'Prazo é 30+30.', C: 'Há controle político.', D: 'Guerra é hipótese do Estado de Sítio.' },
+      conceitoCobrado: 'Estado de Defesa.',
+      pegadinha: 'Confundir prazo com o Estado de Sítio.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['Estado de Defesa', 'art. 136']
+  },
+  {
+    id: 'Q-DID-DC-1702',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-17',
+    subtema: 'Estado de Sítio',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre o Estado de Sítio (art. 137, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Cabe em caso de comoção grave de repercussão nacional, ineficácia do Estado de Defesa ou declaração de guerra/agressão estrangeira; prazo de 30 dias, prorrogável por iguais períodos.' },
+      { id: 'B', texto: 'Cabe apenas em caso de calamidade natural.' },
+      { id: 'C', texto: 'Não pode ser prorrogado.' },
+      { id: 'D', texto: 'O Congresso pode ser dissolvido durante o Estado de Sítio.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 137: comoção nacional, ineficácia do Estado de Defesa ou guerra/agressão estrangeira; 30 dias prorrogável por iguais períodos.',
+      incorretas: { B: 'Calamidade natural é hipótese de Estado de Defesa.', C: 'Pode ser prorrogado.', D: 'O Congresso NÃO pode ser dissolvido (art. 138).' },
+      conceitoCobrado: 'Estado de Sítio.',
+      pegadinha: 'Confundir hipóteses.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['Estado de Sítio', 'art. 137']
+  },
+  {
+    id: 'Q-DID-DC-1703',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-17',
+    subtema: 'Forças Armadas',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre as Forças Armadas (art. 142, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'São constituídas pela Marinha, Exército e Aeronáutica; destinam-se à defesa da Pátria, à garantia dos Poderes constituídos e da lei e da ordem.' },
+      { id: 'B', texto: 'Incluem as polícias militares.' },
+      { id: 'C', texto: 'São subordinadas aos Estados.' },
+      { id: 'D', texto: 'Têm função de polícia judiciária.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 142: Marinha, Exército e Aeronáutica; missão de defesa da Pátria, garantia dos Poderes e da lei e da ordem.',
+      incorretas: { B: 'Polícias militares são órgãos de segurança pública (art. 144).', C: 'São instituições nacionais.', D: 'Polícia judiciária é da PF e das Polícias Civis.' },
+      conceitoCobrado: 'Forças Armadas.',
+      pegadinha: 'Confundir FFAA com segurança pública.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['Forças Armadas', 'art. 142']
+  },
+  {
+    id: 'Q-DID-DC-1704',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-17',
+    subtema: 'Segurança Pública',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre os órgãos de segurança pública (art. 144, CF/88), assinale a alternativa INCORRETA:',
+    alternativas: [
+      { id: 'A', texto: 'Polícia Federal: apura crimes contra a ordem política e social e faz polícia marítima, aeroportuária e de fronteiras.' },
+      { id: 'B', texto: 'Polícia Rodoviária Federal: patrulhamento ostensivo das rodovias federais.' },
+      { id: 'C', texto: 'Polícias Militares: policiamento ostensivo e preservação da ordem pública nos Estados.' },
+      { id: 'D', texto: 'Polícias Civis: policiamento ostensivo nas ruas.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Polícias Civis exercem funções de POLÍCIA JUDICIÁRIA e apuram infrações penais (exceto militares). Policiamento ostensivo é da Polícia Militar.',
+      incorretas: { A: 'Correta.', B: 'Correta.', C: 'Correta.' },
+      conceitoCobrado: 'Atribuições das polícias.',
+      pegadinha: 'Confundir polícia judiciária com ostensiva.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['segurança pública', 'art. 144']
+  },
+  {
+    id: 'Q-DID-DC-1705',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-17',
+    subtema: 'Controle',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre o controle do Estado de Defesa e do Estado de Sítio, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O decreto é submetido ao Congresso Nacional, que decide por maioria absoluta; durante o Estado de Sítio, o Congresso não pode ser dissolvido.' },
+      { id: 'B', texto: 'Não há controle pelo Congresso.' },
+      { id: 'C', texto: 'O STF controla exclusivamente.' },
+      { id: 'D', texto: 'O decreto dispensa justificativa.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Controle político pelo Congresso (apreciação do decreto). Art. 138: o Congresso não pode ser dissolvido durante o Estado de Sítio.',
+      incorretas: { B: 'Há controle.', C: 'O controle é político pelo Congresso.', D: 'O decreto deve indicar motivos.' },
+      conceitoCobrado: 'Controle do Estado de Defesa e Sítio.',
+      pegadinha: 'Achar que não há controle.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['controle', 'art. 138']
+  },
+
+  /* ============================================================
+     DC-18 — Controle de Constitucionalidade
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1801',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-18',
+    subtema: 'Difuso x concentrado',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre as espécies de controle de constitucionalidade, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Difuso: qualquer juiz, incidental, efeitos inter partes. Concentrado: STF, ação própria, efeitos erga omnes e vinculante.' },
+      { id: 'B', texto: 'Difuso: STF, efeitos erga omnes. Concentrado: qualquer juiz, inter partes.' },
+      { id: 'C', texto: 'Ambos são exercidos exclusivamente pelo STF.' },
+      { id: 'D', texto: 'O controle concentrado é exercido por qualquer tribunal.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'DIFUSO: qualquer juiz, incidental, inter partes. CONCENTRADO: STF, ação própria, erga omnes e vinculante.',
+      incorretas: { B: 'Inverte.', C: 'Só o concentrado é exclusivo do STF.', D: 'É exclusivo do STF.' },
+      conceitoCobrado: 'Difuso x concentrado.',
+      pegadinha: 'Inverter as definições.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['difuso', 'concentrado']
+  },
+  {
+    id: 'Q-DID-DC-1802',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-18',
+    subtema: 'ADI x ADC',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a ADI e a ADC, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'ADI cabe contra lei ou ato normativo federal ou estadual; ADC cabe apenas contra lei ou ato normativo FEDERAL.' },
+      { id: 'B', texto: 'Ambas cabem contra lei municipal.' },
+      { id: 'C', texto: 'A ADC cabe contra lei estadual.' },
+      { id: 'D', texto: 'A ADI cabe apenas contra lei federal.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'ADI (art. 102, I, "a"): lei federal OU estadual. ADC: apenas lei FEDERAL.',
+      incorretas: { B: 'Lei municipal não cabe ADI/ADC.', C: 'ADC é só federal.', D: 'ADI também cabe contra lei estadual.' },
+      conceitoCobrado: 'Cabimento ADI e ADC.',
+      pegadinha: 'Confundir os cabimentos.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['ADI', 'ADC']
+  },
+  {
+    id: 'Q-DID-DC-1803',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-18',
+    subtema: 'ADPF x ADO',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre ADPF e ADO, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'ADPF é residual (cabe quando não houver outro meio eficaz) e protege preceito fundamental; ADO visa tornar efetiva norma constitucional em caso de omissão legislativa.' },
+      { id: 'B', texto: 'ADPF e ADO são sinônimos.' },
+      { id: 'C', texto: 'ADO cabe contra lei existente.' },
+      { id: 'D', texto: 'ADPF só cabe contra lei federal.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'ADPF: residual, protege preceito fundamental. ADO: omissão legislativa.',
+      incorretas: { B: 'São distintas.', C: 'ADO é para omissão.', D: 'ADPF abrange lei municipal, estadual e federal.' },
+      conceitoCobrado: 'ADPF x ADO.',
+      pegadinha: 'Confundir finalidades.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['ADPF', 'ADO']
+  },
+  {
+    id: 'Q-DID-DC-1804',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-18',
+    subtema: 'Legitimados',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'NÃO é legitimado para propor ADI (art. 103, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Presidente da República.' },
+      { id: 'B', texto: 'Procurador-Geral da República.' },
+      { id: 'C', texto: 'Conselho Federal da OAB.' },
+      { id: 'D', texto: 'Qualquer cidadão.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Qualquer cidadão não é legitimado para ADI (isso é para AÇÃO POPULAR). Os legitimados estão no art. 103.',
+      incorretas: { A: 'É legitimado (art. 103, I).', B: 'É legitimado (art. 103, VI).', C: 'É legitimado (art. 103, VII).' },
+      conceitoCobrado: 'Legitimados do art. 103.',
+      pegadinha: 'Confundir com AÇÃO POPULAR.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['ADI', 'legitimados']
+  },
+  {
+    id: 'Q-DID-DC-1805',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-18',
+    subtema: 'Efeitos',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre os efeitos da decisão de mérito em ADI, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Em regra, são erga omnes e vinculantes; a modulação de efeitos é possível (art. 27 da Lei 9.868/1999).' },
+      { id: 'B', texto: 'São sempre inter partes.' },
+      { id: 'C', texto: 'Só valem para as partes do processo.' },
+      { id: 'D', texto: 'Não têm efeito vinculante.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Decisão de mérito em ADI: erga omnes e vinculante; modulação possível (art. 27).',
+      incorretas: { B: 'Erga omnes.', C: 'Erga omnes.', D: 'Tem efeito vinculante.' },
+      conceitoCobrado: 'Efeitos da ADI.',
+      pegadinha: 'Achar que só vale para as partes.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['ADI', 'efeitos']
   }
 
-];
+];   
+
