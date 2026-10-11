@@ -2428,7 +2428,393 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Clássica.'
     },
     tags: ['ADI', 'efeitos']
+  },
+
+  /* ============================================================
+     DC-01 — Teoria da Constituição
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-0101',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Classificações de Constituição',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a classificação da Constituição Federal de 1988, é correto afirmar que ela é:',
+    alternativas: [
+      { id: 'A', texto: 'Escrita, outorgada, rígida, formal e analítica.' },
+      { id: 'B', texto: 'Escrita, promulgada, rígida, formal e analítica.' },
+      { id: 'C', texto: 'Não escrita, promulgada, flexível, material e sintética.' },
+      { id: 'D', texto: 'Escrita, promulgada, semirrígida, material e analítica.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'CF/88: ESCRITA (documento formal), PROMULGADA (Assembleia Constituinte), RÍGIDA (3/5 em dois turnos), FORMAL (normas constitucionais solenes), ANALÍTICA (extensa).',
+      incorretas: { A: 'Não foi outorgada — foi promulgada.', C: 'É escrita, rígida, formal e analítica.', D: 'É rígida, não semirrígida; formal, não material.' },
+      conceitoCobrado: 'Classificações de Constituição.',
+      pegadinha: 'Confundir promulgada com outorgada; rígida com semirrígida.',
+      comoApareceEmConcurso: 'Clássica em DC.'
+    },
+    tags: ['classificação', 'CF/88']
+  },
+  {
+    id: 'Q-DID-DC-0102',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Poder constituinte originário',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'São características do poder constituinte ORIGINÁRIO:',
+    alternativas: [
+      { id: 'A', texto: 'Inicial, autônomo, ilimitado, incondicionado e soberano.' },
+      { id: 'B', texto: 'Derivado, limitado, condicionado e subordinado.' },
+      { id: 'C', texto: 'Permanente, reformador e submisso à CF anterior.' },
+      { id: 'D', texto: 'Restrito às cláusulas pétreas.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Originário: inicial, autônomo, ilimitado, incondicionado e soberano. Cria a Constituição sem se submeter a limites jurídicos preexistentes.',
+      incorretas: { B: 'São características do DERIVADO.', C: 'O originário não é permanente nem submisso.', D: 'Cláusulas pétreas limitam o DERIVADO, não o originário.' },
+      conceitoCobrado: 'Poder constituinte originário.',
+      pegadinha: 'Trocar com o derivado.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['poder constituinte', 'originário']
+  },
+  {
+    id: 'Q-DID-DC-0103',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Cláusulas pétreas',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'São cláusulas pétreas expressas (art. 60, §4º, CF/88), EXCETO:',
+    alternativas: [
+      { id: 'A', texto: 'Forma federativa de Estado.' },
+      { id: 'B', texto: 'Voto direto, secreto, universal e periódico.' },
+      { id: 'C', texto: 'Separação dos Poderes.' },
+      { id: 'D', texto: 'Sistema presidencialista de governo.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'O sistema presidencialista NÃO é cláusula pétrea — pode ser alterado por emenda (ex.: adoção do parlamentarismo).',
+      incorretas: { A: 'É cláusula pétrea (art. 60, §4º, I).', B: 'É cláusula pétrea (art. 60, §4º, II).', C: 'É cláusula pétrea (art. 60, §4º, III).' },
+      conceitoCobrado: 'Cláusulas pétreas.',
+      pegadinha: 'Misturar cláusulas pétreas com outras matérias importantes.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['cláusulas pétreas', 'art. 60']
+  },
+  {
+    id: 'Q-DID-DC-0104',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Poder constituinte derivado',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre o poder constituinte DERIVADO, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É ilimitado e incondicionado, como o originário.' },
+      { id: 'B', texto: 'É submetido a limites (temporais, circunstanciais, materiais e processuais), sendo exercido por emenda ou revisão.' },
+      { id: 'C', texto: 'Não existe no Brasil.' },
+      { id: 'D', texto: 'Só pode ser exercido por Assembleia Constituinte.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O derivado é LIMITADO e CONDICIONADO — submete-se a limites temporais, circunstanciais, materiais (cláusulas pétreas) e processuais (3/5 em dois turnos).',
+      incorretas: { A: 'Ilimitado é o ORIGINÁRIO.', C: 'Existe: reforma e revisão.', D: 'Emenda é feita pelo Congresso, não por Assembleia Constituinte.' },
+      conceitoCobrado: 'Poder constituinte derivado.',
+      pegadinha: 'Confundir com o originário.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['poder constituinte', 'derivado']
+  },
+  {
+    id: 'Q-DID-DC-0105',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Recepção',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a recepção de normas pela nova Constituição, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Leis anteriores à nova CF que sejam materialmente compatíveis com ela continuam válidas (recepção).' },
+      { id: 'B', texto: 'Todas as leis anteriores são automaticamente revogadas.' },
+      { id: 'C', texto: 'Leis anteriores só continuam se formalmente compatíveis.' },
+      { id: 'D', texto: 'Recepção é sinônimo de repristinação.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Recepção: a lei anterior à nova CF que seja MATERIALMENTE compatível continua válida. A análise é apenas material (não se exige compatibilidade formal).',
+      incorretas: { B: 'Nem todas são revogadas.', C: 'Analisa-se apenas a compatibilidade material.', D: 'Repristinação é o retorno de lei revogada.' },
+      conceitoCobrado: 'Recepção.',
+      pegadinha: 'Achar que se exige compatibilidade formal.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['recepção']
+  },
+
+  /* ============================================================
+     DC-19 — Ordem Econômica e Social
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-1901',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-19',
+    subtema: 'Princípios da ordem econômica',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'NÃO é princípio da ordem econômica (art. 170, CF/88):',
+    alternativas: [
+      { id: 'A', texto: 'Livre concorrência e defesa do consumidor.' },
+      { id: 'B', texto: 'Função social da propriedade.' },
+      { id: 'C', texto: 'Redução das desigualdades regionais e sociais.' },
+      { id: 'D', texto: 'Gratuidade universal dos serviços públicos.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Gratuidade universal NÃO é princípio da ordem econômica. Serviços públicos podem ser remunerados por tarifa ou taxa.',
+      incorretas: { A: 'Está no art. 170, IV e V.', B: 'Está no art. 170, III.', C: 'Está no art. 170, VII.' },
+      conceitoCobrado: 'Princípios da ordem econômica.',
+      pegadinha: 'Confundir gratuidade com princípio econômico.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['ordem econômica', 'art. 170']
+  },
+  {
+    id: 'Q-DID-DC-1902',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-19',
+    subtema: 'Atuação do Estado',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a atuação do Estado na economia (arts. 173 e 174, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'O Estado pode explorar qualquer atividade econômica diretamente.' },
+      { id: 'B', texto: 'A exploração direta de atividade econômica pelo Estado só é permitida em casos de segurança nacional ou relevante interesse coletivo.' },
+      { id: 'C', texto: 'O Estado não tem função reguladora.' },
+      { id: 'D', texto: 'O Estado só atua como agente normativo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 173: exploração direta apenas em segurança nacional ou relevante interesse coletivo. Art. 174: agente normativo e regulador.',
+      incorretas: { A: 'Há restrições.', C: 'O art. 174 prevê a função reguladora.', D: 'Também atua diretamente em casos excepcionais.' },
+      conceitoCobrado: 'Atuação do Estado na economia.',
+      pegadinha: 'Achar que o Estado pode explorar qualquer atividade.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['ordem econômica', 'art. 173']
+  },
+  {
+    id: 'Q-DID-DC-1903',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-19',
+    subtema: 'Seguridade social',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a seguridade social (art. 194, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Compreende saúde, previdência e assistência; a previdência é contributiva, mas saúde e assistência não exigem contribuição.' },
+      { id: 'B', texto: 'Todas as áreas exigem contribuição prévia.' },
+      { id: 'C', texto: 'Só abrange a previdência.' },
+      { id: 'D', texto: 'A saúde é contributiva.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Seguridade = saúde + previdência + assistência. Só a PREVIDÊNCIA é contributiva.',
+      incorretas: { B: 'Só a previdência exige contribuição.', C: 'Abrange as três.', D: 'Saúde é universal.' },
+      conceitoCobrado: 'Seguridade social.',
+      pegadinha: 'Achar que saúde exige contribuição.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['seguridade', 'art. 194']
+  },
+  {
+    id: 'Q-DID-DC-1904',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-19',
+    subtema: 'Meio ambiente',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'Sobre o meio ambiente (art. 225, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo.' },
+      { id: 'B', texto: 'É responsabilidade exclusiva do Poder Público.' },
+      { id: 'C', texto: 'Não tem proteção constitucional.' },
+      { id: 'D', texto: 'Só protege a flora.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Literalidade do art. 225: direito de todos + dever do Poder Público e da coletividade.',
+      incorretas: { B: 'Responsabilidade compartilhada.', C: 'Está no art. 225.', D: 'Protege fauna, flora e demais recursos.' },
+      conceitoCobrado: 'Meio ambiente.',
+      pegadinha: 'Restringir a responsabilidade.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['meio ambiente', 'art. 225']
+  },
+  {
+    id: 'Q-DID-DC-1905',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-19',
+    subtema: 'Ordem social — criança e adolescente',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a proteção constitucional da criança e do adolescente (art. 227, CF/88), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'É dever da família, da sociedade e do Estado, com prioridade ABSOLUTA.' },
+      { id: 'B', texto: 'É dever exclusivo da família.' },
+      { id: 'C', texto: 'É dever exclusivo do Estado.' },
+      { id: 'D', texto: 'A proteção é opcional.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 227: dever da família, sociedade e Estado, com ABSOLUTA PRIORIDADE.',
+      incorretas: { B: 'Também sociedade e Estado.', C: 'Também família e sociedade.', D: 'É obrigatório.' },
+      conceitoCobrado: 'Proteção da criança e do adolescente.',
+      pegadinha: 'Restringir a responsabilidade.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['ordem social', 'art. 227']
+  },
+
+  /* ============================================================
+     DC-20 — ADCT e Atualizações Constitucionais
+  ============================================================ */
+  {
+    id: 'Q-DID-DC-2001',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-20',
+    subtema: 'Natureza do ADCT',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre o Ato das Disposições Constitucionais Transitórias (ADCT), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Tem natureza de lei ordinária.' },
+      { id: 'B', texto: 'Tem a MESMA FORÇA NORMATIVA da CF/88 (é norma constitucional), com natureza TRANSITÓRIA, e é alterado por emenda constitucional.' },
+      { id: 'C', texto: 'Não integra a Constituição.' },
+      { id: 'D', texto: 'Só pode ser alterado por Assembleia Constituinte.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O ADCT integra a CF/88 com a mesma força normativa. Sua natureza é transitória, e é alterado por emenda constitucional (3/5 em dois turnos).',
+      incorretas: { A: 'Não é lei ordinária.', C: 'Integra a CF.', D: 'É alterado por emenda.' },
+      conceitoCobrado: 'Natureza do ADCT.',
+      pegadinha: 'Achar que é lei ordinária ou norma inferior.',
+      comoApareceEmConcurso: 'Cobrança recorrente.'
+    },
+    tags: ['ADCT']
+  },
+  {
+    id: 'Q-DID-DC-2002',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-20',
+    subtema: 'Revisão constitucional',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a revisão constitucional (art. 3º do ADCT), é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'Foi realizada uma única vez, em 1993, por maioria absoluta, e está esgotada.' },
+      { id: 'B', texto: 'Pode ser realizada a cada 10 anos.' },
+      { id: 'C', texto: 'Substitui a emenda constitucional.' },
+      { id: 'D', texto: 'Não foi realizada.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A revisão foi ÚNICA (art. 3º do ADCT), em 1993, por maioria absoluta. Já está esgotada. Alterações posteriores só por EMENDA (art. 60).',
+      incorretas: { B: 'Não é periódica.', C: 'Não substitui a emenda.', D: 'Foi realizada em 1993.' },
+      conceitoCobrado: 'Revisão constitucional.',
+      pegadinha: 'Achar que pode ser repetida.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['revisão', 'ADCT']
+  },
+  {
+    id: 'Q-DID-DC-2003',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-20',
+    subtema: 'Emendas constitucionais',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'A inserção do princípio da eficiência no caput do art. 37 da CF foi feita pela:',
+    alternativas: [
+      { id: 'A', texto: 'EC 45/2004 (Reforma do Judiciário).' },
+      { id: 'B', texto: 'EC 19/1998 (Reforma Gerencial).' },
+      { id: 'C', texto: 'EC 20/1998 (Reforma da Previdência).' },
+      { id: 'D', texto: 'EC 90/2015 (Transporte).' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A eficiência foi inserida pela EC 19/1998, formando o LIMPE.',
+      incorretas: { A: 'EC 45/2004 criou o CNJ, súmula vinculante e repercussão geral.', C: 'EC 20/1998 foi a reforma da previdência.', D: 'EC 90/2015 incluiu o transporte no art. 6º.' },
+      conceitoCobrado: 'Emendas constitucionais.',
+      pegadinha: 'Confundir EC 19 com EC 45.',
+      comoApareceEmConcurso: 'Altíssima frequência.'
+    },
+    tags: ['EC 19/1998', 'eficiência']
+  },
+  {
+    id: 'Q-DID-DC-2004',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-20',
+    subtema: 'Emendas constitucionais',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'A EC 45/2004 (Reforma do Judiciário) NÃO introduziu:',
+    alternativas: [
+      { id: 'A', texto: 'O Conselho Nacional de Justiça (CNJ).' },
+      { id: 'B', texto: 'A súmula vinculante.' },
+      { id: 'C', texto: 'A repercussão geral no recurso extraordinário.' },
+      { id: 'D', texto: 'O princípio da eficiência no art. 37.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A eficiência no art. 37 foi introduzida pela EC 19/1998 (Reforma Gerencial), não pela EC 45/2004.',
+      incorretas: { A: 'A EC 45 criou o CNJ (art. 103-B).', B: 'A EC 45 introduziu a súmula vinculante (art. 103-A).', C: 'A EC 45 introduziu a repercussão geral (art. 102, §3º).' },
+      conceitoCobrado: 'EC 45/2004.',
+      pegadinha: 'Confundir EC 19 com EC 45.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['EC 45/2004', 'CNJ']
+  },
+  {
+    id: 'Q-DID-DC-2005',
+    tipo: 'DIDATICA',
+    area: 'CF',
+    moduloId: 'DC-20',
+    subtema: 'Alterações recentes',
+    dificuldade: 3,
+    prioridade: 'baixa',
+    enunciado: 'Sobre a EC 131/2023, é correto afirmar que ela:',
+    alternativas: [
+      { id: 'A', texto: 'Alterou as hipóteses de PERDA da nacionalidade brasileira.' },
+      { id: 'B', texto: 'Acabou com o voto obrigatório.' },
+      { id: 'C', texto: 'Reformou o Judiciário.' },
+      { id: 'D', texto: 'Criou o CNJ.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A EC 131/2023 alterou as hipóteses de PERDA da nacionalidade (art. 12, §4º), flexibilizando as causas.',
+      incorretas: { B: 'Não tratou de voto.', C: 'Reforma do Judiciário foi EC 45/2004.', D: 'CNJ foi criado pela EC 45/2004.' },
+      conceitoCobrado: 'Alterações constitucionais recentes.',
+      pegadinha: 'Confundir ECs.',
+      comoApareceEmConcurso: 'Tema atualizado.'
+    },
+    tags: ['EC 131/2023', 'nacionalidade']
   }
 
 ];   
-
