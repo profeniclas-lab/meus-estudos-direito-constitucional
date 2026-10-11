@@ -651,6 +651,99 @@ window.FLASHCARDS = [
     verso: 'Presidente da República; Mesa do Senado Federal; Mesa da Câmara dos Deputados; Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF; Governador de Estado ou do DF; Procurador-Geral da República; Conselho Federal da OAB; partido político com representação no Congresso Nacional; confederação sindical ou entidade de classe de âmbito nacional.',
     dificuldade: 3,
     tags: ['ADI', 'legitimados']
+  },
+
+  /* ============================================================
+     DC-01 — Teoria da Constituição
+  ============================================================ */
+  {
+    id: 'F-DC-01-0001',
+    moduloId: 'DC-01',
+    topicoId: 'DC-01',
+    frente: 'Como se classifica a Constituição Federal de 1988?',
+    verso: 'ESCRITA (documento formal), PROMULGADA (Assembleia Constituinte), RÍGIDA (3/5 em dois turnos para alteração), FORMAL (normas solenes), ANALÍTICA (extensa, 250 artigos + ADCT), DIRIGENTE (com programas e metas).',
+    dificuldade: 2,
+    tags: ['classificação', 'CF/88']
+  },
+  {
+    id: 'F-DC-01-0002',
+    moduloId: 'DC-01',
+    topicoId: 'DC-01',
+    frente: 'Quais são as características do poder constituinte ORIGINÁRIO?',
+    verso: 'INICIAL (cria a ordem jurídica), AUTÔNOMO (só depende de si), ILIMITADO (não se submete a limites jurídicos preexistentes), INCONDICIONADO e SOBERANO. Cria a Constituição. Diferente do DERIVADO, que é limitado e condicionado.',
+    dificuldade: 3,
+    tags: ['poder constituinte', 'originário']
+  },
+  {
+    id: 'F-DC-01-0003',
+    moduloId: 'DC-01',
+    topicoId: 'DC-01',
+    frente: 'Quais são as cláusulas pétreas da CF/88 (art. 60, §4º)?',
+    verso: 'I) forma federativa de Estado; II) voto direto, secreto, universal e periódico; III) separação dos Poderes; IV) direitos e garantias individuais. Não podem ser objeto de emenda tendente a aboli-las. Mnemônico: FOR-VO-SE-DI.',
+    dificuldade: 3,
+    tags: ['cláusulas pétreas', 'art. 60']
+  },
+
+  /* ============================================================
+     DC-19 — Ordem Econômica e Social
+  ============================================================ */
+  {
+    id: 'F-DC-19-0001',
+    moduloId: 'DC-19',
+    topicoId: 'DC-19',
+    frente: 'Quais são os princípios da ordem econômica (art. 170, CF/88)?',
+    verso: 'Soberania nacional; propriedade privada; função social da propriedade; livre concorrência; defesa do consumidor; defesa do meio ambiente; redução das desigualdades regionais e sociais; busca do pleno emprego; tratamento favorecido para empresas de pequeno porte.',
+    dificuldade: 2,
+    tags: ['ordem econômica', 'art. 170']
+  },
+  {
+    id: 'F-DC-19-0002',
+    moduloId: 'DC-19',
+    topicoId: 'DC-19',
+    frente: 'Como funciona a seguridade social (art. 194)?',
+    verso: 'SEGURIDADE = SAÚDE + PREVIDÊNCIA + ASSISTÊNCIA. SAÚDE (art. 196): universal e gratuita. PREVIDÊNCIA (art. 201): CONTRIBUTIVA — só quem contribui recebe. ASSISTÊNCIA (art. 203): para quem dela necessitar, independente de contribuição.',
+    dificuldade: 2,
+    tags: ['seguridade social', 'art. 194']
+  },
+  {
+    id: 'F-DC-19-0003',
+    moduloId: 'DC-19',
+    topicoId: 'DC-19',
+    frente: 'O que diz o art. 227 sobre a criança e o adolescente?',
+    verso: 'É dever da FAMÍLIA, da SOCIEDADE e do ESTADO assegurar à criança, ao adolescente e ao jovem, com ABSOLUTA PRIORIDADE, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária.',
+    dificuldade: 2,
+    tags: ['criança', 'adolescente', 'art. 227']
+  },
+
+  /* ============================================================
+     DC-20 — ADCT e Atualizações Constitucionais
+  ============================================================ */
+  {
+    id: 'F-DC-20-0001',
+    moduloId: 'DC-20',
+    topicoId: 'DC-20',
+    frente: 'Qual é a natureza jurídica do ADCT?',
+    verso: 'O ADCT integra a CF/88 e tem a MESMA FORÇA NORMATIVA da Constituição (é norma constitucional). Sua natureza é TRANSITÓRIA (regras que se esgotam com o tempo). É alterado por EMENDA CONSTITUCIONAL (3/5 em dois turnos em cada Casa).',
+    dificuldade: 3,
+    tags: ['ADCT']
+  },
+  {
+    id: 'F-DC-20-0002',
+    moduloId: 'DC-20',
+    topicoId: 'DC-20',
+    frente: 'Qual a diferença entre emenda constitucional e revisão constitucional?',
+    verso: 'EMENDA (art. 60): alteração PERMANENTE, 3/5 em dois turnos em cada Casa, pode ser feita quantas vezes forem necessárias. REVISÃO (art. 3º do ADCT): revisão ÚNICA, em 1993, por MAIORIA ABSOLUTA — já ESGOTADA. Não pode ser repetida.',
+    dificuldade: 3,
+    tags: ['emenda', 'revisão']
+  },
+  {
+    id: 'F-DC-20-0003',
+    moduloId: 'DC-20',
+    topicoId: 'DC-20',
+    frente: 'Quais são as ECs mais cobradas e o que cada uma alterou?',
+    verso: 'EC 19/1998: eficiência no art. 37 (Reforma Gerencial). EC 20/1998: previdência. EC 29/2000: mínimo de saúde. EC 45/2004: Reforma do Judiciário (CNJ, súmula vinculante, repercussão geral). EC 53/2006: Fundeb. EC 64/2010: alimentação no art. 6º. EC 72/2013: domésticos. EC 80/2014: Defensoria Pública. EC 90/2015: transporte no art. 6º. EC 95/2016: teto de gastos. EC 97/2017: coligações. EC 103/2019: previdência. EC 131/2023: perda de nacionalidade. EC 129 a 133/2023: reforma tributária.',
+    dificuldade: 3,
+    tags: ['emendas', 'atualizações']
   }
 
-];
+];   
