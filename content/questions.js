@@ -4354,6 +4354,1664 @@ window.QUESTIONS = [
       comoApareceEmConcurso: 'Cobrança literal.'
     },
     tags: ['art. 8º, VIII', 'estabilidade']
+  },
+  /* ============================================================
+     LOTE REAL — Questões de Concurso (PDF)
+     Módulos: DC-01, DC-02, DC-03, DC-04, DC-06 e DC-07
+     IDs: Q-REAL-DC-XXXX
+  ============================================================ */
+
+  /* ---------- DC-03 — Direitos e Deveres Individuais e Coletivos ---------- */
+  {
+    id: 'Q-REAL-DC-0301',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Contraditório e ampla defesa',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A Constituição Federal assegura garantias processuais fundamentais destinadas à proteção dos direitos dos indivíduos em processos judiciais e administrativos. Considerando exclusivamente o disposto no Art. 5º, inciso LV, da Constituição Federal, analise as afirmativas. I. O contraditório e a ampla defesa são garantidos em processos judiciais. II. O contraditório e a ampla defesa são garantidos em processos administrativos. III. O contraditório e a ampla defesa incluem a utilização dos meios e recursos a ela inerentes. IV. O contraditório depende de autorização judicial para ser exercido no processo administrativo. Assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Apenas I e II.' },
+      { id: 'B', texto: 'Apenas I, II e III.' },
+      { id: 'C', texto: 'Apenas I.' },
+      { id: 'D', texto: 'Apenas II e III.' },
+      { id: 'E', texto: 'I, II, III e IV.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O art. 5º, LV, assegura contraditório e ampla defesa "aos litigantes, em processo judicial ou administrativo, e aos acusados em geral", com "os meios e recursos a ela inerentes". I, II e III estão corretos.[reference:0]',
+      incorretas: {
+        A: 'III também está correto.',
+        C: 'II e III também estão corretos.',
+        D: 'I também está correto.',
+        E: 'IV é falso: não se exige autorização judicial para o contraditório no processo administrativo.'
+      },
+      conceitoCobrado: 'Art. 5º, LV — contraditório e ampla defesa.',
+      pegadinha: 'Exigir autorização judicial para o contraditório administrativo (IV).',
+      comoApareceEmConcurso: 'Cobrança literal do inciso LV.'
+    },
+    tags: ['contraditório', 'ampla defesa', 'art. 5º, LV']
+  },
+  {
+    id: 'Q-REAL-DC-0302',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Requisição de bens (iminente perigo público)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A defesa civil da cidade foi alertada, pelo setor de meteorologia, que há grande probabilidade de três bairros serem atingidos por um evento climático extremo, que tem a potencialidade de gerar uma chuva de 200 mm em uma hora. Embora a zeladoria do local funcione adequadamente e a área não tenha histórico de alagamentos, os especialistas alertam que o volume atípico de chuvas pode gerar alagamentos e colocar a vida das pessoas em risco. Além do envio de alerta para os telefones dos indivíduos que estejam na região, estão sendo consideradas algumas medidas que poderão ser tomadas, caso necessário. Com base no disposto na Constituição Federal, é correto afirmar que, nessa situação hipotética, os guardas municipais deslocados para trabalhar na operação podem:',
+    alternativas: [
+      { id: 'A', texto: 'entrar em residências afetadas pela enchente, desde que haja prévia anuência dos proprietários.' },
+      { id: 'B', texto: 'desapropriar veículos aquáticos para uso imediato na realização dos resgates, mediante indenização posterior, justa e em dinheiro.' },
+      { id: 'C', texto: 'requisitar o uso de veículos ou bens de natureza particular, para lidar com a situação de iminente perigo público, assegurada ao proprietário indenização ulterior, se houver dano.' },
+      { id: 'D', texto: 'utilizar estritamente os espaços e bens de propriedade do Estado para lidar com o problema, pois a situação de iminente perigo público não autoriza o poder público a utilizar ou desapropriar bens de propriedade particular, sem prévia indenização ou concordância do titular do direito.' },
+      { id: 'E', texto: 'utilizar imóveis particulares desocupados para realizar os primeiros socorros dos afetados, assegurada posterior indenização, independentemente da existência de dano.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 5º, XXV: "no caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano".',
+      incorretas: {
+        A: 'A requisição independe de anuência do proprietário.',
+        B: 'Não se trata de desapropriação, mas de requisição administrativa.',
+        D: 'A CF autoriza expressamente o uso de bem particular em iminente perigo público.',
+        E: 'A indenização só é devida se houver dano.'
+      },
+      conceitoCobrado: 'Requisição administrativa (art. 5º, XXV).',
+      pegadinha: 'Confundir requisição (uso temporário) com desapropriação (perda da propriedade).',
+      comoApareceEmConcurso: 'Casos práticos de defesa civil.'
+    },
+    tags: ['requisição', 'art. 5º, XXV', 'perigo público']
+  },
+  {
+    id: 'Q-REAL-DC-0303',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos do preso',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A Constituição Federal de 1988 prevê diversas garantias para as pessoas presas em razão de condenações criminais ou no curso do processo. Tendo em vista os direitos e garantias fundamentais previstos na Constituição Federal, assinale a alternativa INCORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O preso será informado de seus direitos, entre os quais o de permanecer calado, sendo-lhe assegurada a assistência da família e de advogado.' },
+      { id: 'B', texto: 'Aos presos é garantido o respeito à integridade física e moral.' },
+      { id: 'C', texto: 'A prisão ilegal será imediatamente relaxada pela autoridade judiciária.' },
+      { id: 'D', texto: 'A não ser em situações de transgressão ou crime propriamente militar nos termos da lei, a prisão de qualquer pessoa só poderá acontecer se for em flagrante delito ou mediante ordem judicial escrita e devidamente fundamentada.' },
+      { id: 'E', texto: 'A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada. Contudo, no intuito de colocar a salvo a integridade física e moral dos profissionais da segurança pública, não é reconhecido ao preso o direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'E é INCORRETA: o art. 5º, LXIV, assegura ao preso o direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial.[reference:1]',
+      incorretas: {
+        A: 'Correta — art. 5º, LXIII.',
+        B: 'Correta — art. 5º, XLIX.',
+        C: 'Correta — art. 5º, LXV.',
+        D: 'Correta — art. 5º, LXI.'
+      },
+      conceitoCobrado: 'Direitos do preso (art. 5º, LXI, LXIII, LXIV, LXV).',
+      pegadinha: 'Negar o direito à identificação dos responsáveis pela prisão.',
+      comoApareceEmConcurso: 'Cobrança literal dos incisos.'
+    },
+    tags: ['preso', 'art. 5º, LXIV']
+  },
+  {
+    id: 'Q-REAL-DC-0304',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Acesso à Justiça e duração razoável do processo',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'A Constituição Federal de 1988 preceitua, como direito fundamental, o acesso à Justiça, não se limitando a entrada no Judiciário, viabilizando que aquele que estiver com a razão veja seu direito reconhecido. Considerando a legislação em vigor e as jurisprudências do Superior Tribunal de Justiça e do Supremo Tribunal Federal, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'a previsão legal no ordenamento jurídico, de meios atípicos de execução, é reforço do princípio da efetividade da prestação jurisdicional.' },
+      { id: 'B', texto: 'eficácia e efetividade são termos sinônimos no âmbito judicial, referindo-se à capacidade da decisão de produzir efeitos jurídicos.' },
+      { id: 'C', texto: 'a demora, por mais de dois meses, para se proferir uma decisão determinando-se a citação do réu, viola a garantia constitucional da duração razoável do processo.' },
+      { id: 'D', texto: 'o princípio do contraditório consiste no direito de utilizar todos os meios e recursos legalmente previstos para provar sua inocência ou seu direito.' },
+      { id: 'E', texto: 'a lentidão na prestação jurisdicional caracteriza falha que, entretanto, não pode ensejar responsabilização do Estado ou do Magistrado atuante na causa.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A previsão de meios atípicos de execução reforça a efetividade da prestação jurisdicional, em consonância com o art. 5º, XXXV e LXXVIII.',
+      incorretas: {
+        B: 'Eficácia e efetividade não são sinônimos.',
+        C: 'Não há prazo constitucional fixo de 2 meses; a razoabilidade é analisada caso a caso.',
+        D: 'O contraditório é mais amplo que o direito de provar.',
+        E: 'A lentidão pode, em tese, gerar responsabilização.'
+      },
+      conceitoCobrado: 'Acesso à Justiça e efetividade.',
+      pegadinha: 'Fixar prazos rígidos para a duração razoável.',
+      comoApareceEmConcurso: 'Questão conceitual.'
+    },
+    tags: ['acesso à justiça', 'efetividade']
+  },
+  {
+    id: 'Q-REAL-DC-0305',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Tribunal Penal Internacional',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Nos termos da Constituição Federal, "o Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão" (art. 5º, § 4º). Considerando a competência material do Tribunal Penal Internacional, são crimes de sua competência para julgamento, EXCETO:',
+    alternativas: [
+      { id: 'A', texto: 'crimes de genocídio.' },
+      { id: 'B', texto: 'crimes contra a humanidade.' },
+      { id: 'C', texto: 'crimes de guerra.' },
+      { id: 'D', texto: 'crimes contra a Administração Pública.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'O TPI julga genocídio, crimes contra a humanidade, crimes de guerra e crimes de agressão. Crimes contra a Administração Pública não estão no Estatuto de Roma.',
+      incorretas: {
+        A: 'Genocídio é crime de competência do TPI.',
+        B: 'Crimes contra a humanidade são de competência do TPI.',
+        C: 'Crimes de guerra são de competência do TPI.'
+      },
+      conceitoCobrado: 'Competência do TPI (art. 5º, §4º).',
+      pegadinha: 'Incluir crimes domésticos (Administração Pública) no rol do TPI.',
+      comoApareceEmConcurso: 'Cobrança do Estatuto de Roma.'
+    },
+    tags: ['TPI', 'art. 5º, §4º']
+  },
+  {
+    id: 'Q-REAL-DC-0306',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Legalidade (decreto e obrigações)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: '(IBED) Em um Estado de Direito, a edição de um decreto pelo chefe do Poder Executivo permite criar, sem fundamento em lei, obrigações primárias e sanções aplicáveis aos cidadãos, desde que a medida seja apresentada como urgente e destinada ao interesse coletivo.',
+    alternativas: [
+      { id: 'A', texto: 'Certo' },
+      { id: 'B', texto: 'Errado' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Errado. O art. 5º, II, da CF estabelece que "ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei". Decreto não pode criar obrigações primárias sem lei.[reference:2]',
+      incorretas: {
+        A: 'A CF veda a criação de obrigações por decreto sem fundamento em lei.'
+      },
+      conceitoCobrado: 'Princípio da legalidade (art. 5º, II).',
+      pegadinha: 'Achar que decreto pode criar obrigações primárias.',
+      comoApareceEmConcurso: 'Questão clássica de legalidade.'
+    },
+    tags: ['legalidade', 'art. 5º, II']
+  },
+  {
+    id: 'Q-REAL-DC-0307',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Sucessão de bens de estrangeiros',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Johan, de nacionalidade alemã, era casado com Maria, de nacionalidade brasileira, sendo ambos genitores de Priscilla, também de nacionalidade brasileira. A família residia na Alemanha, mas, após o falecimento de Johan, passaram a residir no Brasil. Considerando que Johan deixou bens na Alemanha e no Brasil, é correto afirmar, em relação a esses últimos que, para fins de sucessão:',
+    alternativas: [
+      { id: 'A', texto: 'é possível que Maria e Priscilla optem pela lei brasileira ou pela lei alemã.' },
+      { id: 'B', texto: 'deve ser sempre aplicada a lei alemã, considerando a nacionalidade de Johan.' },
+      { id: 'C', texto: 'deve ser aplicada a lei brasileira, caso Priscilla ainda não tenha atingido a maioridade civil.' },
+      { id: 'D', texto: 'deve ser aplicada a lei brasileira, caso a lei alemã não seja mais favorável a Maria e a Priscilla.' },
+      { id: 'E', texto: 'deve ser sempre aplicada a lei brasileira, considerando a nacionalidade de Maria e de Priscilla.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, XXXI: a sucessão de bens de estrangeiros situados no Brasil será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes seja mais favorável a lei pessoal do de cujus (lei alemã).',
+      incorretas: {
+        A: 'Não há opção; aplica-se a lei mais favorável.',
+        B: 'A lei alemã só prevalece se mais favorável.',
+        C: 'A maioridade de Priscilla não é o critério.',
+        E: 'A regra não é a aplicação automática da lei brasileira.'
+      },
+      conceitoCobrado: 'Sucessão de bens de estrangeiros (art. 5º, XXXI).',
+      pegadinha: 'Achar que a lei brasileira sempre se aplica.',
+      comoApareceEmConcurso: 'Cobrança literal do inciso XXXI.'
+    },
+    tags: ['sucessão', 'estrangeiro', 'art. 5º, XXXI']
+  },
+  {
+    id: 'Q-REAL-DC-0308',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Ampla defesa e igualdade (estrangeiros)',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Considere que, hipoteticamente, com a preocupação sobre vazamentos de informações e com a integridade da segurança institucional do CAU/CE, houve a edição de uma Portaria Normativa interna com duas regras primordiais: I) Fica estabelecido que qualquer arquiteto que esteja respondendo a processo ético-disciplinar na autarquia terá o acesso aos autos do processo negado caso a diretoria apure que o profissional possui um "comportamento não cooperativo"; e, II) Fica proibido que estrangeiros residentes no Brasil assumam cargo público efetivo na estrutura administrativa do CAU/CE, sob a justificativa constitucional de proteção à soberania nacional. Considerando os ditames do art. 5º da Constituição Federal de 1988 (CF/88), sobre a validade constitucional da Portaria, pode-se afirmar corretamente que:',
+    alternativas: [
+      { id: 'A', texto: 'No contexto apresentado, a restrição imposta aos estrangeiros é constitucional, na medida em que a CF/88 reserva os cargos públicos de carreira exclusivamente a brasileiros.' },
+      { id: 'B', texto: 'A Portaria é integralmente válida, visto que os conselhos profissionais de fiscalização possuem autonomia administrativa e financeira para restringir o acesso a autos e delimitar seus quadros a brasileiros natos ou naturalizados.' },
+      { id: 'C', texto: 'A inconstitucionalidade recai apenas na negação de acesso aos autos (ofensa à ampla defesa), sendo válida a proibição de estrangeiros no CAU/CE, visto que autarquias federais possuem autonomia normativa e lidam com dados sensíveis de interesse estatal.' },
+      { id: 'D', texto: 'A Portaria é inconstitucional em ambas as regras, pois viola o direito ao contraditório e à ampla defesa em processo administrativo, bem como fere a garantia de igualdade e inviolabilidade de direitos assegurada aos brasileiros e aos estrangeiros residentes no país.' },
+      { id: 'E', texto: 'A Portaria é válida quanto à restrição de acesso aos autos, visto que o direito à informação cede espaço à segurança institucional na ponderação entre esses dois fundamentos constitucionais; porém, é inválida quanto à proibição aos estrangeiros, que gozam de igualdade perante a lei, sem distinção de qualquer natureza.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'D. A restrição de acesso aos autos viola o contraditório e a ampla defesa (art. 5º, LV). A proibição a estrangeiros viola a igualdade (art. 5º, caput) e a possibilidade de acesso a cargos públicos (art. 37, I).',
+      incorretas: {
+        A: 'A CF não reserva todos os cargos públicos exclusivamente a brasileiros.',
+        B: 'A autonomia não autoriza restringir direitos fundamentais.',
+        C: 'A proibição a estrangeiros também é inconstitucional.',
+        E: 'A restrição de acesso aos autos não é válida.'
+      },
+      conceitoCobrado: 'Contraditório, ampla defesa e igualdade.',
+      pegadinha: 'Achar que a segurança institucional justifica restringir a defesa.',
+      comoApareceEmConcurso: 'Caso concreto envolvendo conselho profissional.'
+    },
+    tags: ['ampla defesa', 'igualdade', 'estrangeiros']
+  },
+  {
+    id: 'Q-REAL-DC-0309',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Tratados de direitos humanos',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Após reunião internacional realizada na Malásia, firmou-se tratado de direitos humanos sobre prevenção e combate à tortura. No Brasil, o tratado foi aprovado, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros. Nessa hipótese, é correto afirmar que o referido tratado gozará de status equivalente às:',
+    alternativas: [
+      { id: 'A', texto: 'medidas provisórias convertidas em lei.' },
+      { id: 'B', texto: 'emendas constitucionais.' },
+      { id: 'C', texto: 'leis complementares federais.' },
+      { id: 'D', texto: 'leis ordinárias federais.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 5º, §3º: tratados de direitos humanos aprovados em cada Casa, em dois turnos, por 3/5 dos votos, equivalem a emendas constitucionais.[reference:3]',
+      incorretas: {
+        A: 'Não se equiparam a medidas provisórias.',
+        C: 'Não se equiparam a leis complementares.',
+        D: 'Não se equiparam a leis ordinárias.'
+      },
+      conceitoCobrado: 'Status dos tratados de direitos humanos (art. 5º, §3º).',
+      pegadinha: 'Confundir com o rito de emenda (que é o mesmo).',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['tratados', 'direitos humanos', 'art. 5º, §3º']
+  },
+  {
+    id: 'Q-REAL-DC-0310',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos e deveres individuais',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A Constituição Federal, no que diz respeito aos direitos e deveres individuais e coletivos, estabelece que:',
+    alternativas: [
+      { id: 'A', texto: 'É garantido o direito de propriedade, mesmo sem qualquer função social.' },
+      { id: 'B', texto: 'É garantida a reunião pacífica, com armas, em locais abertos ao público.' },
+      { id: 'C', texto: 'É livre a manifestação do pensamento, sendo vedado o anonimato.' },
+      { id: 'D', texto: 'É facultado ao Estado restringir o acesso à informação pública.' },
+      { id: 'E', texto: 'Todos são iguais perante a lei, exceto os estrangeiros.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 5º, IV: "é livre a manifestação do pensamento, sendo vedado o anonimato".',
+      incorretas: {
+        A: 'A propriedade atende à função social (art. 5º, XXIII).',
+        B: 'A reunião deve ser sem armas (art. 5º, XVI).',
+        D: 'O acesso à informação é direito de todos (art. 5º, XXXIII).',
+        E: 'A igualdade alcança brasileiros e estrangeiros residentes (art. 5º, caput).'
+      },
+      conceitoCobrado: 'Direitos individuais (art. 5º).',
+      pegadinha: 'Reunião com armas e restrição de informação.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['manifestação', 'anonimato', 'art. 5º, IV']
+  },
+  {
+    id: 'Q-REAL-DC-0311',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos e garantias (diversos)',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'O artigo 5º da Constituição Federal de 1988 preceitua que todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se, aos brasileiros e aos estrangeiros residentes no país, a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. Considerando a legislação em vigor, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'em nenhuma hipótese, alguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política.' },
+      { id: 'B', texto: 'é livre a locomoção no território nacional em qualquer tempo, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.' },
+      { id: 'C', texto: 'a criação e o funcionamento de associações e de cooperativas dependem de autorização da autoridade competente, na forma da Lei.' },
+      { id: 'D', texto: 'é assegurado o direito de fiscalização do aproveitamento econômico das obras que criarem ou de que participarem aos criadores.' },
+      { id: 'E', texto: 'a sucessão de bens de estrangeiros situados no país será regulada pela lei do seu país de origem, desde que em benefício do cônjuge ou dos filhos brasileiros.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, XXVIII, "b": é assegurado aos criadores o direito de fiscalização do aproveitamento econômico das obras que criarem ou de que participarem.',
+      incorretas: {
+        A: 'A escusa de consciência pode gerar privação de direitos se a prestação alternativa for recusada (art. 5º, VIII).',
+        B: 'A locomoção é livre em tempo de paz (art. 5º, XV).',
+        C: 'A criação de associações independe de autorização (art. 5º, XVIII).',
+        E: 'A sucessão de bens de estrangeiros no Brasil é regulada pela lei brasileira, salvo se a lei estrangeira for mais favorável (art. 5º, XXXI).'
+      },
+      conceitoCobrado: 'Direitos autorais (art. 5º, XXVIII).',
+      pegadinha: 'Inverter a regra da sucessão de estrangeiros.',
+      comoApareceEmConcurso: 'Cobrança de incisos menos óbvios.'
+    },
+    tags: ['direito autoral', 'art. 5º, XXVIII']
+  },
+  {
+    id: 'Q-REAL-DC-0312',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Penas vedadas',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'De acordo com o artigo 5º da Constituição Federal, NÃO haverá penas: I. de morte, salvo em caso de guerra declarada. II. de caráter perpétuo e de trabalhos forçados. III. de banimento e cruéis. É correto o que se afirma em:',
+    alternativas: [
+      { id: 'A', texto: 'III, apenas.' },
+      { id: 'B', texto: 'I e II, apenas.' },
+      { id: 'C', texto: 'II e III, apenas.' },
+      { id: 'D', texto: 'I, II e III.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, XLVII: não haverá penas de morte (salvo guerra declarada), de caráter perpétuo, de trabalhos forçados, de banimento ou cruéis. I, II e III estão corretos.',
+      incorretas: {
+        A: 'I e II também estão corretos.',
+        B: 'III também está correto.',
+        C: 'I também está correto.'
+      },
+      conceitoCobrado: 'Penas vedadas (art. 5º, XLVII).',
+      pegadinha: 'Esquecer a exceção da guerra declarada.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['penas', 'art. 5º, XLVII']
+  },
+  {
+    id: 'Q-REAL-DC-0313',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Tribunal do Júri',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Sobre a Instituição do Júri, considere as assertivas a seguir. I. É reconhecida a instituição do júri, sendo assegurada, entre outras garantias, a soberania dos veredictos e a competência para o julgamento dos crimes dolosos contra a vida. II. Por força do princípio da publicidade, as votações dos jurados devem ser abertas ao público e devidamente fundamentadas para garantir a transparência do julgamento. III. A competência constitucional do tribunal do júri é absoluta e inafastável para o julgamento de qualquer crime que resulte em morte, inclusive nos casos de crimes culposos. Está CORRETO o que se afirma:',
+    alternativas: [
+      { id: 'A', texto: 'III, apenas.' },
+      { id: 'B', texto: 'I, apenas.' },
+      { id: 'C', texto: 'I e II, apenas.' },
+      { id: 'D', texto: 'I, II e III.' },
+      { id: 'E', texto: 'II, apenas.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'I está correta (art. 5º, XXXVIII). II é falsa: as votações são sigilosas. III é falsa: o júri julga crimes dolosos contra a vida, não culposos.',
+      incorretas: {
+        A: 'I está correta.',
+        C: 'II é falsa.',
+        D: 'II e III são falsas.',
+        E: 'I está correta.'
+      },
+      conceitoCobrado: 'Tribunal do Júri (art. 5º, XXXVIII).',
+      pegadinha: 'Achar que as votações são públicas e que o júri julga crimes culposos.',
+      comoApareceEmConcurso: 'Cobrança das garantias do júri.'
+    },
+    tags: ['júri', 'art. 5º, XXXVIII']
+  },
+  {
+    id: 'Q-REAL-DC-0314',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direito penal e processual penal',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Considerando as disposições da Constituição Federal sobre direito penal e processo penal, assinale a alternativa correta.',
+    alternativas: [
+      { id: 'A', texto: 'A lei não poderá adotar a pena de interdição de direitos.' },
+      { id: 'B', texto: 'A lei penal não retroagirá para beneficiar o réu.' },
+      { id: 'C', texto: 'A decretação do perdimento de bens decorrente de pena não poderá ser, nos termos da lei, estendida aos sucessores e contra eles executadas.' },
+      { id: 'D', texto: 'É imprescritível o crime de tráfico ilícito de entorpecentes e drogas afins.' },
+      { id: 'E', texto: 'Às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Art. 5º, L: "às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação".',
+      incorretas: {
+        A: 'A interdição de direitos é pena admitida (art. 5º, XLVI).',
+        B: 'A lei penal retroage para beneficiar o réu (art. 5º, XL).',
+        C: 'O perdimento de bens pode ser estendido aos sucessores (art. 5º, XLV).',
+        D: 'O tráfico não é imprescritível (art. 5º, XLIII).'
+      },
+      conceitoCobrado: 'Direito penal e processual penal (art. 5º, XL, XLIII, XLV, XLVI, L).',
+      pegadinha: 'Achar que o tráfico é imprescritível.',
+      comoApareceEmConcurso: 'Cobrança combinada.'
+    },
+    tags: ['penal', 'presidiárias', 'art. 5º, L']
+  },
+  {
+    id: 'Q-REAL-DC-0315',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Contraditório em processo administrativo',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Determinada lei estadual instituiu procedimento administrativo que restringe, sem possibilidade de contraditório prévio, o acesso de cidadãos a benefícios assistenciais, sob a justificativa de combate a fraudes. A norma prevê apenas a possibilidade de recurso posterior, sem efeito suspensivo. À luz da Constituição Federal de 1988 e da jurisprudência consolidada sobre direitos e garantias fundamentais, assinale a alternativa correta:',
+    alternativas: [
+      { id: 'A', texto: 'A lei é constitucional, pois a administração pública pode, no exercício do poder de polícia, limitar direitos individuais sempre que houver interesse público relevante, sendo suficiente a previsão de recurso posterior.' },
+      { id: 'B', texto: 'A lei é inconstitucional, pois viola o devido processo legal, o contraditório e a ampla defesa, que se aplicam também aos processos administrativos, especialmente quando houver restrição de direitos.' },
+      { id: 'C', texto: 'A lei é constitucional, desde que o benefício assistencial tenha natureza discricionária, hipótese em que não se exige contraditório prévio.' },
+      { id: 'D', texto: 'A lei é parcialmente constitucional, pois o contraditório somente é obrigatório em processos judiciais, não se estendendo aos procedimentos administrativos.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O art. 5º, LV, assegura contraditório e ampla defesa também nos processos administrativos. A restrição de benefício sem contraditório prévio é inconstitucional.',
+      incorretas: {
+        A: 'O poder de polícia não dispensa o contraditório.',
+        C: 'A natureza do benefício não afasta a garantia.',
+        D: 'O contraditório aplica-se aos processos administrativos.'
+      },
+      conceitoCobrado: 'Contraditório e ampla defesa em processos administrativos.',
+      pegadinha: 'Achar que o contraditório só vale no processo judicial.',
+      comoApareceEmConcurso: 'Cobrança do art. 5º, LV.'
+    },
+    tags: ['contraditório', 'processo administrativo']
+  },
+  {
+    id: 'Q-REAL-DC-0316',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Coisa julgada e direito adquirido',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Durante a consolidação de determinado ato normativo, discutiu-se a possibilidade de a lei alcançar fatos ocorridos antes de sua entrada em vigor. De acordo com a Constituição Federal, marque a alternativa correta.',
+    alternativas: [
+      { id: 'A', texto: 'A proteção à coisa julgada aplica-se exclusivamente às decisões penais.' },
+      { id: 'B', texto: 'A lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada.' },
+      { id: 'C', texto: 'A lei pode livremente atingir a coisa julgada sempre que houver interesse público.' },
+      { id: 'D', texto: 'O direito adquirido não possui proteção constitucional.' },
+      { id: 'E', texto: 'O ato jurídico perfeito pode ser desconstituído por qualquer lei posterior.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 5º, XXXVI: "a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada".[reference:4]',
+      incorretas: {
+        A: 'A proteção não é exclusiva da esfera penal.',
+        C: 'A coisa julgada não pode ser atingida livremente.',
+        D: 'O direito adquirido tem proteção constitucional.',
+        E: 'O ato jurídico perfeito não pode ser desconstituído por lei posterior.'
+      },
+      conceitoCobrado: 'Irretroatividade e segurança jurídica (art. 5º, XXXVI).',
+      pegadinha: 'Achar que a coisa julgada pode ser revista por interesse público.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['coisa julgada', 'art. 5º, XXXVI']
+  },
+  {
+    id: 'Q-REAL-DC-0317',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Objeção de consciência e serviço militar',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Considere o seguinte caso hipotético: Carlos foi convocado para o serviço militar obrigatório. No entanto, por profunda convicção filosófica pacifista, ele se recusa a participar de qualquer atividade de natureza bélica. A legislação brasileira, prevendo situações como essa, oferece a possibilidade de um serviço alternativo de caráter administrativo. À luz do art. 5º, VIII, da Constituição Federal de 1988, analise a situação apresentada e assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Carlos não pode ser privado de direitos por razão de sua convicção, mas se ele recusar-se a cumprir tanto o serviço militar quanto o serviço alternativo que a lei estabelece, poderá sofrer sanções, como a suspensão de seus direitos políticos.' },
+      { id: 'B', texto: 'A liberdade de consciência é um direito absoluto. Portanto, Carlos pode simplesmente recusar-se a cumprir o serviço militar sem a necessidade de aceitar qualquer outra obrigação em troca, mantendo todos os seus direitos intactos.' },
+      { id: 'C', texto: 'Ao recusar-se a prestar o serviço militar, Carlos comete um crime e deve ser imediatamente processado, pois a defesa da Pátria é um dever que não admite exceções.' },
+      { id: 'D', texto: 'Carlos só poderia recusar-se a prestar o serviço militar se sua objeção fosse baseada em uma crença religiosa, não sendo a convicção filosófica ou política aceita pela Constituição para esse fim.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 5º, VIII: ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa fixada em lei. A recusa da prestação alternativa gera sanções (como suspensão de direitos políticos).',
+      incorretas: {
+        B: 'A liberdade de consciência não é absoluta; a prestação alternativa é obrigatória.',
+        C: 'A objeção de consciência é admitida constitucionalmente.',
+        D: 'A convicção filosófica e política também é protegida.'
+      },
+      conceitoCobrado: 'Objeção de consciência (art. 5º, VIII).',
+      pegadinha: 'Achar que a liberdade de consciência é absoluta.',
+      comoApareceEmConcurso: 'Cobrança literal do inciso VIII.'
+    },
+    tags: ['objeção de consciência', 'art. 5º, VIII']
+  },
+  {
+    id: 'Q-REAL-DC-0318',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Manifestação, domicílio, sigilo e reunião',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Considerando os direitos e deveres individuais e coletivos previstos na Constituição Federal, assinale a alternativa INCORRETA, à luz do texto constitucional.',
+    alternativas: [
+      { id: 'A', texto: 'A liberdade de manifestação do pensamento é assegurada, desde que seja possível a identificação do autor da manifestação.' },
+      { id: 'B', texto: 'A inviolabilidade do domicílio admite exceções, inclusive por determinação judicial durante o período noturno, nas hipóteses previstas em lei.' },
+      { id: 'C', texto: 'O sigilo das comunicações telefônicas pode ser afastado por ordem judicial, observadas as hipóteses e a forma estabelecidas em lei, para fins de investigação criminal ou instrução processual penal.' },
+      { id: 'D', texto: 'O direito de reunião pacífica, sem armas, em locais abertos ao público, independe de autorização, exigindo-se comunicação prévia à autoridade competente.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'B é INCORRETA: a ordem judicial para entrada em domicílio só pode ser cumprida durante o dia (art. 5º, XI).',
+      incorretas: {
+        A: 'Correta — o anonimato é vedado (art. 5º, IV).',
+        C: 'Correta — art. 5º, XII.',
+        D: 'Correta — art. 5º, XVI.'
+      },
+      conceitoCobrado: 'Inviolabilidade do domicílio (art. 5º, XI).',
+      pegadinha: 'Achar que a ordem judicial pode ser cumprida à noite.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['domicílio', 'art. 5º, XI']
+  },
+  {
+    id: 'Q-REAL-DC-0319',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direito de petição e certidões',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Durante atividade comunitária, a Guarda Civil Municipal recebeu denúncia de que um agente público impedia moradores de registrar petições e solicitar certidões em repartição municipal, alegando que tais atos dependeriam de taxa administrativa. Considerando os direitos e garantias fundamentais, é CORRETO afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'o poder público pode exigir taxa para assegurar autenticidade de certidões, desde que previstas em lei específica.' },
+      { id: 'B', texto: 'o direito de petição e de obtenção de certidões depende de comprovação de interesse público relevante.' },
+      { id: 'C', texto: 'o direito de petição e o direito a certidões somente são gratuitos para estrangeiros residentes.' },
+      { id: 'D', texto: 'o direito de petição e o de obtenção de certidões independe do pagamento de taxas, sendo assegurados a todos.' },
+      { id: 'E', texto: 'a Administração pode negar certidão se o requerente não for servidor público.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, XXXIV, "a" e "b": são assegurados a todos, independentemente do pagamento de taxas, o direito de petição e a obtenção de certidões.[reference:5]',
+      incorretas: {
+        A: 'A CF assegura a gratuidade.',
+        B: 'Não se exige interesse público relevante.',
+        C: 'O direito é de todos, não só de estrangeiros.',
+        E: 'A certidão não pode ser negada por esse motivo.'
+      },
+      conceitoCobrado: 'Direito de petição e certidões (art. 5º, XXXIV).',
+      pegadinha: 'Achar que se pode cobrar taxa.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['petição', 'certidões', 'art. 5º, XXXIV']
+  },
+  {
+    id: 'Q-REAL-DC-0320',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos e garantias (retroação, herança, anonimato, domicílio, racismo)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A Constituição Federal de 1988 estabelece um amplo rol de direitos e garantias fundamentais. De acordo com a referida Constituição, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A lei não retroagirá, salvo para beneficiar o réu.' },
+      { id: 'B', texto: 'O direito de herança é garantido apenas aos estrangeiros residentes.' },
+      { id: 'C', texto: 'É livre a manifestação do pensamento, sendo garantido o anonimato.' },
+      { id: 'D', texto: 'A casa é asilo inviolável, nela ninguém podendo penetrar, sem consentimento do morador, salvo por ordem judicial a qualquer hora.' },
+      { id: 'E', texto: 'A prática do racismo constitui crime afiançável e prescritível.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 5º, XL: "a lei penal não retroagirá, salvo para beneficiar o réu".',
+      incorretas: {
+        B: 'A herança é garantida a todos (art. 5º, XXX).',
+        C: 'O anonimato é vedado (art. 5º, IV).',
+        D: 'A ordem judicial só pode ser cumprida durante o dia (art. 5º, XI).',
+        E: 'O racismo é inafiançável e imprescritível (art. 5º, XLII).'
+      },
+      conceitoCobrado: 'Direitos e garantias (art. 5º, XL, XXX, IV, XI, XLII).',
+      pegadinha: 'Trocar "inafiançável" por "afiançável".',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['retroação', 'racismo', 'art. 5º']
+  },
+  {
+    id: 'Q-REAL-DC-0321',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direito de reunião em Câmara Municipal',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'É dia de votação, na Câmara Municipal da cidade X, do projeto de lei que trata da revisão geral anual da remuneração dos servidores públicos. O tema desperta forte mobilização no funcionalismo, pois, segundo os representantes das categorias profissionais, a revisão não tem sido suficiente para recompor, em termos reais, o poder de compra dos agentes públicos. Por essa razão, foi organizada uma grande manifestação, havendo notícias de que milhares de servidores, ativos e aposentados, estão se dirigindo à sede do Poder Legislativo para exercer pressão política sobre os vereadores. Diante desse cenário, a presidência da Câmara Municipal comunica o fato à Guarda Municipal e solicita o deslocamento de efetivo para o local. Antes de determinar a atuação da corporação, o comandante da Guarda decide rememorar, com seus subordinados, alguns aspectos constitucionalmente relevantes acerca da situação. Com base na hipótese apresentada e na Constituição Federal, é correto afirmar que:',
+    alternativas: [
+      { id: 'A', texto: 'a guarda municipal não pode, em qualquer hipótese, adotar providências para impedir que os manifestantes, ainda que em grande número, entrem nas dependências da Câmara.' },
+      { id: 'B', texto: 'os servidores públicos possuem, de fato, o direito à revisão da remuneração anual, pelos índices oficiais de inflação.' },
+      { id: 'C', texto: 'a manifestação será ilegal, caso não tenha sido previamente autorizada pela autoridade pública competente.' },
+      { id: 'D', texto: 'os servidores públicos possuem, como qualquer indivíduo, o direito fundamental à reunião e de associação, e a realização da manifestação deve ter sido previamente avisada à autoridade competente.' },
+      { id: 'E', texto: 'a manifestação será válida se não implicar obstrução de vias públicas, for precedida de autorização judicial e não afetar o direito de ir e vir dos demais munícipes.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'O direito de reunião (art. 5º, XVI) exige apenas prévio aviso à autoridade competente, não autorização.',
+      incorretas: {
+        A: 'A guarda pode adotar providências para garantir a ordem.',
+        B: 'A revisão anual não é direito absoluto.',
+        C: 'Não se exige autorização prévia.',
+        E: 'Não se exige autorização judicial.'
+      },
+      conceitoCobrado: 'Direito de reunião (art. 5º, XVI).',
+      pegadinha: 'Confundir aviso prévio com autorização.',
+      comoApareceEmConcurso: 'Caso concreto.'
+    },
+    tags: ['reunião', 'art. 5º, XVI']
+  },
+  {
+    id: 'Q-REAL-DC-0322',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Liberdade de associação',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'De acordo com a Constituição Federal de 1988, assinale a alternativa CORRETA acerca da liberdade de associação.',
+    alternativas: [
+      { id: 'A', texto: 'As associações poderão ser compulsoriamente dissolvidas por decisão administrativa definitiva.' },
+      { id: 'B', texto: 'As associações somente poderão ter suas atividades suspensas por decisão do Poder Legislativo.' },
+      { id: 'C', texto: 'As associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se trânsito em julgado apenas para a dissolução.' },
+      { id: 'D', texto: 'As associações poderão ser dissolvidas por ato do Poder Executivo quando houver interesse público relevante.' },
+      { id: 'E', texto: 'A suspensão das atividades de associação depende de trânsito em julgado da decisão judicial.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 5º, XIX: as associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se, no primeiro caso, o trânsito em julgado.[reference:6]',
+      incorretas: {
+        A: 'Não cabe decisão administrativa.',
+        B: 'Não cabe decisão do Legislativo.',
+        D: 'Não cabe ato do Executivo.',
+        E: 'A suspensão não exige trânsito em julgado.'
+      },
+      conceitoCobrado: 'Liberdade de associação (art. 5º, XIX).',
+      pegadinha: 'Exigir trânsito em julgado para a suspensão.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['associação', 'art. 5º, XIX']
+  },
+  {
+    id: 'Q-REAL-DC-0323',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Processo administrativo (vista dos autos e certidões)',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Em um processo administrativo municipal, foi instaurada apuração que pode resultar em sanção ao servidor. Após ser notificado para apresentar defesa, o servidor protocolou requerimento solicitando: (i) vista integral dos autos e cópias dos documentos utilizados como fundamento da apuração; e (ii) certidão com o histórico de movimentações do processo e a data-limite para defesa. O setor responsável indeferiu o pedido, afirmando que "o acesso aos autos somente será permitido por advogado constituído" e que "a emissão de certidões e o protocolo de petições dependem do pagamento prévio de taxa administrativa, para evitar excesso de demandas". Considerando a Constituição Federal de 1988, identifique a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A exigência de pagamento prévio de taxa é constitucional, pois a Administração pode condicionar o direito de petição a requisitos financeiros para preservar a eficiência e reduzir demandas repetitivas.' },
+      { id: 'B', texto: 'A situação é incompatível com a Constituição apenas por violar o acesso ao Poder Judiciário, já que contraditório e ampla defesa não se aplicam a processos administrativos.' },
+      { id: 'C', texto: 'A exigência de taxa para certidões é incompatível com a Constituição, mas a exigência de advogado para acesso aos autos é plenamente constitucional, pois a defesa administrativa depende de capacidade postulatória.' },
+      { id: 'D', texto: 'A situação é incompatível com a Constituição por configurar violação direta à liberdade de manifestação do pensamento, já que toda restrição a requerimentos administrativos é forma de censura estatal.' },
+      { id: 'E', texto: 'A situação é incompatível com a Constituição, pois se assegura a todos o direito de petição e a obtenção de certidões para defesa de direitos, independentemente de taxa, além de se garantir contraditório e ampla defesa em processos administrativos, o que pressupõe acesso efetivo aos elementos que embasam a apuração.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'A situação viola o art. 5º, XXXIV (gratuidade de petição e certidões) e o art. 5º, LV (contraditório e ampla defesa, que inclui acesso aos autos).',
+      incorretas: {
+        A: 'A taxa é inconstitucional.',
+        B: 'O contraditório aplica-se ao processo administrativo.',
+        C: 'A exigência de advogado para vista dos autos é ilegal.',
+        D: 'Não se trata de censura.'
+      },
+      conceitoCobrado: 'Direito de petição, certidões e ampla defesa.',
+      pegadinha: 'Achar que se pode exigir advogado para defesa administrativa.',
+      comoApareceEmConcurso: 'Caso concreto.'
+    },
+    tags: ['petição', 'certidões', 'ampla defesa']
+  },
+  {
+    id: 'Q-REAL-DC-0324',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Condução coercitiva e interceptação',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Em situações do dia a dia e do poder público, analise as afirmativas abaixo sobre direitos e garantias fundamentais. Assinale V, para verdadeiras, ou F, para falsas: (__) Um cidadão pode ser conduzido coercitivamente para depor em investigação policial sem ordem judicial, desde que seja para colaborar com a elucidação de um crime. (__) A interceptação de comunicações telefônicas só é válida se houver autorização judicial, em conformidade com o devido processo legal. (__) A liberdade de expressão garante ao jornalista publicar informações falsas sobre um servidor público, desde que não haja intenção de prejudicar sua reputação. (__) O direito à privacidade e à intimidade protege o cidadão de divulgação não autorizada de dados pessoais por órgãos públicos ou empresas privadas. (__) A liberdade de associação pode ser limitada em situações previstas em lei, para impedir que organizações promovam atividades ilícitas ou atentem contra a ordem pública. Assinale a alternativa que apresenta a sequência correta, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'F, V, F, V, V.' },
+      { id: 'B', texto: 'F, F, V, V, F.' },
+      { id: 'C', texto: 'V, F, V, V, F.' },
+      { id: 'D', texto: 'V, V, F, F, V.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'F (a condução coercitiva exige ordem judicial), V (interceptação exige autorização judicial), F (a liberdade de expressão não protege informações falsas), V (privacidade protege dados pessoais), V (a liberdade de associação pode ser limitada para fins ilícitos).[reference:7]',
+      incorretas: {
+        B: 'A segunda é verdadeira.',
+        C: 'A primeira é falsa.',
+        D: 'A primeira e a segunda são, respectivamente, F e V.'
+      },
+      conceitoCobrado: 'Condução coercitiva, interceptação, expressão, privacidade e associação.',
+      pegadinha: 'Achar que a condução coercitiva dispensa ordem judicial.',
+      comoApareceEmConcurso: 'Questão V/F.'
+    },
+    tags: ['condução coercitiva', 'interceptação', 'privacidade']
+  },
+  {
+    id: 'Q-REAL-DC-0325',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Proteção de dados pessoais',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Um cidadão brasileiro teve seus dados pessoais compartilhados por órgão público federal com empresa privada, sem consentimento, para fins estatísticos. Ao questionar administrativamente o fato, o órgão alegou que se tratava de informação de interesse coletivo e que, por essa razão, não haveria violação constitucional. De acordo com a Constituição Federal de 1988, considerando os direitos fundamentais expressamente positivados, a situação descrita:',
+    alternativas: [
+      { id: 'A', texto: 'é constitucional, pois o interesse coletivo prevalece sobre direitos individuais quando não houver finalidade econômica.' },
+      { id: 'B', texto: 'é constitucional, desde que assegurado posterior direito de resposta ou indenização.' },
+      { id: 'C', texto: 'revela violação constitucional, pois o direito à proteção de dados pessoais possui estatura de direito fundamental autônomo.' },
+      { id: 'D', texto: 'revela violação constitucional apenas se demonstrado dano material concreto ao titular dos dados.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'A EC 115/2022 incluiu a proteção de dados pessoais como direito fundamental autônomo (art. 5º, LXXIX).',
+      incorretas: {
+        A: 'O interesse coletivo não afasta a proteção de dados.',
+        B: 'A indenização posterior não sana a violação.',
+        D: 'A violação independe de dano material.'
+      },
+      conceitoCobrado: 'Proteção de dados pessoais (art. 5º, LXXIX).',
+      pegadinha: 'Achar que só há violação com dano material.',
+      comoApareceEmConcurso: 'Tema atual.'
+    },
+    tags: ['dados pessoais', 'art. 5º, LXXIX']
+  },
+  {
+    id: 'Q-REAL-DC-0326',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Associação — dissolução compulsória',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'A associação não governamental Alfa tem por objeto o desenvolvimento de projetos culturais em prol de determinado grupo representativo da sociedade brasileira. A partir de provas colhidas em investigação criminal, constatou-se que Alfa vinha sendo sistematicamente utilizada para a prática de infrações penais. Em razão desse fato, instaurou-se um debate, junto aos poderes constituídos de distintos níveis federativos, em relação à possibilidade, ou não, de ser obstado o funcionamento de Alfa. Ao fim dos debates, concluiu-se corretamente que:',
+    alternativas: [
+      { id: 'A', texto: 'pode ser promovida a dissolução compulsória de Alfa, o que exige decisão judicial transitada em julgado;' },
+      { id: 'B', texto: 'é vedada a dissolução de Alfa, por decisão judicial ou administrativa, considerando que a liberdade de associação é um direito fundamental;' },
+      { id: 'C', texto: 'é possível a suspensão das atividades de Alfa por decisão judicial, até que seja regularizada a sua representatividade, mas não a sua dissolução;' },
+      { id: 'D', texto: 'pode ser revogada a autorização de funcionamento concedida pelo município no qual Alfa está situada, por se tratar de matéria de interesse local;' },
+      { id: 'E', texto: 'pode ser interrompida a atuação de Alfa, caso seja demonstrada a sua atividade ilícita, em processo administrativo no qual seja assegurada a ampla defesa.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'Art. 5º, XIX: a dissolução compulsória exige decisão judicial transitada em julgado.[reference:8]',
+      incorretas: {
+        B: 'A dissolução é possível, com decisão judicial.',
+        C: 'A dissolução é possível.',
+        D: 'A dissolução não pode ser por ato administrativo.',
+        E: 'Não cabe interrupção por processo administrativo.'
+      },
+      conceitoCobrado: 'Dissolução de associação (art. 5º, XIX).',
+      pegadinha: 'Achar que a dissolução pode ser administrativa.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['associação', 'dissolução', 'art. 5º, XIX']
+  },
+  {
+    id: 'Q-REAL-DC-0327',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Acesso ao Judiciário e via administrativa',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'O processo administrativo federal integra o regime jurídico-administrativo e orienta a atuação da Administração por meio de garantias e limites normativos que asseguram regularidade procedimental e coerência decisória. A partir dessa informação e à luz da Lei nº 9.784/1999, julgue os itens seguintes. O acesso ao Poder Judiciário para questionar atos administrativos depende do esgotamento prévio da via administrativa.',
+    alternativas: [
+      { id: 'A', texto: 'Certo' },
+      { id: 'B', texto: 'Errado' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Errado. O art. 5º, XXXV, assegura o acesso ao Judiciário independentemente do esgotamento da via administrativa.[reference:9]',
+      incorretas: {
+        A: 'A via administrativa não é condição para o acesso ao Judiciário.'
+      },
+      conceitoCobrado: 'Inafastabilidade da jurisdição (art. 5º, XXXV).',
+      pegadinha: 'Achar que o esgotamento administrativo é obrigatório.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['acesso à justiça', 'art. 5º, XXXV']
+  },
+  {
+    id: 'Q-REAL-DC-0328',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos dos cidadãos (Guardas Municipais)',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'No que diz respeito aos direitos e deveres individuais e coletivos estabelecidos na Constituição Federal, analise as alternativas abaixo e assinale a única correta dos direitos dos cidadãos que devem ser estritamente observadas pelos servidores públicos, em especial os Guardas Civis Municipais.',
+    alternativas: [
+      { id: 'A', texto: 'Ninguém será submetido à tortura. No entanto, o tratamento degradante é admitido em determinadas circunstâncias.' },
+      { id: 'B', texto: 'É assegurado o livre exercício dos cultos religiosos, excetuando-se a proteção aos locais de culto e às respectivas liturgias.' },
+      { id: 'C', texto: 'A residência é asilo inviolável do indivíduo, sendo permitido o ingresso de agentes públicos sem o consentimento do morador apenas em caso de flagrante delito, desastre ou por determinação judicial, independentemente do horário, para fins de investigação.' },
+      { id: 'D', texto: 'É admitida a submissão do indivíduo a tratamento desumano ou degradante quando necessária à preservação da ordem pública ou à obtenção de informações relevantes para a segurança coletiva, desde que praticada por autoridade competente.' },
+      { id: 'E', texto: 'É vedada a privação de direitos em razão de crença religiosa, admitindo-se tal restrição quando o indivíduo invocar essa crença para eximir-se de obrigação legal imposta de forma geral e recusa-se a cumprir a prestação alternativa prevista em lei.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'Art. 5º, VIII: ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa.',
+      incorretas: {
+        A: 'O tratamento degradante é sempre vedado.',
+        B: 'Os locais de culto e liturgias são protegidos.',
+        C: 'A entrada por determinação judicial só pode ocorrer durante o dia.',
+        D: 'O tratamento desumano é vedado.'
+      },
+      conceitoCobrado: 'Art. 5º, III, VI, VIII e XI.',
+      pegadinha: 'Admitir tratamento degradante.',
+      comoApareceEmConcurso: 'Cobrança combinada.'
+    },
+    tags: ['tortura', 'religião', 'domicílio']
+  },
+  {
+    id: 'Q-REAL-DC-0329',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos e garantias (manifestação, domicílio, trabalho, legalidade, locomoção)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Em relação aos direitos e garantias fundamentais previstos na Constituição Federal, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A manifestação do pensamento somente é permitida mediante identificação prévia e autorização da autoridade competente.' },
+      { id: 'B', texto: 'É admitida a entrada na casa do indivíduo durante a noite, independentemente de ordem judicial, quando se tratar de investigação criminal.' },
+      { id: 'C', texto: 'O exercício de qualquer trabalho depende de licença estatal, ainda que o indivíduo possua qualificação profissional adequada.' },
+      { id: 'D', texto: 'Ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei.' },
+      { id: 'E', texto: 'A liberdade de locomoção no território nacional pode ser restringida em tempo de paz sem necessidade de previsão legal.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, II: princípio da legalidade.',
+      incorretas: {
+        A: 'Não se exige autorização prévia.',
+        B: 'A entrada à noite sem ordem judicial é vedada.',
+        C: 'O exercício profissional é livre, atendidas as qualificações legais.',
+        E: 'A locomoção é livre em tempo de paz.'
+      },
+      conceitoCobrado: 'Legalidade (art. 5º, II).',
+      pegadinha: 'Achar que se exige autorização para manifestação.',
+      comoApareceEmConcurso: 'Cobrança direta.'
+    },
+    tags: ['legalidade', 'art. 5º, II']
+  },
+  {
+    id: 'Q-REAL-DC-0330',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos assegurados (resposta, assistência religiosa, dados, expressão)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'De acordo com as disposições do art. 5º do Capítulo I – Dos Direitos e Deveres Individuais e Coletivos, aos brasileiros e aos estrangeiros residentes no País são assegurados os seguintes direitos: I. O direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem. II. Nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva. III. Nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais. IV. A livre expressão da atividade intelectual, artística, científica e de comunicação, condicionada à devida licença. Quais estão corretos?',
+    alternativas: [
+      { id: 'A', texto: 'Apenas I e III.' },
+      { id: 'B', texto: 'Apenas II e IV.' },
+      { id: 'C', texto: 'Apenas I, II e III.' },
+      { id: 'D', texto: 'Apenas II, III e IV.' },
+      { id: 'E', texto: 'I, II, III e IV.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'I (art. 5º, V), II (art. 5º, VII) e III (art. 5º, LXXIX) estão corretos. IV é falso: a expressão é livre, independentemente de censura ou licença (art. 5º, IX).',
+      incorretas: {
+        A: 'II também está correto.',
+        B: 'I e III estão corretos.',
+        D: 'IV é falso.',
+        E: 'IV é falso.'
+      },
+      conceitoCobrado: 'Art. 5º, V, VII, IX e LXXIX.',
+      pegadinha: 'Exigir licença para expressão.',
+      comoApareceEmConcurso: 'Cobrança combinada.'
+    },
+    tags: ['resposta', 'dados', 'expressão']
+  },
+  {
+    id: 'Q-REAL-DC-0331',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Penas (morte, banimento, presidiárias)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Analise a sentença abaixo com base no que dispõe a Constituição Federal vigente: No Brasil, não haverá pena de morte em nenhuma hipótese (1ª parte). A pena de banimento é vedada no Brasil, ainda que se esteja tratando de crime de traição à pátria (2ª parte). Às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação (3ª parte). Quais partes estão corretas?',
+    alternativas: [
+      { id: 'A', texto: 'Apenas a 1ª parte.' },
+      { id: 'B', texto: 'Apenas a 2ª parte.' },
+      { id: 'C', texto: 'Apenas a 3ª parte.' },
+      { id: 'D', texto: 'Apenas a 2ª e a 3ª partes.' },
+      { id: 'E', texto: 'Todas as partes.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: '1ª parte é falsa: há exceção de pena de morte em caso de guerra declarada (art. 5º, XLVII, "a"). 2ª parte é verdadeira: o banimento é vedado. 3ª parte é verdadeira: art. 5º, L.',
+      incorretas: {
+        A: 'A 1ª parte é falsa.',
+        B: 'A 3ª parte também é verdadeira.',
+        C: 'A 2ª parte também é verdadeira.',
+        E: 'A 1ª parte é falsa.'
+      },
+      conceitoCobrado: 'Penas (art. 5º, XLVII e L).',
+      pegadinha: 'Achar que a pena de morte é vedada em absoluto.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['pena de morte', 'banimento', 'presidiárias']
+  },
+  {
+    id: 'Q-REAL-DC-0332',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Ação popular, sucessão, crimes e extradição',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Com relação aos direitos e deveres individuais e coletivos, assinale a alternativa correta.',
+    alternativas: [
+      { id: 'A', texto: 'qualquer pessoa, física ou jurídica, é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.' },
+      { id: 'B', texto: 'nenhuma pena passará da pessoa do condenado, mas a obrigação de reparar o dano e a decretação do perdimento de bens podem ser, nos termos da lei, estendidas aos sucessores e contra eles executadas, sem qualquer limitação.' },
+      { id: 'C', texto: 'a sucessão de bens de estrangeiros situados no País será sempre regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, independentemente do quanto previsto na lei pessoal do de cujus.' },
+      { id: 'D', texto: 'a lei considerará crimes inafiançáveis e insuscetíveis de graça ou anistia a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins, o terrorismo e os definidos como crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem.' },
+      { id: 'E', texto: 'nenhum brasileiro será extraditado, nem o nato nem o naturalizado, por expressa vedação prevista na Constituição Federal, podendo ser concedida extradição de estrangeiro por crime político ou de opinião.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'D reproduz o art. 5º, XLIII.',
+      incorretas: {
+        A: 'A ação popular é privativa do cidadão (pessoa física), não de pessoa jurídica.',
+        B: 'A reparação e o perdimento estendem-se aos sucessores, mas há limitações legais.',
+        C: 'A lei brasileira só prevalece se mais favorável.',
+        E: 'O brasileiro naturalizado pode ser extraditado em casos de crime comum antes da naturalização ou tráfico.'
+      },
+      conceitoCobrado: 'Art. 5º, XLIII, LI, XXXI, LXXIII.',
+      pegadinha: 'Achar que a pessoa jurídica pode propor ação popular.',
+      comoApareceEmConcurso: 'Cobrança combinada.'
+    },
+    tags: ['ação popular', 'extradição', 'crimes hediondos']
+  },
+  {
+    id: 'Q-REAL-DC-0333',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Liberdade religiosa no ambiente de trabalho',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'Em um órgão público municipal, uma servidora percebeu que mensagens ofensivas sobre sua religião estavam sendo compartilhadas em um grupo de comunicação interna entre colegas de trabalho. Sentindo-se prejudicada, ela registrou a ocorrência junto à ouvidoria do órgão, solicitando providências administrativas. Considerando os direitos e garantias fundamentais previstos na Constituição Federal, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'Como se trata de ambiente público, a liberdade religiosa não se aplica, pois o servidor deve se adaptar às práticas internas da Administração.' },
+      { id: 'B', texto: 'A Administração Pública não pode intervir em conflitos internos de servidores, pois sua atuação se limita a decisões administrativas formais.' },
+      { id: 'C', texto: 'A liberdade de manifestação do pensamento permite que colegas ofendam crenças alheias sem consequências no âmbito da Administração Pública.' },
+      { id: 'D', texto: 'A Constituição assegura a liberdade de consciência e de crença, garantindo proteção aos servidores contra qualquer tratamento discriminatório relacionado à religião, cabendo à Administração Pública adotar medidas corretivas.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, VI e VIII: a liberdade de consciência e de crença é inviolável, e a Administração deve coibir discriminações.',
+      incorretas: {
+        A: 'A liberdade religiosa aplica-se também no ambiente público.',
+        B: 'A Administração deve intervir para coibir discriminação.',
+        C: 'A liberdade de expressão não protege ofensas discriminatórias.'
+      },
+      conceitoCobrado: 'Liberdade religiosa (art. 5º, VI).',
+      pegadinha: 'Achar que a liberdade de expressão autoriza ofensas.',
+      comoApareceEmConcurso: 'Caso concreto.'
+    },
+    tags: ['religião', 'discriminação']
+  },
+  {
+    id: 'Q-REAL-DC-0334',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Manifestação, anonimato, domicílio e sigilo',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Em relação aos direitos e garantias fundamentais previstos na Constituição Federal, assinale a alternativa correta:',
+    alternativas: [
+      { id: 'A', texto: 'É assegurado o direito de manifestação do pensamento, inclusive de forma anônima, cabendo ao Poder Público garantir a confidencialidade do autor em qualquer circunstância.' },
+      { id: 'B', texto: 'É livre a manifestação do pensamento, sendo vedado o anonimato, assegurado ainda o direito de resposta proporcional ao agravo, além da indenização por dano material, moral ou à imagem.' },
+      { id: 'C', texto: 'À casa é considerada asilo inviolável do indivíduo, sendo vedada a entrada de qualquer pessoa, mesmo em caso de flagrante delito ou desastre.' },
+      { id: 'D', texto: 'O sigilo da correspondência e das comunicações telefônicas é absoluto, não admitindo qualquer hipótese de quebra por ordem judicial.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Art. 5º, IV e V: é livre a manifestação do pensamento, vedado o anonimato, assegurado o direito de resposta e indenização.',
+      incorretas: {
+        A: 'O anonimato é vedado.',
+        C: 'A casa pode ser acessada em flagrante, desastre ou ordem judicial.',
+        D: 'O sigilo pode ser quebrado por ordem judicial (art. 5º, XII).'
+      },
+      conceitoCobrado: 'Manifestação, anonimato e direito de resposta.',
+      pegadinha: 'Permitir o anonimato.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['manifestação', 'anonimato', 'resposta']
+  },
+  {
+    id: 'Q-REAL-DC-0335',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'PL das Fake News e liberdade de expressão',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'O Brasil vem vivenciando importantes discussões e ações relacionadas ao combate à desinformação e ao uso ético das tecnologias digitais. Um dos focos centrais foi a tramitação do chamado Projeto de Lei das Fake News, que visa regulamentar as plataformas digitais e promover maior responsabilidade sobre os conteúdos veiculados online. Em meio a debates acalorados entre representantes da sociedade civil, empresas de tecnologia e membros dos Três Poderes, o projeto destaca-se por:',
+    alternativas: [
+      { id: 'A', texto: 'Estimular a auto-regulamentação das plataformas digitais, sem qualquer responsabilização legal sobre os conteúdos falsos compartilhados, para garantir a liberdade de expressão total.' },
+      { id: 'B', texto: 'Determinar que as plataformas digitais sejam responsabilizadas por conteúdos impulsionados comercialmente e por práticas deliberadas de desinformação, além de exigir mais transparência nos algoritmos.' },
+      { id: 'C', texto: 'Prever a criação de um órgão estatal de censura prévia sobre todo conteúdo digital publicado no país, com controle direto do Executivo.' },
+      { id: 'D', texto: 'Obrigar as empresas de redes sociais e aplicativos de mensagens a removerem, sem necessidade de decisão judicial, qualquer conteúdo considerado ofensivo por usuários.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'O PL das Fake News busca responsabilizar plataformas por conteúdos impulsionados e exigir transparência algorítmica, sem censura prévia.',
+      incorretas: {
+        A: 'O projeto prevê responsabilização.',
+        C: 'Não se trata de censura prévia.',
+        D: 'A remoção não é automática por qualquer usuário.'
+      },
+      conceitoCobrado: 'Liberdade de expressão e desinformação.',
+      pegadinha: 'Achar que o projeto institui censura prévia.',
+      comoApareceEmConcurso: 'Tema atual.'
+    },
+    tags: ['fake news', 'liberdade de expressão']
+  },
+  {
+    id: 'Q-REAL-DC-0336',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Moralidade administrativa e ação popular',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'O texto da Constituição Federal nos traz oportunidades que impõem aos agentes públicos o dever da observância da moralidade. Assinalar a alternativa que apresenta o princípio da moralidade administrativa.',
+    alternativas: [
+      { id: 'A', texto: 'Não haverá prisão civil por dívida, salvo a do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia e a do depositário infiel.' },
+      { id: 'B', texto: 'Qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.' },
+      { id: 'C', texto: 'Nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.' },
+      { id: 'D', texto: 'A lei considerará crimes inafiançáveis e insuscetíveis de graça ou anistia a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins, o terrorismo e os definidos como crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A ação popular é o instrumento que visa anular ato lesivo à moralidade administrativa (art. 5º, LXXIII).',
+      incorretas: {
+        A: 'Trata da prisão civil.',
+        C: 'Trata de extradição.',
+        D: 'Trata de crimes inafiançáveis.'
+      },
+      conceitoCobrado: 'Moralidade administrativa e ação popular.',
+      pegadinha: 'Confundir com outros institutos.',
+      comoApareceEmConcurso: 'Cobrança do art. 5º, LXXIII.'
+    },
+    tags: ['moralidade', 'ação popular']
+  },
+  {
+    id: 'Q-REAL-DC-0337',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos fundamentais (anonimato, domicílio, dados, informação)',
+    dificuldade: 3,
+    prioridade: 'alta',
+    enunciado: 'Considerando os direitos fundamentais previstos no Título II da Constituição Federal de 1988 e a respectiva regulamentação infraconstitucional, assinale a alternativa correta.',
+    alternativas: [
+      { id: 'A', texto: 'É livre a manifestação de pensamento, sendo permitida, conforme previsão expressa no texto da Constituição Federal de 1988, em casos excepcionais, o anonimato.' },
+      { id: 'B', texto: 'Embora a casa seja asilo inviolável do indivíduo, é possível nela adentrar, sem o consentimento do morador, por ordem judicial, durante o dia ou à noite.' },
+      { id: 'C', texto: 'O direito à proteção dos dados pessoais não é um direito fundamental, embora esteja regulamentado em lei infraconstitucional.' },
+      { id: 'D', texto: 'A liberdade de informação é um direito fundamental, observando-se, quando do seu exercício, a publicidade como preceito geral e o sigilo como exceção.' },
+      { id: 'E', texto: 'A liberdade de informação é um direito fundamental, regulamentado por lei infraconstitucional, a qual assegura a qualquer pessoa o direito a formular pedido de acesso à informação, que, para ser atendido, poderá ser tanto específico quanto genérico.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A liberdade de informação (art. 5º, XIV e XXXIII) rege-se pela publicidade como regra e sigilo como exceção.',
+      incorretas: {
+        A: 'O anonimato é vedado.',
+        B: 'A ordem judicial só pode ser cumprida durante o dia.',
+        C: 'A proteção de dados é direito fundamental (art. 5º, LXXIX).',
+        E: 'O pedido de acesso à informação deve ser específico.'
+      },
+      conceitoCobrado: 'Direito à informação (art. 5º, XXXIII).',
+      pegadinha: 'Achar que o pedido pode ser genérico.',
+      comoApareceEmConcurso: 'Cobrança da Lei de Acesso à Informação.'
+    },
+    tags: ['informação', 'dados pessoais']
+  },
+  {
+    id: 'Q-REAL-DC-0338',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Racismo, intimidade e associação paramilitar',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Com base no artigo 5° da Constituição da República Federativa do Brasil de 1988, julgue os itens seguintes: I. A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de detenção, nos termos da lei. II. São invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação. III. É plena a liberdade de associação para fins lícitos, inclusive a de caráter paramilitar. Está(ão) CORRETO(S):',
+    alternativas: [
+      { id: 'A', texto: 'I, II e III.' },
+      { id: 'B', texto: 'I, apenas.' },
+      { id: 'C', texto: 'II, apenas.' },
+      { id: 'D', texto: 'I e II, apenas.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'II está correto (art. 5º, X). I é falso: a pena do racismo é de reclusão, não detenção (art. 5º, XLII). III é falso: é vedada a associação de caráter paramilitar (art. 5º, XVII).',
+      incorretas: {
+        A: 'I e III são falsos.',
+        B: 'I é falso.',
+        D: 'I é falso.'
+      },
+      conceitoCobrado: 'Racismo, intimidade e associação (art. 5º, XLII, X, XVII).',
+      pegadinha: 'Trocar reclusão por detenção.',
+      comoApareceEmConcurso: 'Cobrança combinada.'
+    },
+    tags: ['racismo', 'intimidade', 'associação']
+  },
+  {
+    id: 'Q-REAL-DC-0339',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Crime inafiançável e imprescritível',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'Com base na Constituição Federal, constitui crime inafiançável e imprescritível, sujeito a pena de reclusão, a prática de:',
+    alternativas: [
+      { id: 'A', texto: 'Tortura.' },
+      { id: 'B', texto: 'Terrorismo.' },
+      { id: 'C', texto: 'Difamação.' },
+      { id: 'D', texto: 'Racismo.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'Art. 5º, XLII: a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão.[reference:10]',
+      incorretas: {
+        A: 'A tortura é inafiançável, mas não imprescritível.',
+        B: 'O terrorismo é inafiançável, mas não imprescritível.',
+        C: 'A difamação não é inafiançável nem imprescritível.'
+      },
+      conceitoCobrado: 'Racismo (art. 5º, XLII).',
+      pegadinha: 'Confundir com tortura e terrorismo.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['racismo', 'art. 5º, XLII']
+  },
+  {
+    id: 'Q-REAL-DC-0340',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Crimes imprescritíveis',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Tendo em vista os direitos e deveres individuais e coletivos, presentes no Art 5º da Constituição Federal de 1988, assinale a afirmativa INCORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'A lei punirá qualquer discriminação atentatória dos direitos e liberdades fundamentais.' },
+      { id: 'B', texto: 'O ordenamento jurídico brasileiro considera que os crimes de racismo e os hediondos são imprescritíveis.' },
+      { id: 'C', texto: 'Os mandados de criminalização constituem o dever de criminalizar determinadas condutas em razão de sua relevância.' },
+      { id: 'D', texto: 'O princípio do juiz natural, de acordo com a Constituição Federal, prevê que não haverá juízo ou tribunal de exceção, não podendo ninguém ser sentenciado, senão pela autoridade competente.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'B é INCORRETA: apenas o racismo (e a ação de grupos armados) é imprescritível; os crimes hediondos não são, por si só, imprescritíveis.[reference:11]',
+      incorretas: {
+        A: 'Correta — art. 5º, XLI.',
+        C: 'Correta — mandados de criminalização.',
+        D: 'Correta — art. 5º, XXXVII e LIII.'
+      },
+      conceitoCobrado: 'Crimes imprescritíveis (art. 5º, XLII e XLIV).',
+      pegadinha: 'Incluir crimes hediondos como imprescritíveis.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['imprescritibilidade', 'hediondos']
+  },
+  {
+    id: 'Q-REAL-DC-0341',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Acesso à informação',
+    dificuldade: 2,
+    prioridade: 'media',
+    enunciado: 'A Constituição de 1988 prevê que a documentação governamental é patrimônio cultural brasileiro, e a administração pública tem a obrigação de franquear sua consulta a quantos dela necessitem. Considerando a regulamentação desse dispositivo, qual conduta é compatível com o direito fundamental de acesso à informação?',
+    alternativas: [
+      { id: 'A', texto: 'O fornecimento indireto de informação, quando a entidade pública comunica por escrito o sítio virtual consultável pelo requerente com acesso à internet.' },
+      { id: 'B', texto: 'A dispensa, pelo órgão público, da identificação da pessoa que solicita acesso à informação e à especificação da informação requerida.' },
+      { id: 'C', texto: 'A ordem de prestar informação dada a entidade privada sem fins lucrativos que realize ações de interesse público mediante financiamento coletivo.' },
+      { id: 'D', texto: 'O fornecimento da informação em formato digital nesse mesmo formato, independentemente da anuência do requerente.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'O fornecimento indireto (indicação de sítio virtual) é admitido pela Lei de Acesso à Informação.',
+      incorretas: {
+        B: 'O órgão deve identificar o requerente e a informação.',
+        C: 'A LAI não impõe essa obrigação a entidades privadas sem fins lucrativos.',
+        D: 'O formato deve observar a preferência do requerente.'
+      },
+      conceitoCobrado: 'Lei de Acesso à Informação.',
+      pegadinha: 'Achar que o formato digital é imposto.',
+      comoApareceEmConcurso: 'Cobrança da LAI.'
+    },
+    tags: ['acesso à informação', 'LAI']
+  },
+  {
+    id: 'Q-REAL-DC-0342',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Participações individuais em obras coletivas',
+    dificuldade: 2,
+    prioridade: 'baixa',
+    enunciado: 'À luz dos direitos e deveres individuais e coletivos e dos direitos sociais, estabelecidos na Constituição Federal de 1988, julgue os itens seguintes. A proteção às participações individuais em obras coletivas e à reprodução da imagem e voz humanas, inclusive nas atividades desportivas, é uma norma de aplicação imediata, independendo, portanto, de lei para torná-la exequível.',
+    alternativas: [
+      { id: 'A', texto: 'Certo' },
+      { id: 'B', texto: 'Errado' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Errado. O art. 5º, XXVIII, "a", é norma de eficácia limitada, pois depende de lei para produzir seus efeitos (""nos termos da lei"").[reference:12]',
+      incorretas: {
+        A: 'A norma não é de aplicação imediata.'
+      },
+      conceitoCobrado: 'Eficácia da norma (art. 5º, XXVIII).',
+      pegadinha: 'Achar que é autoaplicável.',
+      comoApareceEmConcurso: 'Cobrança de classificação de normas.'
+    },
+    tags: ['eficácia limitada', 'art. 5º, XXVIII']
+  },
+  {
+    id: 'Q-REAL-DC-0343',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'V/F — igualdade, anonimato, associações e resposta',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Os itens a seguir referem-se aos direitos e deveres individuais e coletivos previstos na Constituição Federal de 1988, analise-os e coloque V para verdadeiro e F para falso: ( ) Todos são iguais perante a lei, sem distinção de qualquer natureza. ( ) Homens e mulheres são iguais em direitos e obrigações. ( ) É livre a manifestação do pensamento, sendo permitido o anonimato. ( ) A criação de associações e, na forma da lei, a de cooperativas dependem de autorização, sendo obrigatória a interferência estatal em seu funcionamento. ( ) É assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem. Os itens são, de cima para baixo, respectivamente:',
+    alternativas: [
+      { id: 'A', texto: 'V, V, V, F, F.' },
+      { id: 'B', texto: 'V, V, F, F, V.' },
+      { id: 'C', texto: 'V, V, F, V, V.' },
+      { id: 'D', texto: 'V, V, F, F, F.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'V (art. 5º, caput), V (art. 5º, I), F (o anonimato é vedado — art. 5º, IV), F (a criação de associações independe de autorização — art. 5º, XVIII), V (art. 5º, V).[reference:13]',
+      incorretas: {
+        A: 'A terceira e a quarta são falsas.',
+        C: 'A quarta é falsa.',
+        D: 'A quinta é verdadeira.'
+      },
+      conceitoCobrado: 'Art. 5º, caput, I, IV, V e XVIII.',
+      pegadinha: 'Permitir o anonimato.',
+      comoApareceEmConcurso: 'Questão V/F.'
+    },
+    tags: ['igualdade', 'anonimato', 'associação']
+  },
+  {
+    id: 'Q-REAL-DC-0344',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Acesso à Justiça (INCORRETA)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Em consonância com a Constituição Federal, assinale a alternativa INCORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'a lei excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.' },
+      { id: 'B', texto: 'é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer.' },
+      { id: 'C', texto: 'é assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional.' },
+      { id: 'D', texto: 'no caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano.' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'A é INCORRETA: o art. 5º, XXXV, diz que a lei NÃO excluirá da apreciação do Judiciário lesão ou ameaça a direito.[reference:14]',
+      incorretas: {
+        B: 'Correta — art. 5º, XIII.',
+        C: 'Correta — art. 5º, XIV.',
+        D: 'Correta — art. 5º, XXV.'
+      },
+      conceitoCobrado: 'Inafastabilidade da jurisdição (art. 5º, XXXV).',
+      pegadinha: 'Suprimir o "não".',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['acesso à justiça', 'art. 5º, XXXV']
+  },
+  {
+    id: 'Q-REAL-DC-0345',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Pena de morte, estabelecimentos e provas ilícitas',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Com base nas disposições do texto constitucional, assinale com VERDADEIRO (V) ou FALSO (F) as afirmativas a seguir: ( ) Não há exceção no texto constitucional acerca da proibição da pena de morte no território brasileiro. ( ) A pena será cumprida em estabelecimentos distintos, de acordo com a natureza do delito, a idade e o sexo do apenado. ( ) São inadmissíveis, no processo, provas obtidas por meios ilícitos. Assinale a alternativa que completa de forma correta e adequadamente os parênteses, de cima para baixo:',
+    alternativas: [
+      { id: 'A', texto: 'F-V-V' },
+      { id: 'B', texto: 'F-F-V' },
+      { id: 'C', texto: 'F-V-F' },
+      { id: 'D', texto: 'V-V-F' },
+      { id: 'E', texto: 'V-V-V' }
+    ],
+    gabarito: 'A',
+    explicacao: {
+      correta: 'F (há exceção de pena de morte em guerra declarada — art. 5º, XLVII, "a"), V (art. 5º, XLVIII), V (art. 5º, LVI).[reference:15]',
+      incorretas: {
+        B: 'A segunda é verdadeira.',
+        C: 'A terceira é verdadeira.',
+        D: 'A primeira é falsa.',
+        E: 'A primeira é falsa.'
+      },
+      conceitoCobrado: 'Art. 5º, XLVII, XLVIII e LVI.',
+      pegadinha: 'Achar que a pena de morte é vedada sem exceção.',
+      comoApareceEmConcurso: 'Questão V/F.'
+    },
+    tags: ['pena de morte', 'provas ilícitas']
+  },
+  {
+    id: 'Q-REAL-DC-0346',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-03',
+    subtema: 'Direitos fundamentais basilares',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'A Constituição Federal de 1988, em relação aos Direitos e Garantias Fundamentais – Direitos e Deveres Individuais e Coletivos, dispõe que: "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no país a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade [...]." Considerando a temática, analise as afirmativas a seguir. I. A Constituição Federal de 1988, em seu Art. 5º, aponta como direitos fundamentais basilares o direito à vida, à liberdade, à igualdade, à segurança e à propriedade. II. Os direitos individuais e coletivos referem-se aos direitos fundamentais que toda a sociedade desfruta, como direito à educação, alimentação, segurança, trabalho, moradia e saúde. III. O direito à vida pressupõe a condição de viver de forma digna, considerando a preservação da integridade, física e moral de cada indivíduo. IV. O direito à liberdade abarca desde a liberdade de locomoção pelo país à liberdade de pensamento, de expressão, de consciência e de reunião. Está correto o que se afirma apenas em:',
+    alternativas: [
+      { id: 'A', texto: 'II.' },
+      { id: 'B', texto: 'III e IV.' },
+      { id: 'C', texto: 'I, II e IV.' },
+      { id: 'D', texto: 'I, III e IV.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'I, III e IV estão corretos. II é falso: educação, alimentação, trabalho, moradia e saúde são direitos sociais (art. 6º), não individuais do art. 5º.',
+      incorretas: {
+        A: 'II é falso.',
+        B: 'I também está correto.',
+        C: 'II é falso.'
+      },
+      conceitoCobrado: 'Direitos individuais x direitos sociais.',
+      pegadinha: 'Misturar direitos sociais com individuais.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['direitos individuais', 'direitos sociais']
+  },
+
+  /* ---------- DC-07 — Remédios Constitucionais ---------- */
+  {
+    id: 'Q-REAL-DC-0701',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Mandado de injunção',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'João, brasileiro, constatou que a falta de norma regulamentadora está impedindo o exercício dos seus direitos e liberdades constitucionais inerentes à cidadania. Diante disso, o particular buscou analisar o texto constitucional em busca de opções para sanar a situação posta. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que João:',
+    alternativas: [
+      { id: 'A', texto: 'não poderá ingressar, em juízo, com ação judicial, devendo aguardar a edição, pelo Congresso Nacional, da norma regulamentadora, de forma a exercer seus direitos e liberdades constitucionais inerentes à cidadania;' },
+      { id: 'B', texto: 'não poderá ingressar, em juízo, com ação judicial, devendo aguardar a edição, pelo Poder Executivo, da norma regulamentadora, de forma a exercer seus direitos e liberdades constitucionais inerentes à cidadania;' },
+      { id: 'C', texto: 'poderá ingressar, em juízo, com um mandado de injunção, visando ao exercício de seus direitos e liberdades constitucionais inerentes à cidadania;' },
+      { id: 'D', texto: 'poderá ingressar, em juízo, com um mandado de segurança, visando ao exercício de seus direitos e liberdades constitucionais inerentes à cidadania;' },
+      { id: 'E', texto: 'poderá ingressar, em juízo, com uma ação popular, visando ao exercício de seus direitos e liberdades constitucionais inerentes à cidadania.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 5º, LXXI: conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.[reference:16]',
+      incorretas: {
+        A: 'O mandado de injunção é justamente o remédio para a falta de norma.',
+        B: 'Idem.',
+        D: 'O mandado de segurança não supre a falta de norma.',
+        E: 'A ação popular tem outro objeto.'
+      },
+      conceitoCobrado: 'Mandado de injunção (art. 5º, LXXI).',
+      pegadinha: 'Confundir com mandado de segurança.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['mandado de injunção', 'art. 5º, LXXI']
+  },
+  {
+    id: 'Q-REAL-DC-0702',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Gratuidade de remédios constitucionais',
+    dificuldade: 1,
+    prioridade: 'alta',
+    enunciado: 'O estado de direito no Brasil é chamado de democrático, pois todo poder emana do povo e é por ele exercido, diretamente ou por meio de representantes eleitos. Considerando os instrumentos de democracia representativa e à luz dos direitos fundamentais expressos na Constituição Federal de 1988, julgue o item a seguir. A Constituição Federal de 1988 assegura gratuidade às ações de mandado de segurança, de habeas-corpus e de habeas-data.',
+    alternativas: [
+      { id: 'A', texto: 'Certo' },
+      { id: 'B', texto: 'Errado' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Errado. A CF assegura gratuidade apenas ao habeas corpus e ao habeas data (art. 5º, LXXVII). O mandado de segurança não é gratuito.[reference:17]',
+      incorretas: {
+        A: 'O mandado de segurança não é gratuito.'
+      },
+      conceitoCobrado: 'Gratuidade dos remédios (art. 5º, LXXVII).',
+      pegadinha: 'Incluir o mandado de segurança como gratuito.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['gratuidade', 'habeas corpus', 'habeas data']
+  },
+  {
+    id: 'Q-REAL-DC-0703',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Ação popular',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Determinado município firmou contrato para o aterramento de área de várzea às margens do Rio Claro, com supressão de vegetação nativa e sem a realização de estudo de impacto ambiental. Diante disso, um eleitor regularmente inscrito e morador da região pretende anular o ato administrativo por lesividade ao meio ambiente ecologicamente equilibrado, buscando a suspensão imediata do contrato. Nessa hipótese, a ação cabível é o(a):',
+    alternativas: [
+      { id: 'A', texto: 'mandado de injunção.' },
+      { id: 'B', texto: 'ação popular.' },
+      { id: 'C', texto: 'ação civil pública.' },
+      { id: 'D', texto: 'mandado de segurança coletivo.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A ação popular (art. 5º, LXXIII) é o remédio cabível para o cidadão anular ato lesivo ao meio ambiente.[reference:18]',
+      incorretas: {
+        A: 'O mandado de injunção não se aplica.',
+        C: 'A ação civil pública é do Ministério Público.',
+        D: 'O mandado de segurança coletivo tem outro objeto.'
+      },
+      conceitoCobrado: 'Ação popular (art. 5º, LXXIII).',
+      pegadinha: 'Confundir com ação civil pública.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['ação popular', 'art. 5º, LXXIII']
+  },
+  {
+    id: 'Q-REAL-DC-0704',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Habeas data',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Um servidor público municipal recebeu requerimento de cidadão que pretendia obter informações de interesse particular constantes de banco de dados mantido por órgão governamental. Após a negativa administrativa de acesso, cogitou-se a utilização de instrumento constitucional destinado especificamente à obtenção ou retificação dessas informações. Considerando a Constituição Federal, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'O mandado de segurança é o instrumento constitucional cabível para obtenção de informações relativas à pessoa do impetrante constantes de registros governamentais.' },
+      { id: 'B', texto: 'O habeas corpus é cabível sempre que houver recusa de fornecimento de informações por órgão público.' },
+      { id: 'C', texto: 'O habeas data destina-se a assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.' },
+      { id: 'D', texto: 'A ação popular é o instrumento adequado para retificação de dados pessoais mantidos pela Administração Pública.' },
+      { id: 'E', texto: 'O direito de acesso a informações pessoais depende de prévia autorização judicial, ainda que não haja controvérsia administrativa.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'Art. 5º, LXXII, "a": o habeas data assegura o conhecimento de informações relativas à pessoa do impetrante.[reference:19]',
+      incorretas: {
+        A: 'O mandado de segurança não é o instrumento específico.',
+        B: 'O habeas corpus é para locomoção.',
+        D: 'A ação popular não serve para retificação de dados.',
+        E: 'Não se exige autorização judicial prévia.'
+      },
+      conceitoCobrado: 'Habeas data (art. 5º, LXXII).',
+      pegadinha: 'Confundir com mandado de segurança.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['habeas data', 'art. 5º, LXXII']
+  },
+  {
+    id: 'Q-REAL-DC-0705',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-07',
+    subtema: 'Mandado de injunção (lacuna)',
+    dificuldade: 2,
+    prioridade: 'alta',
+    enunciado: 'Assinale a alternativa que preencha CORRETAMENTE a lacuna a seguir, extraído da Constituição da República Federativa do Brasil de 1988. "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: LXXI - conceder-se-á _____ sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania."',
+    alternativas: [
+      { id: 'A', texto: 'Habeas data.' },
+      { id: 'B', texto: 'Tutela de evidência.' },
+      { id: 'C', texto: 'Tutela de urgência.' },
+      { id: 'D', texto: 'Mandado de injunção.' },
+      { id: 'E', texto: 'Habeas corpus.' }
+    ],
+    gabarito: 'D',
+    explicacao: {
+      correta: 'A lacuna corresponde ao mandado de injunção (art. 5º, LXXI).[reference:20]',
+      incorretas: {
+        A: 'Habeas data é o LXXII.',
+        B: 'Tutela de evidência não é remédio constitucional.',
+        C: 'Tutela de urgência não é remédio constitucional.',
+        E: 'Habeas corpus é o LXVIII.'
+      },
+      conceitoCobrado: 'Mandado de injunção (art. 5º, LXXI).',
+      pegadinha: 'Confundir com habeas data.',
+      comoApareceEmConcurso: 'Cobrança literal.'
+    },
+    tags: ['mandado de injunção', 'art. 5º, LXXI']
+  },
+
+  /* ---------- DC-01 — Teoria da Constituição ---------- */
+  {
+    id: 'Q-REAL-DC-0101',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-01',
+    subtema: 'Classificação das normas constitucionais',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'Sobre a classificação das normas constitucionais quanto à sua eficácia e aplicabilidade, a doutrina clássica as divide em normas de eficácia plena, contida e limitada. Nesse contexto, assinale a alternativa CORRETA.',
+    alternativas: [
+      { id: 'A', texto: 'As normas de eficácia limitada dividem-se em normas programáticas e normas de princípio institutivo, sendo que as primeiras estabelecem fins sociais a serem alcançados pelo Estado e as segundas possuem aplicabilidade direta e imediata, produzindo todos os seus efeitos desde a promulgação.' },
+      { id: 'B', texto: 'As normas de eficácia plena e as de eficácia contida diferenciam-se apenas pelo prazo de produção de efeitos, sendo que as primeiras exigem lei regulamentadora imediata e as segundas produzem efeitos apenas após decorrido o prazo de 90 (noventa) dias da promulgação.' },
+      { id: 'C', texto: 'As normas de eficácia contida produzem todos os seus efeitos de forma imediata, mas podem ter seu alcance restringido por legislação posterior, enquanto as normas de eficácia limitada dependem de regulamentação ou de complementação infraconstitucional para produzir seus efeitos essenciais.' },
+      { id: 'D', texto: 'As normas de eficácia plena são aquelas que, embora possuam aplicabilidade direta e imediata, admitem redução de sua abrangência por outras normas infraconstitucionais, como o direito de greve nos serviços essenciais.' },
+      { id: 'E', texto: 'As normas de eficácia limitada, por exigirem norma integrativa para gerar seus principais efeitos, não produzem qualquer tipo de eficácia jurídica no período anterior à sua regulamentação, sendo consideradas programáticas.' }
+    ],
+    gabarito: 'C',
+    explicacao: {
+      correta: 'C descreve corretamente as normas de eficácia contida (produzem efeitos imediatos, mas podem ser restringidas) e as de eficácia limitada (dependem de regulamentação).[reference:21]',
+      incorretas: {
+        A: 'As normas de princípio institutivo não têm aplicabilidade imediata.',
+        B: 'Não há prazo de 90 dias.',
+        D: 'As normas de eficácia plena não admitem redução por lei.',
+        E: 'As normas de eficácia limitada produzem eficácia jurídica (negativa, etc.).'
+      },
+      conceitoCobrado: 'Classificação de José Afonso da Silva.',
+      pegadinha: 'Achar que as normas limitadas não produzem nenhum efeito.',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['eficácia', 'normas constitucionais']
+  },
+
+  /* ---------- DC-02 — Princípios Fundamentais ---------- */
+  {
+    id: 'Q-REAL-DC-0201',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-02',
+    subtema: 'Fundamentos, objetivos e relações internacionais',
+    dificuldade: 3,
+    prioridade: 'media',
+    enunciado: 'A Constituição Federal de 1988, no contexto do processo de redemocratização, procurou estabelecer não somente novas regras constitucionais em relação ao regime jurídico anterior, mas também diversos princípios e objetivos que norteiam todo o ordenamento jurídico brasileiro. Sobre esse tema, assinale a alternativa incorreta.',
+    alternativas: [
+      { id: 'A', texto: 'A cidadania e a dignidade da pessoa humana são alguns dos fundamentos da República Federativa do Brasil.' },
+      { id: 'B', texto: 'Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação, é um dos objetivos fundamentais da República Federativa do Brasil.' },
+      { id: 'C', texto: 'No campo das relações internacionais, o Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.' },
+      { id: 'D', texto: 'A redução das desigualdades sociais e regionais foi estabelecida como um dos objetivos fundamentais da República Federativa do Brasil.' },
+      { id: 'E', texto: 'A prática do racismo constitui crime inalienável e imprescritível, sujeito à pena de reclusão, nos termos da lei.' }
+    ],
+    gabarito: 'E',
+    explicacao: {
+      correta: 'E é INCORRETA: o art. 5º, XLII, diz que o racismo é crime INAFIANÇÁVEL e imprescritível, não "inalienável".',
+      incorretas: {
+        A: 'Correta — art. 1º, II e III.',
+        B: 'Correta — art. 3º, IV.',
+        C: 'Correta — art. 4º, parágrafo único.',
+        D: 'Correta — art. 3º, III.'
+      },
+      conceitoCobrado: 'Fundamentos, objetivos e racismo.',
+      pegadinha: 'Trocar "inafiançável" por "inalienável".',
+      comoApareceEmConcurso: 'Clássica.'
+    },
+    tags: ['fundamentos', 'racismo', 'art. 5º, XLII']
+  },
+
+  /* ---------- DC-04 — Direitos Sociais ---------- */
+  {
+    id: 'Q-REAL-DC-0401',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-04',
+    subtema: 'Direito à moradia',
+    dificuldade: 1,
+    prioridade: 'media',
+    enunciado: 'O direito fundamental que visa garantir que todos tenham a possibilidade de morar e subsistir dignamente é denominado:',
+    alternativas: [
+      { id: 'A', texto: 'direito à segurança.' },
+      { id: 'B', texto: 'direito à vida.' },
+      { id: 'C', texto: 'direito à propriedade.' },
+      { id: 'D', texto: 'direito à liberdade.' },
+      { id: 'E', texto: 'direito à igualdade.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'A questão trata do direito à moradia, que é um direito social (art. 6º), mas entre as alternativas, o direito à vida (art. 5º, caput) é o que fundamenta a existência digna. Contudo, a doutrina associa a moradia digna ao mínimo existencial, ligado à vida. Gabarito oficial: B (direito à vida).',
+      incorretas: {
+        A: 'A segurança é um direito, mas não o que garante moradia.',
+        C: 'A propriedade não é o direito à moradia.',
+        D: 'A liberdade não é o direito à moradia.',
+        E: 'A igualdade não é o direito à moradia.'
+      },
+      conceitoCobrado: 'Direito à moradia e mínimo existencial.',
+      pegadinha: 'Achar que a resposta seria "moradia", que não está nas alternativas.',
+      comoApareceEmConcurso: 'Questão conceitual.'
+    },
+    tags: ['moradia', 'direito à vida']
+  },
+
+  /* ---------- DC-06 — Direitos Políticos ---------- */
+  {
+    id: 'Q-REAL-DC-0601',
+    tipo: 'REAL',
+    area: 'CF',
+    moduloId: 'DC-06',
+    subtema: 'Cidadania',
+    dificuldade: 1,
+    prioridade: 'media',
+    enunciado: 'Sobre noções de cidadania, sabe-se da importância da participação do cidadão na comunidade e na sociedade em geral, assinale a única opção correta:',
+    alternativas: [
+      { id: 'A', texto: 'O direito exclusivo em participar das atividades esportivas e culturais do Brasil.' },
+      { id: 'B', texto: 'Ter a condição de ser membro de uma comunidade política, com direitos e deveres garantidos pela lei.' },
+      { id: 'C', texto: 'Ser reconhecido como residente no Brasil, sem os devidos direitos políticos e trabalhistas.' },
+      { id: 'D', texto: 'O Direito do indivíduo de ter posse de propriedade e bens materiais.' },
+      { id: 'E', texto: 'A ação do voto somente em eleições regionais, não havendo possibilidade de participar em ações a nível de Brasil.' }
+    ],
+    gabarito: 'B',
+    explicacao: {
+      correta: 'Cidadania é a condição de membro de uma comunidade política, com direitos e deveres.[reference:22]',
+      incorretas: {
+        A: 'Não é exclusivo.',
+        C: 'Cidadania envolve direitos políticos.',
+        D: 'Propriedade não define cidadania.',
+        E: 'O voto é nacional.'
+      },
+      conceitoCobrado: 'Conceito de cidadania.',
+      pegadinha: 'Reduzir cidadania a direitos civis.',
+      comoApareceEmConcurso: 'Questão conceitual.'
+    },
+    tags: ['cidadania']
   }   
 
 ];   
